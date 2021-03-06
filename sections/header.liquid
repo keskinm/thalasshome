@@ -1,0 +1,278 @@
+{% comment %} Translations {% endcomment %}
+{% assign cart_title_t = 'cart.title' | t %}
+{% assign search_t = 'layout.header.search' | t %}
+
+{% comment %} Variables {% endcomment %}
+{% assign account_icon = section.settings.account-icon %}
+{% assign cart_icon = section.settings.cart-icon %}
+{% assign contact_enabled = section.settings.contact-enabled %}
+{% assign contact_type = section.settings.contact-type %}
+{% assign contact_text = section.settings.contact-text %}
+{% assign contact_url = section.settings.contact-url %}
+{% assign enable_search = settings.search--show-in-header %}
+{% assign menu = section.settings.menu %}
+{% assign store_address = section.settings.store-address %}
+{% assign store_hours = section.settings.store-hours %}
+{% assign logo = section.settings.logo %}
+{% assign inverted_logo = section.settings.inverted-logo %}
+{% assign height_range = section.settings.logo-height-range %}
+
+<header
+  class="header--root"
+  data-js-class="Header"
+  data-section-id="{{ section.id }}"
+  data-section-type="header"
+>
+  <div class="header--y-menu-for-off-canvas">
+    {% render 'framework--y-menu', handle: menu %}
+  </div>
+
+  {% if contact_enabled %}
+    <div class="header--contact-button-for-off-canvas">
+      {%
+        render 'partial--contact-modal',
+        view: 'mobile-nav',
+        contact_type: contact_type,
+        contact_text: contact_text
+      %}
+    </div>
+  {% endif %}
+
+  <div class="header--container">
+    <div class="header--left-side" data-item="accent-text">
+      <div class="header--main-menu">
+        {%
+          render 'framework--x-menu',
+          overlap_parent: 2,
+          js_class: 'XMenu',
+          handle: menu
+        %}
+      </div>
+    </div>
+    <div class="header--center">
+      {% if template == 'index' %}
+        <h1 class="header--logo">
+          {%
+            render 'framework--logo',
+            logo: logo,
+            inverted_logo: inverted_logo,
+            height_range: height_range
+          %}
+        </h1>
+      {% else %}
+        <div class="header--logo">
+          {%
+            render 'framework--logo',
+            logo: logo,
+            inverted_logo: inverted_logo,
+            height_range: height_range
+          %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="header--right-side">
+      {% if shop.customer_accounts_enabled %}
+        <div class="header--account" data-item="nav-text">
+          {% render 'layout--login', account_icon: account_icon %}
+        </div>
+      {% endif %}
+
+      {% if enable_search %}
+        <a
+          class="header--search"
+          href="{{ routes.search_url }}"
+          aria-label="{{ search_t }}"
+        >
+          {% render 'framework--icons', icon: 'search' %}
+        </a>
+      {% endif %}
+
+      {% if contact_enabled and contact_text != blank %}
+        <div class="header--contact-modal">
+          {%
+            render 'partial--contact-modal',
+            contact_type: contact_type,
+            contact_text: contact_text,
+            contact_url: contact_url,
+            store_address: store_address,
+            store_hours: store_hours,
+            logo: logo,
+            inverted_logo: inverted_logo,
+            height_range: logo_height_range
+          %}
+        </div>
+      {% endif %}
+
+      <div class="header--cart" data-item="button">
+        <div class="header--cart-button">
+          {% render 'partial--cart', cart_icon: cart_icon %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <noscript>
+    <div class="header--container" data-no-script="true">
+      <div class="header--left-side" data-item="accent-text">
+        <div class="header--main-menu">
+          {%
+            render 'framework--x-menu',
+            overlap_parent: 2,
+            js_class: 'XMenu',
+            handle: menu
+          %}
+        </div>
+      </div>
+      <div class="header--center">
+        <div class="header--logo">
+          {%
+            render 'framework--logo',
+            logo: logo,
+            inverted_logo: inverted_logo,
+            height_range: height_range
+          %}
+        </div>
+      </div>
+      <div class="header--right-side">
+
+        {% if shop.customer_accounts_enabled %}
+          <div class="header--account" data-item="nav-text">
+            {% render 'layout--login' %}
+          </div>
+        {% endif %}
+
+        {% if enable_search %}
+          <div class="header--search">
+             {% render 'framework--search', view: 'modal' %}
+          </div>
+        {% endif %}
+
+        {% if contact_enabled and contact_text != blank %}
+          <div class="header--contact-modal">
+            {%
+              render 'partial--contact-modal',
+              contact_type: contact_type,
+              contact_text: contact_text,
+              contact_url: contact_url,
+              store_address: store_address,
+              store_hours: store_hours,
+              logo: logo,
+              inverted_logo: inverted_logo,
+              height_range: height_range
+            %}
+          </div>
+        {% endif %}
+
+        <div class="header-cart" data-item="accent-text">
+          <a href="{{ routes.cart_url }}">{{ cart_title_t }}</a>
+        </div>
+      </div>
+    </div>
+  </noscript>
+</header>
+
+<style>
+  .fw--logo img {
+    max-height: {{ height_range }}px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "default": "main-menu"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "inverted-logo",
+      "label": "Inverted logo",
+      "info": "Used in contact modal with dark backgrounds for better visibility."
+    },
+    {
+      "label": "Custom logo height",
+      "id": "logo-height-range",
+      "type": "range",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "info": "This is referring to the natural height and should be half the height of the image you uploaded to ensure it stays sharp on retina screens."
+    },
+    {
+      "type": "select",
+      "id": "account-icon",
+      "label": "Account icon",
+      "options": [
+        { "label": "Icon", "value": "icon" },
+        { "label": "Text", "value": "text" }
+      ],
+      "default": "text"
+    },
+    {
+      "type": "select",
+      "id": "cart-icon",
+      "label": "Cart icon",
+      "options": [
+        { "label": "Bag", "value": "bag" },
+        { "label": "Cart", "value": "cart" }
+      ],
+      "default": "bag"
+    },
+    {
+      "type": "header",
+      "content": "Contact button"
+    },
+    {
+      "type": "checkbox",
+      "id": "contact-enabled",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "contact-text",
+      "label": "Text",
+      "default": "Contact"
+    },
+    {
+      "type": "radio",
+      "id": "contact-type",
+      "options": [
+        { "value": "modal", "label": "Modal"},
+        { "value": "link", "label": "Link"}
+      ],
+      "label": "Type",
+      "default": "modal"
+    },
+    {
+      "type": "url",
+      "id": "contact-url",
+      "label": "Link to"
+    },
+    {
+      "id": "store-address",
+      "type": "textarea",
+      "label": "Address",
+      "default": "391 Sutter St,\r\nSan Francisco"
+    },
+    {
+      "type": "richtext",
+      "id": "store-hours",
+      "label": "Hours",
+      "default": "<p><strong>Monday - Friday</strong><br>12pm - 8pm<br><br><strong>Saturday - Sunday</strong><br>12pm - 5pm</p>"
+    }
+  ]
+}
+{% endschema %}

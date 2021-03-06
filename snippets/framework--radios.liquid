@@ -1,0 +1,76 @@
+{% comment %} Usage:
+- Place inside loop of 'option' objects
+- If more than one product is included on one page, include a unique 'id'
+- If swatches are desired, set 'is_swatches' to true
+{% endcomment %}
+
+{% unless is_swatches %}
+  {% assign is_swatches = false %}
+{% endunless %}
+
+{%- capture radios_name -%}
+  {{- id }}-{{ option.name | downcase | remove: ' ' -}}
+{%- endcapture -%}
+
+<div
+  class="radios--root"
+  data-js-class="Radios"
+  data-is-swatches="{{ is_swatches }}"
+>
+  <div class="radios--header">
+    <label class="radios--option-label" data-item="accent-text" id="{{ radios_name }}">
+      {{ option.name | escape }}
+    </label>
+
+    {% if is_swatches %}
+      <span class="radios--option-current" data-item="light-accent-text">
+        {% for value in option.values %}
+          {% if value == option.selected_value %}
+            {{ value | escape }}
+          {% endif %}
+        {% endfor %}
+      </span>
+    {% endif %}
+
+  </div>
+
+  <div
+    class="radios--container"
+    role="radiogroup"
+    aria-labelledby="{{ radios_name }}"
+  >
+    {% for value in option.values %}
+      <div class="radios--main">
+        <input
+          class="radios--input"
+          type="radio"
+          id="{{ radios_name }}-{{ value | downcase | remove: ' ' }}"
+          name="{{ radios_name }}"
+          value="{{ value | escape }}"
+          data-item="radio"
+          {% if value == option.selected_value %}
+            checked
+          {% endif %}
+        />
+
+        {% if is_swatches %}
+          <label
+            class="radios--swatch-button"
+            for="{{ radios_name }}-{{ value | downcase | remove: ' ' }}"
+            aria-label="{{ value | escape }}"
+          ></label>
+
+        {% else %}
+          <label
+            class="radios--value-button"
+            data-item="button"
+            for="{{ radios_name }}-{{ value | downcase | remove: ' ' }}"
+          >
+            <div>{{ value | escape }}</div>
+          </label>
+        {% endif %}
+
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,54 @@
+{% if settings.banner--alternative-text %}
+  {% assign color--banner = settings.color--alternative %}
+{% else %}
+  {% assign color--banner = settings.color--body %}
+{% endif %}
+
+{% if settings.announcement--alternative-text %}
+  {% assign color--announcement = settings.color--alternative %}
+{% else %}
+  {% assign color--announcement = settings.color--body %}
+{% endif %}
+
+{% if settings.contact-modal--alternative-text %}
+  {% assign color--contact-modal = settings.color--alternative %}
+{% else %}
+  {% assign color--contact-modal = settings.color--body %}
+{% endif %}
+
+{% if settings.popup--alternative-text %}
+  {% assign color--popup = settings.color--alternative %}
+{% else %}
+  {% assign color--popup = settings.color--body %}
+{% endif %}
+
+<style>
+  :root {
+    --color--accent: {{ settings.color--accent }};
+    --bdr-color--badge: {{ settings.color--body | color_modify: 'alpha', 0.05 }};
+    --bdr-color--page: {{ settings.bdr-color--page }};
+    --bg-color--body: {{ settings.bg-color--body }};
+    --bdr-color--general: #eaeaea;
+    --bg-color--panel: {{ settings.bg-color--panel }};
+    --bg-color--textbox: #fff;
+    --color--body: {{ settings.color--body }};
+    --color--body--light: {{ settings.color--body | color_lighten: 19 }};
+    --color--alternative: {{ settings.color--alternative }};
+    --color--link-underline: {{ settings.color--link-underline }};
+    --color--button: {{ settings.color--button }};
+    --bdr-color--button: {{ settings.color--button }};
+    --bg-color--button: {{ settings.bg-color--button }};
+    --bg-color--button--hover: {{ settings.bg-color--button }};
+    --color-theme--modal: {{ settings.color-theme--modal }};
+    --color--header--buttons: {{ settings.color--header--buttons }};
+    --color--footer: {{ settings.color--footer }};
+    --bg-color--footer: {{ settings.bg-color--footer }};
+    --color--banner: {{ color--banner }};
+    --color--announcement: {{ color--announcement }};
+    --bg-color--announcement: {{ settings.bg-color--announcement }};
+    --color--contact-modal: {{ color--contact-modal }};
+    --bg-color--contact-modal:{{ settings.bg-color--contact-modal }};
+    --color--popup: {{ color--popup }};
+    --bg-color--popup: {{ settings.bg-color--popup }};
+  }
+</style>

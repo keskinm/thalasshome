@@ -1,0 +1,22 @@
+<div class="mobile-nav" data-js-class="MobileNav">
+
+  <div class="mobile-nav--header">
+
+    {% if settings.search--show-in-header %}
+      <div class="mobile-nav--search" data-item="nav-text">
+        <a href="{{ routes.search_url }}">{{ 'general.search.search' | t }}</a>
+      </div>
+    {% endif %}
+
+    {% if shop.customer_accounts_enabled %}
+      <div class="mobile-nav--login" data-item="nav-text">
+        {% render 'layout--login' %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="mobile-nav--menu"></div>
+
+  <div class="mobile-nav--contact-button"></div>
+
+</div>

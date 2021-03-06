@@ -1,0 +1,7 @@
+{% paginate search.results by 60 %}
+  {%
+    render 'framework--search',
+    paginate: paginate,
+    view: 'template'
+  %}
+{% endpaginate %}

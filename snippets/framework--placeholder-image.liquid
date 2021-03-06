@@ -1,0 +1,8 @@
+{% assign placeholder_class = "framework--placeholder-icon" %}
+
+{% if framework--placeholder-image %}
+  {% include "framework--transparent" with framework--placeholder-image  %}
+  {% assign placeholder_class = placeholder_class | append: " with-transparent" %}
+{% endif %}
+
+{{ "image" | placeholder_svg_tag: placeholder_class }}

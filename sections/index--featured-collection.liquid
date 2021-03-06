@@ -1,0 +1,167 @@
+{% assign collection = collections[section.settings.collection] %}
+
+{% assign placeholders_active = true %}
+{% if collection.handle.size > 0 and collection.products_count != 0 %}
+  {% assign placeholders_active = false %}
+{% endif %}
+
+{% if placeholders_active %}
+  {% assign collection_title = 'collections.placeholder.collection_title' | t %}
+  {% if collection.handle.size > 0 and collection.products_count == 0 %}
+    {% assign collection_title = collection.title %}
+  {% endif %}
+  {% if section.settings.featured-collection--description--show %}
+    {% assign collection_description = 'collections.placeholder.collection_description' | t %}
+  {% endif %}
+  {% if section.settings.featured-collection--image--show %}
+    {% capture collection_image %}
+      {%
+        render "framework--placeholder",
+        type: "collection",
+        aspect_ratio: 1.45,
+        placeholder_index: 1
+      %}
+    {% endcapture %}
+  {% endif %}
+{% else %}
+  {% assign collection_title = collection.title %}
+
+  {% if collection.image.size > 0 and section.settings.featured-collection--image--show %}
+    {% capture collection_image %}
+      {% render "framework--image", image: collection.image %}
+    {% endcapture %}
+  {% endif %}
+
+  {% if
+    collection.description.size > 0 and
+    section.settings.featured-collection--description--show
+  %}
+    {% assign collection_description = collection.description %}
+  {% endif %}
+{% endif %}
+
+<div
+  class="featured-collection"
+  data-js-class="IndexFeaturedCollection"
+  data-section-id="{{ section.id }}"
+  data-section-type="index_featured_collection"
+>
+  <header class="featured-collection--header">
+    <div class="featured-collection--header-text">
+      <h2 class="featured-collection--title" data-item="section-heading">
+        <a href="{{ collection.url }}">{{ collection_title }}</a>
+      </h2>
+      {% if collection_description.size > 0 %}
+        <div class="featured-collection--description" data-item="paragraph">
+          {{ collection_description }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if collection_image.size > 0 %}
+      <div class="featured-collection--image">
+        {{ collection_image }}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="featured-collection--products">
+    {% if placeholders_active %}
+
+      {% for i in (1..4) %}
+        <div class="featured-collection--item">
+          {%
+            render 'framework--product--item',
+            view: "grid",
+            onboarding: true
+          %}
+        </div>
+      {% endfor %}
+
+    {% else %}
+      {% for product in collection.products limit: 4 %}
+        <div class="featured-collection--item">
+          {%
+            render 'framework--product--item',
+            product: product,
+            view: "grid"
+          %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <div class="featured-collection--slider">
+    <div
+      class="fw--slider"
+      data-js-class="FrameworkSlider"
+      data-navigation="true"
+      data-pagination="true"
+      data-pagination-numbers="true"
+    >
+
+      {% if placeholders_active %}
+        {% for i in (1..4) %}
+          <div class="featured-collection--item">
+            {%
+              render 'framework--product--item',
+              view: "grid",
+              onboarding: true
+            %}
+          </div>
+        {% endfor %}
+      {% else %}
+        {% for product in collection.products limit: 8 %}
+          <div class="featured-collection--item">
+            {%
+              render 'framework--product--item',
+              product: product,
+              view: "grid"
+            %}
+          </div>
+        {% endfor %}
+      {% endif %}
+
+    </div>
+  </div>
+
+  {% if collection.products.size > 1 %}
+    <div class="featured-collection--show-more" data-item="block-link">
+      <a href="{{ collection.url }}">
+        {{ 'home.view_collection' | t }}
+      </a>
+    </div>
+  {% endif %}
+
+</div>
+
+{% schema %}
+{
+  "name": "Featured collection",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "checkbox",
+      "id": "featured-collection--image--show",
+      "label": "Show collection image",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "featured-collection--description--show",
+      "label": "Show collection description",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured collection",
+      "category": "Collection"
+    }
+  ]
+}
+{% endschema %}

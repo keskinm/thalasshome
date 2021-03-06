@@ -1,0 +1,163 @@
+{% comment %} Translations {% endcomment %}
+{% assign add_t = 'products.add_modal.ok' | t %}
+{% assign button_text_t = 'products.cart_button_text' | t %}
+{% assign cancel_t = 'products.add_modal.cancel' | t %}
+{% assign color_t = 'products.color' | t %}
+{% assign quantity_t = 'products.quantity' | t %}
+
+{% comment %} Variables {% endcomment %}
+{% assign variant_style = settings.variant-style %}
+{% assign swatches_enabled = settings.swatches-enabled %}
+{% assign current_variant = product.selected_or_first_available_variant %}
+{% assign url = product.url | within: collection %}
+{% assign excerpt = product.metafields.global.description_tag %}
+{% if excerpt == blank %}
+  {% assign excerpt = product.description | strip_html | truncate: 100 %}
+{% endif %}
+
+{% if settings.product--show-quick-add-buttons %}
+
+  <div
+    class="quick-add"
+    data-js-class="QuickAdd"
+    data-quick-add-id="{{ product.id }}"
+  >
+    <script>
+      theme.products['{{ product.id }}'] = {{ product | json }};
+    </script>
+
+    <form
+      class="quick-add--cart-form"
+      action="{{ routes.cart_add_url }}"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="hidden" name="quantity" value="1">
+
+      <div class="quick-add--add-button" data-item="accent-text" tabindex="0" role="button">
+        <span class="quick-add--text">{{ button_text_t }}</span>
+        <span class="quick-add--spinner">
+          {% render 'framework--loading-spinner', size: '28px' %}
+        </span>
+      </div>
+
+      <div class="quick-add--details">
+        <div class="quick-add--variants">
+          {% unless product.has_only_default_variant %}
+
+            {% for option in product.options_with_values %}
+              {% assign option_name = option.name | trim | downcase %}
+
+              {% if swatches_enabled and option_name == color_t %}
+                {%
+                  render 'framework--radios',
+                  option: option,
+                  id: product.id,
+                  is_swatches: true
+                %}
+              {% elsif variant_style == 'dropdowns' %}
+                {%
+                  render 'framework--disclosure',
+                  display_label: true
+                  label_name: option_name,
+                  option_names: option.values,
+                  current_value: option.selected_value,
+                  id: product.id
+                %}
+              {% else %}
+                {%
+                  render 'framework--radios',
+                  option: option,
+                  id: product.id
+                %}
+              {% endif %}
+
+            {% endfor %}
+
+          {% endunless %}
+
+          <select class="quick-add--variant-select" name="id">
+            {% for variant in product.variants %}
+              <option
+                value="{{ variant.id }}"
+                data-sku="{{ variant.sku }}"
+                {% if variant == current_variant %}
+                  selected
+                {% endif%}
+              >
+                {{ variant.title }}
+              </option>
+            {% endfor %}
+          </select>
+
+          {% comment %} NOTE: uncomment below to add quantity field {% endcomment %}
+          {% comment %}
+          <div class="quick-add--quantity">
+            <label for="quantity">{{ quantity_t }}</label>
+            <input
+              id="quantity"
+              type="number"
+              name="quantity"
+              min="1"
+              value="1"
+              style="width: 60px"
+            />
+          </div>
+          {% endcomment %}
+
+        </div>
+
+        <div class="quick-add--button-row">
+          {% if current_variant.price > 0 %}
+            <div class="quick-add--price-wrapper">
+              {{ price_meta }}
+
+              <div class="quick-add--price" data-item="accent-text" itemprop="price">
+                {{ current_variant.price | money }}
+              </div>
+              <div class="quick-add--compare-price">
+                {% if current_variant.compare_at_price > current_variant.price %}
+                  {{ current_variant.compare_at_price | money }}
+                {% endif %}
+              </div>
+
+              <div class="quick-add--unit-price-container" data-item="light-accent-text">
+                {% if current_variant.unit_price_measurement %}
+                  <span class="quick-add--unit-price">
+                    {{- current_variant.unit_price | money -}}
+                  </span>/
+                  {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+                    <span class="quick-add--reference-value">
+                      {{- current_variant.unit_price_measurement.reference_value -}}
+                    </span>
+                  {%- endif -%}
+                  <span class="quick-add--reference-unit">
+                    {{- current_variant.unit_price_measurement.reference_unit -}}
+                  </span>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+
+          <div class="quick-add--button-wrapper">
+            <div class="quick-add--cancel-button" data-item="block-link">
+              <div tabindex="0" role="button">
+                {{ cancel_t }}
+              </div>
+            </div>
+
+            <button class="quick-add--confirm-button" data-item="accent-text" type="submit">
+              <span class="quick-add--text">{{ add_t }}</span>
+              <span class="quick-add--spinner">
+                {% render 'framework--loading-spinner', size: '28px' %}
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+
+{% endif %}

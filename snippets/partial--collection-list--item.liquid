@@ -1,0 +1,28 @@
+<a class="collection-listing--item-link" href="{{ collection.url }}">
+  <div class="collection-listing--item" data-item="image">
+    {% if collection.image %}
+      {%
+        render "framework--image",
+        image: collection.image,
+        full_width: true
+      %}
+    {% elsif collection.products.first %}
+      {%
+        render "framework--image",
+        image: collection.products.first.featured_media.preview_image,
+        full_width: true
+      %}
+    {% else %}
+      {%
+        render "framework--placeholder",
+        type: "collection",
+        aspect_ratio: 1,
+        placeholder_index: 1
+      %}
+    {% endif %}
+  </div>
+
+  <div class="collection-listing--title" data-item="block-heading">
+    {{ collection.title }}
+  </div>
+</a>

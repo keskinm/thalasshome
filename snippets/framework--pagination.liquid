@@ -1,0 +1,45 @@
+{% if view == 'blog-comments' %}
+  {% assign hash = '#comments' %}
+{% else %}
+  {% assign hash = '' %}
+  {% assign view = framework--pagination %}
+{% endif %}
+
+<div class="pagination--root" data-item="accent-text">
+
+  <div class="pagination--left-arrow">
+    {% if paginate.previous %}
+      <a class="text-colored" href="{{ paginate.previous.url }}{{ hash }}">
+        {% render 'framework--icons', icon: 'arrow-left' %}
+      </a>
+    {% endif %}
+  </div>
+
+  {% comment %} <span class="pagination--current-page">
+    {{ 'general.pagination.page' | t }} {{ paginate.current_page }} {{ 'general.pagination.of' | t }} {{ paginate.pages }}
+  </span> {% endcomment %}
+
+  <ul class="pagination--numbers">
+    {% for part in paginate.parts %}
+      {% if part.is_link %}
+        <li class="pagination--number">
+          <a href="{{ part.url }}{{ hash }}">{{ part.title }}</a>
+        </li>
+      {% else %}
+        {% if part.title == '&hellip;' %}
+          <li class="pagination--ellipsis">&hellip;</li>
+        {% else %}
+          <li class="pagination--number" data-active="true">{{ part.title }}</li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <div class="pagination--right-arrow">
+    {% if paginate.next %}
+      <a class="text-colored" href="{{ paginate.next.url }}{{ hash }}">
+        {% render 'framework--icons', icon: 'arrow-right' %}
+      </a>
+    {% endif %}
+  </div>
+</div>

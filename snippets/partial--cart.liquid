@@ -1,0 +1,39 @@
+<div
+  class="header--cart-link"
+  {% if cart.item_count > 0 %}
+    data-has-items="true"
+  {% else %}
+    data-has-items="false"
+  {% endif %}
+>
+  {% if settings.cart--type == 'drawer' %}
+    <div
+      class="cart--open-right off-canvas--open"
+      data-off-canvas--open="right-sidebar"
+      data-off-canvas--view="cart"
+      aria-haspopup=”menu”
+    >
+  {% endif %}
+    <a
+      tabindex="0"
+      class="header--cart-toggle"
+      href="{{ routes.cart_url }}"
+      aria-label="{{ 'layout.header.cart' | t }}"
+    >
+      {% if cart_icon == "bag" %}
+        {% render 'framework--icons', icon: 'bag' %}
+      {% else %}
+        {% render 'framework--icons', icon: 'cart' %}
+      {% endif %}
+      <span class="cart--external--total-price">
+        {% if cart.item_count > 0 %}{{ cart.total_price | money }}{% endif %}
+      </span>
+      <span class="cart--external--total-items">
+        {% if cart.item_count > 0 %}{{ cart.item_count }}{% endif %}
+      </span>
+    </a>
+  {% if settings.cart--type == 'drawer' %}
+    </div>
+  {% endif %}
+
+</div>

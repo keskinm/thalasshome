@@ -1,0 +1,232 @@
+{% assign filter_t = 'collections.filter' | t %}
+
+{% assign grid_view = section.settings.grid %}
+
+{% assign is_vendor_page = false %}
+{% if collection.all_products_count > 0 and collection.products.first.vendor == collection.title %}
+  {% assign is_vendor_page = true %}
+{% endif %}
+
+{% assign collection_tags_exist = false %}
+
+{% if collection.tags.size > 0 and section.settings.show-tag-filters %}
+  {% assign collection_tags_exist = true %}
+{% endif %}
+
+{% paginate collection.products by 24 %}
+
+  <div
+    class="collection--root"
+    data-section-id="{{ section.id }}"
+    data-section-type="collection_page"
+    data-collection-is-vendor-page="{{ is_vendor_page }}"
+    data-collection-tags-exist="{{ collection_tags_exist }}"
+    data-grid-view="{{ grid_view }}"
+    data-js-class="Collection"
+  >
+
+    <header class="collection--header">
+      <div class="collection--title">
+        <h2 data-item="section-heading">{{ collection.title }}</h2>
+        {% unless collection.description == blank %}
+          <p data-item="paragraph">{{ collection.description }}</p>
+        {% endunless %}
+      </div>
+
+      {% if collection.image %}
+        <div class="collection--image">
+          {% render "framework--image", image: collection.image %}
+        </div>
+      {% endif %}
+    </header>
+
+    {% if collection_tags_exist %}
+      {%- capture available_tags -%}
+        {{- 'collections.filter' | t -}},
+
+        {%- for tag in collection.all_tags -%}
+          {{- tag -}},
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {% assign available_tags = available_tags | split: "," %}
+
+      {%- capture collection_url -%}
+        {{- routes.collections_url }}/{{ collection.handle -}}
+      {%- endcapture -%}
+
+      {%- capture available_tag_values -%}
+        {{- collection_url -}},
+
+        {%- for tag in collection.all_tags -%}
+          {%- assign tag_handle = tag | handleize -%}
+
+          {%- if current_tags == blank -%}
+            {%- assign current_tag_value = collection_url -%}
+          {%- elsif current_tags contains tag -%}
+            {%- assign current_tag_value = collection_url | append: '/' | append: tag_handle -%}
+          {%- endif -%}
+
+          {{- collection_url }}/{{ tag_handle -}},
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {% assign available_tag_values = available_tag_values | split: "," %}
+
+      {%
+        render 'framework--disclosure',
+        label_name: filter_t,
+        option_names: available_tags,
+        option_values: available_tag_values,
+        current_value: current_tag_value,
+        id: 'collection-disclosure',
+        type: 'url-redirect'
+      %}
+    {% endif %}
+
+    {% if collection.products.size < 1 %}
+      <div class="collection--no-products" data-item="rte-content">
+        {{ 'collections.no_products_feedback_html' | t }}
+      </div>
+    {% endif %}
+
+    {% if grid_view %}
+      <div class="collection--grid-view" data-container="section" >
+        <div
+          data-container="panel"
+          data-columns="4"
+          data-mobile-columns="2"
+        >
+          {% if current_tags.size > 0 %}
+            {% for product in collection.products %}
+              {% for tag in product.tags %}
+                {% if current_tags contains tag %}
+
+                  <div class="collection--grid-product" data-container="block">
+                    {%
+                      render 'framework--product--item',
+                      product: product,
+                      view: 'grid'
+                    %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          {% else %}
+            {% for product in collection.products %}
+              <div class="collection--grid-product" data-container="block">
+                {%
+                  render 'framework--product--item',
+                  product: product,
+                  view: 'grid'
+                %}
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+
+      </div>
+
+      {% if paginate.pages > 1 %}
+        <footer class="collection--grid-pagination" data-container="panel">
+          <div class="collection--grid-pagination--container" data-container="block">
+            {% render 'framework--pagination', paginate: paginate %}
+          </div>
+        </footer>
+      {% endif %}
+
+    {% else %}
+
+      <div class="collection--column-wrapper">
+        {% if collection_tags_exist and is_vendor_page == false %}
+          <div class="collection--left-column">
+            <nav class="collection--filters">
+              <ul class="collection--filter-tags" data-item="accent-text">
+                <li class="collection--filter-tag">
+                  <a
+                    class="
+                      collection--filter-tag--anchor
+                      {% if current_tags == blank %}collection--filter-tag--selected{% endif %}"
+                    href="{{ collection_url }}"
+                  >
+                    {{ 'collections.all' | t }}
+                  </a>
+                </li>
+
+                {% for tag in collection.all_tags %}
+                  <li class="collection--filter-tag">
+                    <a
+                      class="
+                        collection--filter-tag--anchor
+                        {% if current_tags contains tag %}collection--filter-tag--selected{% endif %}"
+                      href="{{ collection_url }}/{{ tag | handleize }}"
+                    >
+                      {{ tag | handleize }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+        {% endif %}
+
+        <div class="collection--right-column">
+          <div class="collection--products">
+            {% if current_tags.size > 0 %}
+              {% for product in collection.products %}
+                {% for tag in product.tags %}
+                  {% if current_tags contains tag %}
+                    <div class="collection--product">
+                      {%
+                        render 'framework--product--item',
+                        product: product,
+                        view: 'list'
+                      %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% else %}
+              {% for product in collection.products %}
+                <div class="collection--product">
+                  {%
+                    render 'framework--product--item',
+                    product: product,
+                    view: 'list'
+                  %}
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>
+
+          {% if paginate.pages > 1 %}
+            <footer class="collection--pagination">
+              {% render 'framework--pagination', paginate: paginate %}
+            </footer>
+          {% endif %}
+
+        </div>
+      </div>
+  {% endif %}
+</div>
+{% endpaginate %}
+
+{% schema %}
+{
+  "name": "Collection page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show-tag-filters",
+      "label": "Show tag filters",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "grid",
+      "label": "Display in grid view",
+      "default": false
+    }
+  ]
+}
+{% endschema %}

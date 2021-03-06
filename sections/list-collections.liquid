@@ -1,0 +1,166 @@
+{% assign custom_ordering = false %}
+{% assign collection_list = collections %}
+
+{% if linklists.all-collections.links.size > 0 %}
+  {% assign custom_ordering = true %}
+  {% assign collection_list = linklists.all-collections.links %}
+{% endif %}
+
+{% assign grid_view = section.settings.grid %}
+{% unless grid_view %}
+{% paginate collections by 12 %}
+
+  {% for item in collection_list %}
+    {% if custom_ordering %}
+      {% assign collection = item.object %}
+    {% else %}
+      {% assign collection = item %}
+    {% endif %}
+
+    {% if
+      collection.handle == 'all' or
+      collection.handle == 'all-products' or
+      collection.handle == 'frontpage'
+    %}
+      {% continue %}
+    {% endif %}
+
+    {% comment %} Get number of items with singular/plural noun {% endcomment %}
+    {% assign products_in_collection = collection.products.size %}
+    {% if products_in_collection > 0 %}
+      {% if products_in_collection == 1 %}
+        {% assign number_of_items = 'collections.number_of_items' | t: count: 1 %}
+      {% else %}
+        {% assign number_of_items = 'collections.number_of_items' | t: count: products_in_collection %}
+      {% endif %}
+    {% endif %}
+
+    <div class="collection-listing--collection">
+      <div class="collection-listing--left-column">
+        <h3
+          class="collection-listing--collection-title"
+          data-item="section-heading"
+          title="{{ number_of_items }}"
+        >
+          <a href="{{ collection.url }}">{{ collection.title }}
+            <span class="collection-listing--number-of-items">{{ number_of_items }}</span>
+          </a>
+        </h3>
+        {% if collection.products_count > 6 %}
+          <div data-item="block-link">
+            <a class="collection-listing--view-more" href="{{ collection.url }}">
+              {{ 'collections.view_more' | t }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="collection-listing--right-column">
+
+        {% for product in collection.products limit: 6 %}
+          <div class="collection-listing--product">
+            {%
+              render 'framework--product--item',
+              product: product,
+              view: 'list'
+            %}
+          </div>
+        {% endfor %}
+
+        {% if collection.products_count > 6 %}
+          <div class="collection-listing--view-more--mq-small" data-item="block-link">
+            <a href="{{ collection.url }}">{{ 'collections.view_more' | t }}</a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+
+  {% if paginate.pages > 1 and custom_ordering == false %}
+    <footer class="collection-listing--pagination">
+      {% render 'framework--pagination', paginate: paginate %}
+    </footer>
+  {% endif %}
+
+{% endpaginate %}
+{% endunless %}
+
+{% if grid_view %}
+  {% paginate collections by 48 %}
+  <div
+    class="collection-listing--grid-view"
+    data-js-class="CollectionListingPage"
+    data-container="section"
+  >
+    <div data-container="panel">
+      <div data-container="block">
+        <h1
+          class="collection-listing--title"
+          data-item="section-heading"
+        >
+          {{ 'collections.page_title' | t }}
+        </h1>
+      </div>
+    </div>
+
+    <div
+      class="collection-listing--grid-root"
+      data-container="panel"
+      data-columns="4"
+      data-mobile-columns="2"
+    >
+
+      {% if linklists.all-collections.links.size > 0 %}
+        {% assign collection_list = linklists.all-collections.links %}
+        {% for link in collection_list %}
+          {% assign collection = link.object %}
+          {% unless
+            collection.handle == 'all' or
+            collection.handle == 'all-products' or
+            collection.handle == 'frontpage'
+          %}
+            <div class="collection-listing--item-container" data-container="block">
+              {% render 'partial--collection-list--item', collection: collection %}
+            </div>
+          {% endunless %}
+        {% endfor %}
+
+      {% elsif collections.size > 0 %}
+        {% for collection in collections %}
+          {% unless
+            collection.handle == 'all' or
+            collection.handle == 'all-products' or
+            collection.handle == 'frontpage'
+          %}
+            <div class="collection-listing--item-container" data-container="block">
+              {% render 'partial--collection-list--item', collection: collection %}
+            </div>
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+
+    </div>
+
+    {% if paginate.pages > 1 %}
+      <div data-container="panel">
+        <div data-container="block">
+          {% render 'framework--pagination', paginate: paginate %}
+        </div>
+      </div>
+    {% endif %}
+  {% endpaginate %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Collections list",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "grid",
+      "label": "Display in grid view",
+      "default": false
+    }
+  ]
+}
+{% endschema %}

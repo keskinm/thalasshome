@@ -1,0 +1,10 @@
+{%- case bg_color -%}
+  {%- when 'light' -%}
+    background-color: #f7f7f7;
+  {%- when 'dark' -%}
+    background-color: #333333;
+  {%- when 'accent' -%}
+    background-color: {{ settings.color--accent }};
+  {%- else -%}
+    {%- break -%}
+{%- endcase -%}

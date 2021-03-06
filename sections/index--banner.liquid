@@ -1,0 +1,124 @@
+{% assign alt_color_enabled = section.settings.alternative-color %}
+{% assign banner_enabled = section.settings.enabled %}
+{% assign background_image = section.settings.background-image %}
+{% assign foreground_text = section.settings.foreground-text %}
+{% assign foreground_type = section.settings.foreground-type %}
+{% assign foreground_image = section.settings.foreground-image %}
+
+{% if background_image != blank %}
+  {% assign has_placeholder = false %}
+{% else %}
+  {% assign has_placeholder = true %}
+{% endif %}
+
+<div
+  class="banner--root"
+  data-js-class="IndexBanner"
+  data-section-id="{{ section.id }}"
+  data-section-type="index_banner"
+  data-alternative-color="{{ alt_color_enabled }}"
+  data-banner-enabled="{{ banner_enabled }}"
+  data-banner-has-placeholder="{{ has_placeholder }}"
+>
+  {% if banner_enabled %}
+    <div class="banner--container">
+      {% if background_image %}
+        <div class="banner--background-image">
+          {%
+            render 'framework--image',
+            image: background_image,
+            full_width: true,
+            parallax: true
+          %}
+        </div>
+      {% else %}
+        <div class="banner--placeholder">
+          {%
+            render "framework--placeholder",
+            type: "lifestyle",
+            aspect_ratio: 3.0,
+            placeholder_index: 1
+          %}
+        </div>
+      {% endif %}
+
+      {% if foreground_text.size > 0 or background_image %}
+        <div class="banner--foreground-container">
+          {% if foreground_type == 'text' and foreground_text.size > 0 %}
+            <div class="banner--foreground-text" data-item="foreground-object">
+              <h2 data-item="featured-heading">
+                {{ foreground_text }}
+              </h2>
+            </div>
+
+          {% elsif foreground_type == 'image' and foreground_image != blank %}
+            <div class="banner--foreground-image" data-item="foreground-object">
+              {%
+                render "framework--image",
+                image: foreground_image,
+                max_height: 400
+              %}
+            </div>
+          {% endif %}
+
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+</div>
+
+{% schema %}
+{
+  "name": "Banner",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Enable banner",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "background-image",
+      "label": "Image",
+      "info": "1400 x 800px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Foreground"
+    },
+    {
+      "type": "radio",
+      "id": "foreground-type",
+      "options": [
+        { "value": "image", "label": "Image"},
+        { "value": "text", "label": "Text"}
+      ],
+      "default": "text",
+      "label": "Type"
+    },
+    {
+      "type": "image_picker",
+      "id": "foreground-image",
+      "label": "Image"
+    },
+    {
+      "type": "textarea",
+      "id": "foreground-text",
+      "label": "Text",
+      "default": "Add your text here"
+    },
+    {
+      "id": "alternative-color",
+      "label": "Use alternative text color",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
+{% endschema %}
