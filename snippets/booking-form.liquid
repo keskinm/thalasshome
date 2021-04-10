@@ -28,7 +28,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 
 	<div>
 	  {% capture attribute %}booking-start{% endcapture %}
-	  <label for="{{ attribute }}-{{ product.handle }}">From:</label>
+	  <label for="{{ attribute }}-{{ product.handle }}">Du:</label>
 	  <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[From]" size="12"
 	         class="datepicker bta required bta-load-enable bta-dp-start" disabled="disabled"
 	         data-handle="{{ product.handle }}" data-variant="{{ product.selected_or_first_available_variant.id }}"
@@ -41,7 +41,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 
 	<div>
 	  {% capture attribute %}start-time{% endcapture %}
-	  <label for="{{ attribute }}-{{ product.handle }}">Time:</label>
+	  <label for="{{ attribute }}-{{ product.handle }}">Heure d'arrivée:</label>
 	  <select id="{{ attribute }}-{{ product.handle }}" name="properties[{{ attribute }}]"
 	          class="bta-opening-hours bta-load-enable bta-time" disabled="disabled"
 	          data-datepicker="booking-start-{{ product.handle }}"
@@ -53,7 +53,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 
 	<div>
 	  {% capture attribute %}booking-finish{% endcapture %}
-	  <label for="{{ attribute }}-{{ product.handle }}">To:</label>
+	  <label for="{{ attribute }}-{{ product.handle }}">Au:</label>
 	  <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[To]" size="12"
 	         class="datepicker bta required bta-load-enable bta-dp-finish" disabled="disabled"
 	         data-handle="{{ product.handle }}"
@@ -63,7 +63,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 
 	<div>
 	  {% capture attribute %}finish-time{% endcapture %}
-	  <label for="{{ attribute }}-{{ product.handle }}">Time:</label>
+	  <label for="{{ attribute }}-{{ product.handle }}">Heure de fin:</label>
 	  <select id="{{ attribute }}-{{ product.handle }}" name="properties[{{ attribute }}]"
 	         class="bta-opening-hours bta-load-enable bta-time" disabled="disabled"
 	         data-datepicker="booking-finish-{{ product.handle }}"
