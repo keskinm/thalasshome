@@ -34,9 +34,10 @@
       </div>
 
       {% if collection.image %}
-        <div class="collection--image">
-          {% render "framework--image", image: collection.image %}
-        </div>
+        {% comment %}# @todo CUSTOM EDIT{% endcomment %}
+        {% comment %}<div class="collection--image">{% endcomment %}
+          {% comment %}{% render "framework--image", image: collection.image %}{% endcomment %}
+        {% comment %}</div>{% endcomment %}
       {% endif %}
     </header>
 
