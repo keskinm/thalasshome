@@ -1,1 +1,55 @@
-{}
+{
+  "products": {
+    "details_panel": {
+      "more": "Plus de détails",
+      "less": "Moins de détails"
+    },
+    "add_to_cart": "Ajouter au panier",
+    "out_of_stock": "BIENTÔT DISPONIBLE"
+  },
+  "general": {
+    "social": {
+      "product_title": "Partager"
+    }
+  },
+  "cart": {
+    "your_cart": "Votre panier",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "total": "Total",
+    "remove": "Supprimer",
+    "shipping_taxes_notification": "Les frais de livraisons sont gratuits.",
+    "continue": "Continuez vos achats",
+    "checkout": "Accéder au paiement.",
+    "order_notes": "Laissez une note avec votre commande",
+    "empty_html": "<span data-item='rte-content'>Votre panier est actuellement vide.<br\/> <a href='{{ collections_url }}'>Cliquez ici pour continuer vos achats<\/a>.<\/span>"
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
+  },
+  "layout": {
+    "header": {
+      "contact_us": "Contactez-nous",
+      "follow": "Follow"
+    }
+  },
+  "contact_page": {
+    "name": "Votre nom",
+    "email": "Email",
+    "message": "Message",
+    "button": "Envoyer"
+  },
+  "home": {
+    "map": {
+      "open_in_maps": "Ouvrir dans maps"
+    }
+  },
+  "collections": {
+    "number_of_items": {
+      "one": " ",
+      "other": " "
+    }
+  }
+}

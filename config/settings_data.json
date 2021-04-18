@@ -1,1 +1,1824 @@
-{"current":{"color--accent":"#fa688e","bdr-color--page":"#fa688e","bg-color--body":"#ffffff","color--body":"#212121","color--alternative":"#ffffff","color--link-underline":"#212121","bg-color--panel":"#ffffff","color--button":"#ffffff","bg-color--button":"#212121","banner--alternative-text":false,"bg-color--announcement":"#fa688e","announcement--alternative-text":true,"color--header--buttons":"#fa688e","bg-color--footer":"#ffffff","color--footer":"#212121","bg-color--contact-modal":"#fa688e","contact-modal--alternative-text":true,"typography--heading":"pacifico_n4","typography--heading--uppercase":false,"typography--heading--size":"large","typography--accent":"karla_n4","typography--paragraph":"inconsolata_n4","typography--paragraph--size":"medium","layout--show-page-border":false,"product--show-quick-add-buttons":false,"variant-style":"dropdowns","product--show-sale-label":true,"search--show-in-header":false,"social--instagram--url":"https:\/\/www.instagram.com\/thalasshome\/","cart--type":"page","cart--show-note":true,"sections":{"index--banner":{"type":"index--banner","settings":{"enabled":false,"background-image":"shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg","foreground-type":"text","foreground-text":"","alternative-color":true}},"announcement":{"type":"announcement","settings":{"enabled":false,"home-page-only":true,"text":"SPA à domicile"}},"header":{"type":"header","settings":{"menu":"main-menu","logo-height-range":40,"account-icon":"text","cart-icon":"bag","contact-enabled":true,"contact-text":"Contact","contact-type":"modal","store-address":"102 rue d'estienne d'orves 91370 Verrières-le-Buisson\n\n0651323494","store-hours":"<p><strong>Lundi - Dimanche<\/strong><br\/>7h - 22h<\/p><p><\/p>"}},"product":{"type":"product","settings":{"vendor-name-show":false,"variant-style":"dropdowns","swatches-enabled":false,"smart_payment_button":false,"product-unavailable-form-show":false,"low-in-stock-amount":0,"product-pickup-enabled":true,"share":true,"product-modal-enabled":true,"image-zoom-enabled":true,"loop-enabled":false,"product-size-chart-enabled":false,"product-size-chart-option":"size","product-size-chart-page-content":""}},"collection":{"type":"collection","settings":{"show-tag-filters":false,"grid":false}},"1522436541628":{"type":"framework--featured-collections","blocks":{"1522436541628-0":{"type":"collection","settings":{"collection":"nos-espaces-de-relaxation"}},"692e3098-cb08-4ff5-bb8d-da32a48bd523":{"type":"collection","settings":{"collection":"nos-saunas-portables-a-domicile"}},"65b5145a-810f-4480-93d9-f81b0c453cca":{"type":"collection","settings":{"collection":"nos-packs"}}},"block_order":["1522436541628-0","692e3098-cb08-4ff5-bb8d-da32a48bd523","65b5145a-810f-4480-93d9-f81b0c453cca"],"settings":{"background-color":"none","width":3,"mobile-width":"1","heading":""}},"1522436550244":{"type":"index--featured-collection","disabled":true,"settings":{"collection":"nos-espaces-de-relaxation","featured-collection--image--show":false,"featured-collection--description--show":false}},"1522436569709":{"type":"framework--featured-content","disabled":true,"settings":{"full-width":true,"background-color":"none","text-position":"center","text-width":"small","overlap":false,"transparent-overlap":true,"alternative-color":true,"mobile-overlay":true,"image":"shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg","image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Thalass Home","description":"<p>L&#x27;expérience de spa ultime dans le confort de votre maison, créant un environnement relaxant et sans stress pour s&#x27;adonner à un moment de relaxation. Créée en France par des experts du spa, nous apportons les meilleurs produits de santé et de beauté pour transformer les maisons en un état de bonheur ultime.<\/p>","link-text":""}},"1522436578326":{"type":"slideshow","blocks":{"1522436578326-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tout3_e058f05d-3c04-4a4b-ae6a-08cf5f6aab21.jpg","slide-title":"Envie d’un jacuzzi ? Faites vous livrer à domicile !","slide-tagline":"On s'occupe de tout pour que vous passiez un bon moment de détente. Nous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. Commandez votre jacuzzi et\/ou votre sauna et personnalisez votre évenement avec nos différents packs.","slide-link-url":"shopify:\/\/collections","slide-link-title":"découvrir","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}},"1522436578326-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg","slide-title":"Pourquoi choisir Thalass Home ?","slide-tagline":"C'est vous qui choisissez l'heure d'installation et de désinstallation vous permettant une flexibilité que vous ne trouverez nulle part ailleurs. Obtenez des prix attractifs avec la livraison offerte.","slide-link-url":"shopify:\/\/collections","slide-link-title":"Découvrir","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}}},"block_order":["1522436578326-0","1522436578326-1"],"settings":{"autoplay":true,"transition_style":"fade","rotate-frequency-range":11}},"1522436583583":{"type":"framework--newsletter","disabled":true,"settings":{"background-color":"light","heading":"Subscribe to our newsletter","newsletter--subheading":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"1522436609159":{"type":"framework--featured-text","settings":{"background-color":"none","heading":"Nos engagements","text":"<p>De la réservation jusqu’au suivi de votre satisfaction, nous comptons bien nous occuper de vous.<\/p><p><\/p><p>Pour vos interrogations, n&#x27;hésitez pas à visiter notre <a href=\"https:\/\/www.thalasshome\/a\/faq\" title=\"https:\/\/www.thalasshome\/a\/faq\">FAQ<\/a><\/p><p><\/p><p><\/p>"}},"1522436617631":{"type":"framework--featured-video","settings":{"video-url":"https:\/\/www.youtube.com\/watch?v=8TU3kVbdhmo","full-width":true,"background-color":"none","section-height":"regular","darken-video":true,"alt-text":true,"heading":"Thalass Home","sub-heading":"","button-text":"découvrir","button-url":"shopify:\/\/collections"}},"1522436965040":{"type":"framework--featured-content","disabled":true,"settings":{"full-width":false,"background-color":"light","text-position":"right","text-width":"large","overlap":true,"transparent-overlap":false,"alternative-color":false,"mobile-overlay":true,"image":"shopify:\/\/shop_images\/bath-20480_1920.jpg","image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Ta thalasso thérapie à petit prix","description":"<p>Viens découvrir notre blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla<\/p>","link-text":""}},"1533946059866":{"type":"framework--map","disabled":true,"settings":{"api-key":"","map-address":"391 Sutter St, San Francisco","background-color":"none","theme":"grayscale","heading":"Map","address":"<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>","hours":"<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"}},"framework--footer":{"type":"framework--footer","blocks":{"088be99a-044f-4730-85a2-cdf13f6760a0":{"type":"about","settings":{"about-title":"Contact","text":"<p>06 51 32 34 94<\/p>","subscribe--show-social-icons":true}},"1584749784429":{"type":"about","settings":{"about-title":"","text":"<p>© Thalass Home<\/p><p>© 2021<\/p><p><\/p>","subscribe--show-social-icons":false}}},"block_order":["088be99a-044f-4730-85a2-cdf13f6760a0","1584749784429"],"settings":{"show-currency-selector":true,"show-locale-selector":true,"show-payment-icons":true}},"16055930477808e731":{"type":"framework--image-text-overlay","blocks":{"16055930477808e731-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Screenshot_from_2021-02-27_20-35-36.png","wide":true,"tall":true,"retain-ratio":false,"title":"","link-text":""}},"16055930477808e731-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/153617157_1036508973508692_5912219394092473033_n.jpg","wide":true,"tall":false,"retain-ratio":false,"title":"","link-text":""}},"16055930477808e731-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tout1.jpg","wide":false,"tall":false,"retain-ratio":false,"title":"","link-text":""}},"16055930477808e731-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/mix_f0229f57-acd8-477e-9af2-fb14cf446aed.jpg","wide":false,"tall":false,"retain-ratio":false,"title":"","link-text":""}}},"block_order":["16055930477808e731-0","16055930477808e731-1","16055930477808e731-2","16055930477808e731-3"],"settings":{"text-style":"light-with-overlay","background-color":"none","spacing":true,"container-width":4,"width":4,"mobile-width":"2","title":"Un aperçu de nos réalisations","subtitle":"","link-text":""}},"160559321448a042b0":{"type":"framework--image-with-text-below","disabled":true,"blocks":{"160559321448a042b0-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/153095276_1661854800668113_4123618234379777404_n.jpg","title":"","description":"","link-text":""}},"160559321448a042b0-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/149984578_183207800264275_6578385095914076229_n.jpg","title":"","description":"","link-text":""}},"160559321448a042b0-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/149918118_509022883419773_5645783270868691249_n.jpg","title":"","description":"","link-text":""}},"160559321448a042b0-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/mix.jpg","title":"","description":"","link-text":""}}},"block_order":["160559321448a042b0-0","160559321448a042b0-1","160559321448a042b0-2","160559321448a042b0-3"],"settings":{"background-color":"light","spacing":true,"container-width":4,"width":4,"image-width":0,"mobile-width":"2","title":"","subtitle":"","link-text":""}},"framework--product-recommendations":{"type":"framework--product-recommendations","settings":{"product-similar-products-show":false,"product-similar-products-heading":"Vous pourrez également apprécier"}},"161441903806815d45":{"type":"framework--service-list","disabled":true,"blocks":{"1614419038b1fa5ac8-0":{"type":"header","settings":{"title":"Add header here"}},"1614419038b1fa5ac8-1":{"type":"item","settings":{"title":"Add service title here","price":"$10","description":"<p>Add service description here<\/p>"}},"1614419038b1fa5ac8-2":{"type":"item","settings":{"title":"Add service title here","price":"$10","description":"<p>Add service description here<\/p>"}},"1614419038b1fa5ac8-3":{"type":"header","settings":{"title":"Add header here"}},"1614419038b1fa5ac8-4":{"type":"item","settings":{"title":"Add service title here","price":"$10","description":"<p>Add service description here<\/p>"}},"1614419038b1fa5ac8-5":{"type":"item","settings":{"title":"Add service title here","price":"$10","description":"<p>Add service description here<\/p>"}}},"block_order":["1614419038b1fa5ac8-0","1614419038b1fa5ac8-1","1614419038b1fa5ac8-2","1614419038b1fa5ac8-3","1614419038b1fa5ac8-4","1614419038b1fa5ac8-5"],"settings":{"section--title":"Add title here","show-description":true}},"16144191042b40f8dd":{"type":"framework--custom-content","disabled":true,"settings":{"custom_html":"<center><h1>Envie d’un jacuzzi ? Faites vous livrer à domicile !<\/h1><\/center> <br>\n\n\n<div class=\"custom_html_1\">\n\n<div class=\"wrap_1_to_center\">\n\n<h3>\nOn s'occupe de tout le nécessaire pour que vous passiez un bon moment de détente. <\/h3>\n\n\n<p> \nNous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. <\/p>\n<p>Commandez votre SPA pour la durée de votre choix et personnalisez votre évenement avec nos différents packs. <\/p>\n\n<p>\nVous choisissez votre espace de relaxation, la date et la durée souhaitées. <\/p> <br>\n<\/div>\n\n\n\n<div class=\"wrap_2_to_center\">\n<p>Le temps d'installation est d'une heure environ et demi, et une durée équivalente est nécessaire pour la désinstallation.\n<\/p>\n\n<p> <i>\nPour vos interrogations, n'hésitez pas à visiter notre <a href=\"https:\/\/casa-spa.com\/a\/faq\">FAQ.<\/a>\n<\/i><\/p>\n\n<p><b>Disponible dans toute l'Île-de-France, la Loire ainsi que frontière Suisse et Genève. Prochainement disponible dans d'autres régions.<\/b><\/p> \n\n<\/div>\n<\/div>"}},"1614424401c8ec986d":{"type":"framework--custom-content","disabled":true,"settings":{"custom_html":"<div class=\"wrap_to_uncenter\">\n\n<center>\n<p>\n<\/p>\n<h3>Pourquoi choisir Thalass Home ?<\/h3>\n<p><\/p>\n<\/center>\n<br>\n\n<ul>\n<li>Des prix attractifs.<\/li>\n\n  <li>C'est vous qui choisissez l'heure d'installation et de désinstallation.<\/li>\n\n  <li>Profitez d'une  flexibilité sur les horaires que vous ne retrouverez nul part ailleurs (jusqu'à plus de 36 heures d'utilisation pour un SPA 1 nuit).<\/li>\n<li>Aucun acompte n'est exigé.<\/li>\n\n<li>Les livraisons sont offertes.<\/li>\n<\/ul>\n<\/div>"}},"1614429899bea2daf1":{"type":"framework--custom-content","settings":{"custom_html":"<center>\n\n<p><b>Disponible dans toute l'Île-de-France. <\/b><\/p> \n\n<\/center>"}},"1614454164b7af0ba0":{"type":"index--featured-collection","disabled":true,"settings":{"collection":"nos-packs","featured-collection--image--show":false,"featured-collection--description--show":false}},"1614454189441d2af7":{"type":"index--featured-collection","disabled":true,"settings":{"collection":"nos-saunas-portables-a-domicile","featured-collection--image--show":false,"featured-collection--description--show":false}},"list-collections":{"type":"list-collections","settings":{"grid":false}}},"content_for_index":["1522436578326","1614429899bea2daf1","16144191042b40f8dd","1522436541628","1522436550244","1614454189441d2af7","1614454164b7af0ba0","16055930477808e731","1522436569709","160559321448a042b0","161441903806815d45","1614424401c8ec986d","1522436609159","1522436617631","1522436965040","1533946059866","1522436583583"]},"presets":{"Bright":{"color--accent":"#fa688e","bdr-color--page":"#fa688e","bg-color--body":"#ffffff","color--body":"#212121","color--alternative":"#ffffff","color--link-underline":"#212121","bg-color--panel":"#ffffff","color--button":"#ffffff","bg-color--button":"#212121","banner--alternative-text":false,"bg-color--announcement":"#fa688e","announcement--alternative-text":true,"color--header--buttons":"#fa688e","bg-color--footer":"#ffffff","color--footer":"#212121","bg-color--contact-modal":"#fa688e","contact-modal--alternative-text":true,"typography--heading":"karla_n7","typography--heading--uppercase":false,"typography--heading--size":"large","typography--accent":"karla_n4","typography--paragraph":"inconsolata_n4","typography--paragraph--size":"medium","layout--show-page-border":false,"sections":{"index--banner":{"type":"index--banner","settings":{"enabled":true,"foreground-type":"text","foreground-text":"<p>Add your text here<\/p>","alternative-color":true}},"announcement":{"type":"announcement","settings":{"enabled":true,"home-page-only":true,"text":"Add your announcement message"}},"header":{"type":"header","settings":{"menu":"main-menu","logo-height-range":40,"account-icon":"text","cart-icon":"bag","contact-enabled":true,"contact-text":"Contact","contact-type":"modal","store-address":"391 Sutter St,\r\nSan Francisco","store-hours":"<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"}},"product":{"type":"product","settings":{"vendor-name-show":false,"variant-style":"dropdowns","swatches-enabled":false,"smart_payment_button":true,"product-unavailable-form-show":false,"low-in-stock-amount":0,"share":true,"product-modal-enabled":true,"image-zoom-enabled":true,"loop-enabled":false,"product-size-chart-enabled":false,"product-size-chart-option":"size","product-size-chart-page-content":""}},"collection":{"type":"collection","settings":{"show-tag-filters":true,"grid":false}},"1522436541628":{"type":"framework--featured-collections","blocks":{"1522436541628-0":{"type":"collection","settings":{"collection":""}},"1522436541628-1":{"type":"collection","settings":{"collection":""}},"1522436541628-2":{"type":"collection","settings":{"collection":""}}},"block_order":["1522436541628-0","1522436541628-1","1522436541628-2"],"settings":{"background-color":"none","width":3,"mobile-width":"2","heading":"Collection list"}},"1522436550244":{"type":"index--featured-collection","settings":{"collection":"","featured-collection--image--show":false,"featured-collection--description--show":false}},"1522436569709":{"type":"framework--featured-content","settings":{"full-width":true,"background-color":"none","text-position":"center","text-width":"large","overlap":false,"transparent-overlap":true,"alternative-color":true,"mobile-overlay":true,"image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Image with text","description":"<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>","link-text":""}},"1522436578326":{"type":"slideshow","blocks":{"1522436578326-0":{"type":"image","settings":{"slide-title":"Slideshow","slide-tagline":"Introduce your store or campaign with this slideshow section.","slide-link-title":"Link to content","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}},"1522436578326-1":{"type":"image","settings":{"slide-title":"Slideshow","slide-tagline":"Introduce your store or campaign with this slideshow section.","slide-link-title":"Link to content","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}}},"block_order":["1522436578326-0","1522436578326-1"],"settings":{"autoplay":false,"transition_style":"default","rotate-frequency-range":7}},"1522436583583":{"type":"framework--newsletter","settings":{"background-color":"light","heading":"Subscribe to our newsletter","newsletter--subheading":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"1522436609159":{"type":"framework--featured-text","settings":{"background-color":"none","heading":"Talk about your brand","text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}},"1522436617631":{"type":"framework--featured-video","settings":{"video-url":"","full-width":true,"background-color":"none","section-height":"regular","darken-video":true,"alt-text":true,"heading":"Video","sub-heading":"Add a subheading here","button-text":"button"}},"1522436965040":{"type":"framework--featured-content","settings":{"full-width":false,"background-color":"light","text-position":"right","text-width":"large","overlap":true,"transparent-overlap":false,"alternative-color":false,"mobile-overlay":true,"image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Image with text","description":"<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>","link-text":""}},"1533946059866":{"type":"framework--map","settings":{"api-key":"","map-address":"391 Sutter St, San Francisco","background-color":"none","theme":"grayscale","heading":"Map","address":"<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>","hours":"<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"}},"framework--footer":{"type":"framework--footer","blocks":{"1584749784429":{"type":"about","settings":{"about-title":"Store","text":"<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>","subscribe--show-social-icons":true}},"1584749788445":{"type":"menu","settings":{"menu-title":"Info","menu":"footer"}},"1584749790841":{"type":"subscribe","settings":{"newsletter--heading":"Subscribe","newsletter--info":"<p>Sign up to our mailing list<\/p>","subscribe--show-newsletter":true}}},"block_order":["1584749784429","1584749788445","1584749790841"],"settings":{"show-currency-selector":true,"show-locale-selector":true,"show-payment-icons":true}},"16055930477808e731":{"type":"framework--image-text-overlay","blocks":{"16055930477808e731-0":{"type":"image","settings":{"wide":true,"tall":true,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-1":{"type":"image","settings":{"wide":true,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-2":{"type":"image","settings":{"wide":false,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-3":{"type":"image","settings":{"wide":false,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}}},"block_order":["16055930477808e731-0","16055930477808e731-1","16055930477808e731-2","16055930477808e731-3"],"settings":{"text-style":"light-with-overlay","background-color":"light","spacing":true,"container-width":4,"width":4,"mobile-width":"2","title":"Grid with overlay","subtitle":"","link-text":""}},"160559321448a042b0":{"type":"framework--image-with-text-below","blocks":{"160559321448a042b0-0":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-1":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-2":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-3":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}}},"block_order":["160559321448a042b0-0","160559321448a042b0-1","160559321448a042b0-2","160559321448a042b0-3"],"settings":{"background-color":"light","spacing":true,"container-width":4,"width":4,"image-width":0,"mobile-width":"2","title":"Grid with text below","subtitle":"","link-text":""}}},"content_for_index":["1522436578326","1522436550244","16055930477808e731","1522436569709","160559321448a042b0","1522436541628","1522436609159","1522436617631","1522436965040","1533946059866","1522436583583"]},"Light":{"color--accent":"#9187ff","bdr-color--page":"rgba(0,0,0,0)","bg-color--body":"#ffffff","color--body":"#212121","color--alternative":"#ffffff","color--link-underline":"#212121","bg-color--panel":"#fafafa","color--button":"#ffffff","bg-color--button":"#212121","banner--alternative-text":true,"bg-color--announcement":"#212121","announcement--alternative-text":true,"color--header--buttons":"#212121","bg-color--footer":"#ffffff","color--footer":"#212121","bg-color--contact-modal":"#ffffff","contact-modal--alternative-text":false,"typography--heading":"trade_gothic_next_n3","typography--heading--uppercase":false,"typography--heading--size":"medium","typography--accent":"trade_gothic_next_n4","typography--paragraph":"itc_franklin_gothic_n4","typography--paragraph--size":"medium","layout--show-page-border":false,"sections":{"index--banner":{"type":"index--banner","settings":{"enabled":true,"foreground-type":"text","foreground-text":"<p>Add your text here<\/p>","alternative-color":true}},"announcement":{"type":"announcement","settings":{"enabled":true,"home-page-only":true,"text":"Add your announcement message"}},"header":{"type":"header","settings":{"menu":"main-menu","logo-height-range":40,"account-icon":"text","cart-icon":"bag","contact-enabled":true,"contact-text":"Contact","contact-type":"modal","store-address":"391 Sutter St,\r\nSan Francisco","store-hours":"<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"}},"product":{"type":"product","settings":{"vendor-name-show":false,"variant-style":"dropdowns","swatches-enabled":false,"smart_payment_button":true,"product-unavailable-form-show":false,"low-in-stock-amount":0,"share":true,"product-modal-enabled":true,"image-zoom-enabled":true,"loop-enabled":false,"product-size-chart-enabled":false,"product-size-chart-option":"size","product-size-chart-page-content":""}},"collection":{"type":"collection","settings":{"show-tag-filters":true,"grid":false}},"1522436541628":{"type":"framework--featured-collections","blocks":{"1522436541628-0":{"type":"collection","settings":{"collection":""}},"1522436541628-1":{"type":"collection","settings":{"collection":""}},"1522436541628-2":{"type":"collection","settings":{"collection":""}}},"block_order":["1522436541628-0","1522436541628-1","1522436541628-2"],"settings":{"background-color":"none","width":3,"mobile-width":"2","heading":"Collection list"}},"1522436550244":{"type":"index--featured-collection","settings":{"collection":"","featured-collection--image--show":false,"featured-collection--description--show":false}},"1522436569709":{"type":"framework--featured-content","settings":{"full-width":true,"background-color":"none","text-position":"center","text-width":"large","overlap":false,"transparent-overlap":true,"alternative-color":true,"mobile-overlay":true,"image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Image with text","description":"<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>","link-text":""}},"1522436578326":{"type":"slideshow","blocks":{"1522436578326-0":{"type":"image","settings":{"slide-title":"Slideshow","slide-tagline":"Introduce your store or campaign with this slideshow section.","slide-link-title":"Link to content","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}},"1522436578326-1":{"type":"image","settings":{"slide-title":"Slideshow","slide-tagline":"Introduce your store or campaign with this slideshow section.","slide-link-title":"Link to content","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}}},"block_order":["1522436578326-0","1522436578326-1"],"settings":{"autoplay":false,"transition_style":"default","rotate-frequency-range":7}},"1522436583583":{"type":"framework--newsletter","settings":{"background-color":"light","heading":"Subscribe to our newsletter","newsletter--subheading":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"1522436609159":{"type":"framework--featured-text","settings":{"background-color":"none","heading":"Talk about your brand","text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}},"1522436617631":{"type":"framework--featured-video","settings":{"video-url":"","full-width":true,"background-color":"none","section-height":"regular","darken-video":true,"alt-text":true,"heading":"Video","sub-heading":"Add a subheading here","button-text":"button"}},"1522436965040":{"type":"framework--featured-content","settings":{"full-width":false,"background-color":"light","text-position":"right","text-width":"large","overlap":true,"transparent-overlap":false,"alternative-color":false,"mobile-overlay":true,"image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Image with text","description":"<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>","link-text":""}},"1533946059866":{"type":"framework--map","settings":{"api-key":"","map-address":"391 Sutter St, San Francisco","background-color":"none","theme":"grayscale","heading":"Map","address":"<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>","hours":"<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"}},"framework--footer":{"type":"framework--footer","blocks":{"1584749784429":{"type":"about","settings":{"about-title":"Store","text":"<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>","subscribe--show-social-icons":true}},"1584749788445":{"type":"menu","settings":{"menu-title":"Info","menu":"footer"}},"1584749790841":{"type":"subscribe","settings":{"newsletter--heading":"Subscribe","newsletter--info":"<p>Sign up to our mailing list<\/p>","subscribe--show-newsletter":true}}},"block_order":["1584749784429","1584749788445","1584749790841"],"settings":{"show-currency-selector":true,"show-locale-selector":true,"show-payment-icons":true}},"16055930477808e731":{"type":"framework--image-text-overlay","blocks":{"16055930477808e731-0":{"type":"image","settings":{"wide":true,"tall":true,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-1":{"type":"image","settings":{"wide":true,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-2":{"type":"image","settings":{"wide":false,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-3":{"type":"image","settings":{"wide":false,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}}},"block_order":["16055930477808e731-0","16055930477808e731-1","16055930477808e731-2","16055930477808e731-3"],"settings":{"text-style":"light-with-overlay","background-color":"light","spacing":true,"container-width":4,"width":4,"mobile-width":"2","title":"Grid with overlay","subtitle":"","link-text":""}},"160559321448a042b0":{"type":"framework--image-with-text-below","blocks":{"160559321448a042b0-0":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-1":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-2":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-3":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}}},"block_order":["160559321448a042b0-0","160559321448a042b0-1","160559321448a042b0-2","160559321448a042b0-3"],"settings":{"background-color":"light","spacing":true,"container-width":4,"width":4,"image-width":0,"mobile-width":"2","title":"Grid with text below","subtitle":"","link-text":""}}},"content_for_index":["1522436578326","1522436550244","16055930477808e731","1522436569709","160559321448a042b0","1522436541628","1522436609159","1522436617631","1522436965040","1533946059866","1522436583583"]},"Dark":{"color--accent":"#212121","bdr-color--page":"#212121","bg-color--body":"#ffffff","color--body":"#212121","color--alternative":"#ffffff","color--link-underline":"#212121","bg-color--panel":"#f6f6f6","color--button":"#ffffff","bg-color--button":"#212121","banner--alternative-text":true,"bg-color--announcement":"#212121","announcement--alternative-text":true,"color--header--buttons":"#212121","bg-color--footer":"#ffffff","color--footer":"#212121","bg-color--contact-modal":"#212121","contact-modal--alternative-text":true,"typography--heading":"itc_caslon_no_224_n4","typography--heading--uppercase":false,"typography--heading--size":"large","typography--accent":"avenir_next_n5","typography--paragraph":"avenir_next_n4","typography--paragraph--size":"medium","layout--show-page-border":false,"product--show-vendor":false,"product--show-quick-add-buttons":true,"variant-style":"dropdowns","swatches-enabled":false,"search--show-in-header":true,"search--show-articles":true,"search--show-pages":true,"social--instagram--url":"","social--facebook--url":"","social--youtube--url":"","social--vimeo--url":"","social--pinterest--url":"","social--twitter--url":"","popup--enabled":false,"popup--mode":"auto","popup--days-range":7,"popup--background-color":"light","popup--alternative-color":false,"popup--show-image":true,"popup--image":"","popup--newsletter-title--rt":"<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!<\/p>","popup--social-title":"Follow us","popup--social-enabled":true,"favicon":"","hide-tags":"featured, pinned","cart--type":"drawer","cart--show-note":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#197bbd","checkout_button_color":"#197bbd","checkout_error_color":"#e32c2b","sections":{"index--banner":{"type":"index--banner","settings":{"enabled":true,"foreground-type":"text","foreground-text":"<p>Add your text here<\/p>","alternative-color":true}},"announcement":{"type":"announcement","settings":{"enabled":true,"home-page-only":true,"text":"Add your announcement message"}},"header":{"type":"header","settings":{"menu":"main-menu","logo-height-range":40,"account-icon":"text","cart-icon":"bag","contact-enabled":true,"contact-text":"Contact","contact-type":"modal","store-address":"391 Sutter St,\r\nSan Francisco","store-hours":"<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"}},"product":{"type":"product","settings":{"vendor-name-show":false,"variant-style":"dropdowns","swatches-enabled":false,"smart_payment_button":true,"product-unavailable-form-show":false,"low-in-stock-amount":0,"share":true,"product-modal-enabled":true,"image-zoom-enabled":true,"loop-enabled":false,"product-size-chart-enabled":false,"product-size-chart-option":"size","product-size-chart-page-content":""}},"collection":{"type":"collection","settings":{"show-tag-filters":true,"grid":false}},"1522436541628":{"type":"framework--featured-collections","blocks":{"1522436541628-0":{"type":"collection","settings":{"collection":""}},"1522436541628-1":{"type":"collection","settings":{"collection":""}},"1522436541628-2":{"type":"collection","settings":{"collection":""}}},"block_order":["1522436541628-0","1522436541628-1","1522436541628-2"],"settings":{"background-color":"none","width":3,"mobile-width":"2","heading":"Collection list"}},"1522436550244":{"type":"index--featured-collection","settings":{"collection":"","featured-collection--image--show":false,"featured-collection--description--show":false}},"1522436569709":{"type":"framework--featured-content","settings":{"full-width":true,"background-color":"none","text-position":"center","text-width":"large","overlap":false,"transparent-overlap":true,"alternative-color":true,"mobile-overlay":true,"image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Image with text","description":"<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>","link-text":""}},"1522436578326":{"type":"slideshow","blocks":{"1522436578326-0":{"type":"image","settings":{"slide-title":"Slideshow","slide-tagline":"Introduce your store or campaign with this slideshow section.","slide-link-title":"Link to content","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}},"1522436578326-1":{"type":"image","settings":{"slide-title":"Slideshow","slide-tagline":"Introduce your store or campaign with this slideshow section.","slide-link-title":"Link to content","slide-y-pos":"middle","slide-x-pos":"left","slide-text-pos":"text-left"}}},"block_order":["1522436578326-0","1522436578326-1"],"settings":{"autoplay":false,"transition_style":"default","rotate-frequency-range":7}},"1522436583583":{"type":"framework--newsletter","settings":{"background-color":"light","heading":"Subscribe to our newsletter","newsletter--subheading":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"1522436609159":{"type":"framework--featured-text","settings":{"background-color":"none","heading":"Talk about your brand","text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}},"1522436617631":{"type":"framework--featured-video","settings":{"video-url":"","full-width":true,"background-color":"none","section-height":"regular","darken-video":true,"alt-text":true,"heading":"Video","sub-heading":"Add a subheading here","button-text":"button"}},"1522436965040":{"type":"framework--featured-content","settings":{"full-width":false,"background-color":"light","text-position":"right","text-width":"large","overlap":true,"transparent-overlap":false,"alternative-color":false,"mobile-overlay":true,"image-height":"medium","parallax-enabled":false,"apply-overlay":true,"title":"Image with text","description":"<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>","link-text":""}},"1533946059866":{"type":"framework--map","settings":{"api-key":"","map-address":"391 Sutter St, San Francisco","background-color":"none","theme":"grayscale","heading":"Map","address":"<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>","hours":"<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"}},"framework--footer":{"type":"framework--footer","blocks":{"1584749784429":{"type":"about","settings":{"about-title":"Store","text":"<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>","subscribe--show-social-icons":true}},"1584749788445":{"type":"menu","settings":{"menu-title":"Info","menu":"footer"}},"1584749790841":{"type":"subscribe","settings":{"newsletter--heading":"Subscribe","newsletter--info":"<p>Sign up to our mailing list<\/p>","subscribe--show-newsletter":true}}},"block_order":["1584749784429","1584749788445","1584749790841"],"settings":{"show-currency-selector":true,"show-locale-selector":true,"show-payment-icons":true}},"16055930477808e731":{"type":"framework--image-text-overlay","blocks":{"16055930477808e731-0":{"type":"image","settings":{"wide":true,"tall":true,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-1":{"type":"image","settings":{"wide":true,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-2":{"type":"image","settings":{"wide":false,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}},"16055930477808e731-3":{"type":"image","settings":{"wide":false,"tall":false,"retain-ratio":false,"title":"Grid image","link-text":"View more"}}},"block_order":["16055930477808e731-0","16055930477808e731-1","16055930477808e731-2","16055930477808e731-3"],"settings":{"text-style":"light-with-overlay","background-color":"light","spacing":true,"container-width":4,"width":4,"mobile-width":"2","title":"Grid with overlay","subtitle":"","link-text":""}},"160559321448a042b0":{"type":"framework--image-with-text-below","blocks":{"160559321448a042b0-0":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-1":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-2":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}},"160559321448a042b0-3":{"type":"image","settings":{"title":"Grid image","description":"<p>Add your description text here<\/p>","link-text":"View more"}}},"block_order":["160559321448a042b0-0","160559321448a042b0-1","160559321448a042b0-2","160559321448a042b0-3"],"settings":{"background-color":"light","spacing":true,"container-width":4,"width":4,"image-width":0,"mobile-width":"2","title":"Grid with text below","subtitle":"","link-text":""}}},"content_for_index":["1522436578326","1522436550244","16055930477808e731","1522436569709","160559321448a042b0","1522436541628","1522436609159","1522436617631","1522436965040","1533946059866","1522436583583"]}}}
+{
+  "current": {
+    "color--accent": "#166678",
+    "bdr-color--page": "#166678",
+    "bg-color--body": "#ffffff",
+    "color--body": "#212121",
+    "color--alternative": "#ffffff",
+    "color--link-underline": "#212121",
+    "bg-color--panel": "#ffffff",
+    "color--button": "#ffffff",
+    "bg-color--button": "#212121",
+    "banner--alternative-text": false,
+    "bg-color--announcement": "#166678",
+    "announcement--alternative-text": true,
+    "color--header--buttons": "#212121",
+    "bg-color--footer": "#ffffff",
+    "color--footer": "#212121",
+    "bg-color--contact-modal": "#166678",
+    "contact-modal--alternative-text": true,
+    "typography--heading": "pacifico_n4",
+    "typography--heading--uppercase": false,
+    "typography--heading--size": "large",
+    "typography--accent": "karla_n4",
+    "typography--paragraph": "inconsolata_n4",
+    "typography--paragraph--size": "medium",
+    "layout--show-page-border": false,
+    "product--show-quick-add-buttons": false,
+    "variant-style": "dropdowns",
+    "product--show-sale-label": true,
+    "search--show-in-header": false,
+    "social--instagram--url": "https:\/\/www.instagram.com\/thalasshome\/",
+    "social--facebook--url": "https:\/\/www.facebook.com\/thalasshome\/",
+    "popup--newsletter-title--rt": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!<\/p>",
+    "favicon": "shopify:\/\/shop_images\/PhotoFunia-1618493810.jpg",
+    "cart--type": "page",
+    "cart--show-note": true,
+    "sections": {
+      "index--banner": {
+        "type": "index--banner",
+        "settings": {
+          "enabled": false,
+          "foreground-type": "text",
+          "foreground-text": "ThalassHome",
+          "alternative-color": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enabled": false,
+          "home-page-only": true,
+          "text": "SPA à domicile"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu",
+          "logo-height-range": 80,
+          "account-icon": "text",
+          "cart-icon": "cart",
+          "contact-enabled": true,
+          "contact-text": "Contact",
+          "contact-type": "modal",
+          "store-address": "102 rue d'estienne d'orves 91370 Verrières-le-Buisson\n\n🇲🇫 0651323494\n🇨🇭 0783035579",
+          "store-hours": "<p><strong>Lundi - Dimanche<\/strong><br\/>7h - 22h<\/p><p><\/p>"
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "vendor-name-show": false,
+          "variant-style": "dropdowns",
+          "swatches-enabled": false,
+          "smart_payment_button": false,
+          "product-unavailable-form-show": false,
+          "low-in-stock-amount": 0,
+          "product-pickup-enabled": true,
+          "share": true,
+          "product-modal-enabled": true,
+          "image-zoom-enabled": true,
+          "loop-enabled": false,
+          "product-size-chart-enabled": false,
+          "product-size-chart-option": "size",
+          "product-size-chart-page-content": ""
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "show-tag-filters": false,
+          "grid": true
+        }
+      },
+      "1522436541628": {
+        "type": "framework--featured-collections",
+        "blocks": {
+          "1522436541628-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-espaces-de-relaxation"
+            }
+          },
+          "692e3098-cb08-4ff5-bb8d-da32a48bd523": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-saunas-portables-a-domicile"
+            }
+          },
+          "65b5145a-810f-4480-93d9-f81b0c453cca": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-packs"
+            }
+          }
+        },
+        "block_order": [
+          "1522436541628-0",
+          "692e3098-cb08-4ff5-bb8d-da32a48bd523",
+          "65b5145a-810f-4480-93d9-f81b0c453cca"
+        ],
+        "settings": {
+          "background-color": "none",
+          "width": 3,
+          "mobile-width": "1",
+          "heading": ""
+        }
+      },
+      "1522436550244": {
+        "type": "index--featured-collection",
+        "disabled": true,
+        "settings": {
+          "collection": "nos-espaces-de-relaxation",
+          "featured-collection--image--show": false,
+          "featured-collection--description--show": false
+        }
+      },
+      "1522436569709": {
+        "type": "framework--featured-content",
+        "disabled": true,
+        "settings": {
+          "full-width": true,
+          "background-color": "none",
+          "text-position": "center",
+          "text-width": "small",
+          "overlap": false,
+          "transparent-overlap": true,
+          "alternative-color": true,
+          "mobile-overlay": true,
+          "image": "shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
+          "image-height": "medium",
+          "parallax-enabled": false,
+          "apply-overlay": true,
+          "title": "Thalass Home",
+          "description": "<p>L&#x27;expérience de spa ultime dans le confort de votre maison, créant un environnement relaxant et sans stress pour s&#x27;adonner à un moment de relaxation. Créée en France par des experts du spa, nous apportons les meilleurs produits de santé et de beauté pour transformer les maisons en un état de bonheur ultime.<\/p>",
+          "link-text": ""
+        }
+      },
+      "1522436578326": {
+        "type": "slideshow",
+        "blocks": {
+          "1522436578326-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tout3_e058f05d-3c04-4a4b-ae6a-08cf5f6aab21.jpg",
+              "slide-title": "Envie d’un jacuzzi ? Faites vous livrer à domicile !",
+              "slide-tagline": "On s'occupe de tout pour que vous passiez un bon moment de détente. Nous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. Commandez votre jacuzzi et\/ou votre sauna et personnalisez votre évenement avec nos différents packs.",
+              "slide-link-url": "shopify:\/\/collections",
+              "slide-link-title": "découvrir",
+              "slide-y-pos": "middle",
+              "slide-x-pos": "left",
+              "slide-text-pos": "text-left"
+            }
+          },
+          "1522436578326-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
+              "slide-title": "Pourquoi choisir Thalass Home ?",
+              "slide-tagline": "C'est vous qui choisissez l'heure d'installation et de désinstallation vous permettant une flexibilité que vous ne trouverez nulle part ailleurs. Obtenez des prix attractifs avec la livraison offerte.",
+              "slide-link-url": "shopify:\/\/collections",
+              "slide-link-title": "Découvrir",
+              "slide-y-pos": "middle",
+              "slide-x-pos": "left",
+              "slide-text-pos": "text-left"
+            }
+          }
+        },
+        "block_order": [
+          "1522436578326-0",
+          "1522436578326-1"
+        ],
+        "settings": {
+          "autoplay": true,
+          "transition_style": "fade",
+          "rotate-frequency-range": 11
+        }
+      },
+      "1522436583583": {
+        "type": "framework--newsletter",
+        "disabled": true,
+        "settings": {
+          "background-color": "light",
+          "heading": "Subscribe to our newsletter",
+          "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+        }
+      },
+      "1522436609159": {
+        "type": "framework--featured-text",
+        "settings": {
+          "background-color": "none",
+          "heading": "Nos engagements",
+          "text": "<p>De la réservation jusqu’au suivi de votre satisfaction, nous comptons bien nous occuper de vous.<\/p><p><\/p><p>Pour vos interrogations, n&#x27;hésitez pas à visiter notre <a href=\"https:\/\/www.thalasshome.com\/a\/faq\" title=\"https:\/\/www.thalasshome.com\/a\/faq\">FAQ<\/a><\/p><p><\/p><p><\/p>"
+        }
+      },
+      "1522436617631": {
+        "type": "framework--featured-video",
+        "settings": {
+          "video-url": "https:\/\/www.youtube.com\/watch?v=8TU3kVbdhmo",
+          "full-width": true,
+          "background-color": "none",
+          "section-height": "regular",
+          "darken-video": true,
+          "alt-text": true,
+          "heading": "Thalass Home",
+          "sub-heading": "",
+          "button-text": "découvrir",
+          "button-url": "shopify:\/\/collections"
+        }
+      },
+      "1522436965040": {
+        "type": "framework--featured-content",
+        "disabled": true,
+        "settings": {
+          "full-width": false,
+          "background-color": "light",
+          "text-position": "right",
+          "text-width": "large",
+          "overlap": true,
+          "transparent-overlap": false,
+          "alternative-color": false,
+          "mobile-overlay": true,
+          "image": "shopify:\/\/shop_images\/bath-20480_1920.jpg",
+          "image-height": "medium",
+          "parallax-enabled": false,
+          "apply-overlay": true,
+          "title": "Ta thalasso thérapie à petit prix",
+          "description": "<p>Viens découvrir notre blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla<\/p>",
+          "link-text": ""
+        }
+      },
+      "1533946059866": {
+        "type": "framework--map",
+        "disabled": true,
+        "settings": {
+          "api-key": "",
+          "map-address": "391 Sutter St, San Francisco",
+          "background-color": "none",
+          "theme": "grayscale",
+          "heading": "Map",
+          "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+          "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+        }
+      },
+      "framework--footer": {
+        "type": "framework--footer",
+        "blocks": {
+          "088be99a-044f-4730-85a2-cdf13f6760a0": {
+            "type": "about",
+            "settings": {
+              "about-title": "Contact",
+              "text": "<p>🇲🇫 0651323494<br\/>🇨🇭 0783035579<\/p>",
+              "subscribe--show-social-icons": true
+            }
+          },
+          "1584749784429": {
+            "type": "about",
+            "settings": {
+              "about-title": "",
+              "text": "<p>© Thalass Home<\/p><p>© 2021<\/p><p><\/p>",
+              "subscribe--show-social-icons": false
+            }
+          }
+        },
+        "block_order": [
+          "088be99a-044f-4730-85a2-cdf13f6760a0",
+          "1584749784429"
+        ],
+        "settings": {
+          "show-currency-selector": true,
+          "show-locale-selector": true,
+          "show-payment-icons": true
+        }
+      },
+      "16055930477808e731": {
+        "type": "framework--image-text-overlay",
+        "blocks": {
+          "16055930477808e731-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_from_2021-02-27_20-35-36.png",
+              "wide": true,
+              "tall": true,
+              "retain-ratio": false,
+              "title": "",
+              "link-text": ""
+            }
+          },
+          "16055930477808e731-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/153617157_1036508973508692_5912219394092473033_n.jpg",
+              "wide": true,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-text": ""
+            }
+          },
+          "16055930477808e731-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/158027795_474241913591333_1974351085434237135_n.jpg",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-text": ""
+            }
+          },
+          "16055930477808e731-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/156955771_247041417075897_6251991366767768154_n_3b82111f-8bfc-48e7-86a1-cfe25dffac86.jpg",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "16055930477808e731-0",
+          "16055930477808e731-1",
+          "16055930477808e731-2",
+          "16055930477808e731-3"
+        ],
+        "settings": {
+          "text-style": "light-with-overlay",
+          "background-color": "none",
+          "spacing": true,
+          "container-width": 4,
+          "width": 4,
+          "mobile-width": "2",
+          "title": "Un aperçu de nos réalisations",
+          "subtitle": "",
+          "link-text": ""
+        }
+      },
+      "160559321448a042b0": {
+        "type": "framework--image-with-text-below",
+        "disabled": true,
+        "blocks": {
+          "160559321448a042b0-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/153095276_1661854800668113_4123618234379777404_n.jpg",
+              "title": "",
+              "description": "",
+              "link-text": ""
+            }
+          },
+          "160559321448a042b0-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/149984578_183207800264275_6578385095914076229_n.jpg",
+              "title": "",
+              "description": "",
+              "link-text": ""
+            }
+          },
+          "160559321448a042b0-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/149918118_509022883419773_5645783270868691249_n.jpg",
+              "title": "",
+              "description": "",
+              "link-text": ""
+            }
+          },
+          "160559321448a042b0-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mix.jpg",
+              "title": "",
+              "description": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "160559321448a042b0-0",
+          "160559321448a042b0-1",
+          "160559321448a042b0-2",
+          "160559321448a042b0-3"
+        ],
+        "settings": {
+          "background-color": "light",
+          "spacing": true,
+          "container-width": 4,
+          "width": 4,
+          "image-width": 0,
+          "mobile-width": "2",
+          "title": "",
+          "subtitle": "",
+          "link-text": ""
+        }
+      },
+      "framework--product-recommendations": {
+        "type": "framework--product-recommendations",
+        "settings": {
+          "product-similar-products-show": false,
+          "product-similar-products-heading": "Vous pourrez également apprécier"
+        }
+      },
+      "161441903806815d45": {
+        "type": "framework--service-list",
+        "disabled": true,
+        "blocks": {
+          "1614419038b1fa5ac8-0": {
+            "type": "header",
+            "settings": {
+              "title": "Add header here"
+            }
+          },
+          "1614419038b1fa5ac8-1": {
+            "type": "item",
+            "settings": {
+              "title": "Add service title here",
+              "price": "$10",
+              "description": "<p>Add service description here<\/p>"
+            }
+          },
+          "1614419038b1fa5ac8-2": {
+            "type": "item",
+            "settings": {
+              "title": "Add service title here",
+              "price": "$10",
+              "description": "<p>Add service description here<\/p>"
+            }
+          },
+          "1614419038b1fa5ac8-3": {
+            "type": "header",
+            "settings": {
+              "title": "Add header here"
+            }
+          },
+          "1614419038b1fa5ac8-4": {
+            "type": "item",
+            "settings": {
+              "title": "Add service title here",
+              "price": "$10",
+              "description": "<p>Add service description here<\/p>"
+            }
+          },
+          "1614419038b1fa5ac8-5": {
+            "type": "item",
+            "settings": {
+              "title": "Add service title here",
+              "price": "$10",
+              "description": "<p>Add service description here<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1614419038b1fa5ac8-0",
+          "1614419038b1fa5ac8-1",
+          "1614419038b1fa5ac8-2",
+          "1614419038b1fa5ac8-3",
+          "1614419038b1fa5ac8-4",
+          "1614419038b1fa5ac8-5"
+        ],
+        "settings": {
+          "section--title": "Add title here",
+          "show-description": true
+        }
+      },
+      "16144191042b40f8dd": {
+        "type": "framework--custom-content",
+        "disabled": true,
+        "settings": {
+          "custom_html": "<center><h1>Envie d’un jacuzzi ? Faites vous livrer à domicile !<\/h1><\/center> <br>\n\n\n<div class=\"custom_html_1\">\n\n<div class=\"wrap_1_to_center\">\n\n<h3>\nOn s'occupe de tout le nécessaire pour que vous passiez un bon moment de détente. <\/h3>\n\n\n<p> \nNous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. <\/p>\n<p>Commandez votre SPA pour la durée de votre choix et personnalisez votre évenement avec nos différents packs. <\/p>\n\n<p>\nVous choisissez votre espace de relaxation, la date et la durée souhaitées. <\/p> <br>\n<\/div>\n\n\n\n<div class=\"wrap_2_to_center\">\n<p>Le temps d'installation est d'une heure environ et demi, et une durée équivalente est nécessaire pour la désinstallation.\n<\/p>\n\n<p> <i>\nPour vos interrogations, n'hésitez pas à visiter notre <a href=\"https:\/\/casa-spa.com\/a\/faq\">FAQ.<\/a>\n<\/i><\/p>\n\n<p><b>Disponible dans toute l'Île-de-France, la Loire ainsi que frontière Suisse et Genève. Prochainement disponible dans d'autres régions.<\/b><\/p> \n\n<\/div>\n<\/div>"
+        }
+      },
+      "1614424401c8ec986d": {
+        "type": "framework--custom-content",
+        "disabled": true,
+        "settings": {
+          "custom_html": "<div class=\"wrap_to_uncenter\">\n\n<center>\n<p>\n<\/p>\n<h3>Pourquoi choisir Thalass Home ?<\/h3>\n<p><\/p>\n<\/center>\n<br>\n\n<ul>\n<li>Des prix attractifs.<\/li>\n\n  <li>C'est vous qui choisissez l'heure d'installation et de désinstallation.<\/li>\n\n  <li>Profitez d'une  flexibilité sur les horaires que vous ne retrouverez nul part ailleurs (jusqu'à plus de 36 heures d'utilisation pour un SPA 1 nuit).<\/li>\n<li>Aucun acompte n'est exigé.<\/li>\n\n<li>Les livraisons sont offertes.<\/li>\n<\/ul>\n<\/div>"
+        }
+      },
+      "1614429899bea2daf1": {
+        "type": "framework--custom-content",
+        "settings": {
+          "custom_html": "<center>\n\n<p><b>Disponible dans toute l'Île-de-France, le Pays de Gex et Genève. <br> \nAucun acompte n'est exigé, le paiement se fait à la livraison.\n<\/b><\/p>\n\n<\/center>"
+        }
+      },
+      "1614454164b7af0ba0": {
+        "type": "index--featured-collection",
+        "disabled": true,
+        "settings": {
+          "collection": "nos-packs",
+          "featured-collection--image--show": false,
+          "featured-collection--description--show": false
+        }
+      },
+      "1614454189441d2af7": {
+        "type": "index--featured-collection",
+        "disabled": true,
+        "settings": {
+          "collection": "nos-saunas-portables-a-domicile",
+          "featured-collection--image--show": false,
+          "featured-collection--description--show": false
+        }
+      },
+      "list-collections": {
+        "type": "list-collections",
+        "settings": {
+          "grid": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1522436578326",
+      "1614429899bea2daf1",
+      "16144191042b40f8dd",
+      "1522436541628",
+      "1522436550244",
+      "1614454189441d2af7",
+      "1614454164b7af0ba0",
+      "16055930477808e731",
+      "1522436569709",
+      "160559321448a042b0",
+      "161441903806815d45",
+      "1614424401c8ec986d",
+      "1522436609159",
+      "1522436617631",
+      "1522436965040",
+      "1533946059866",
+      "1522436583583"
+    ]
+  },
+  "presets": {
+    "Bright": {
+      "color--accent": "#fa688e",
+      "bdr-color--page": "#fa688e",
+      "bg-color--body": "#ffffff",
+      "color--body": "#212121",
+      "color--alternative": "#ffffff",
+      "color--link-underline": "#212121",
+      "bg-color--panel": "#ffffff",
+      "color--button": "#ffffff",
+      "bg-color--button": "#212121",
+      "banner--alternative-text": false,
+      "bg-color--announcement": "#fa688e",
+      "announcement--alternative-text": true,
+      "color--header--buttons": "#fa688e",
+      "bg-color--footer": "#ffffff",
+      "color--footer": "#212121",
+      "bg-color--contact-modal": "#fa688e",
+      "contact-modal--alternative-text": true,
+      "typography--heading": "karla_n7",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "large",
+      "typography--accent": "karla_n4",
+      "typography--paragraph": "inconsolata_n4",
+      "typography--paragraph--size": "medium",
+      "layout--show-page-border": false,
+      "sections": {
+        "index--banner": {
+          "type": "index--banner",
+          "settings": {
+            "enabled": true,
+            "foreground-type": "text",
+            "foreground-text": "<p>Add your text here<\/p>",
+            "alternative-color": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "text": "Add your announcement message"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "menu": "main-menu",
+            "logo-height-range": 40,
+            "account-icon": "text",
+            "cart-icon": "bag",
+            "contact-enabled": true,
+            "contact-text": "Contact",
+            "contact-type": "modal",
+            "store-address": "391 Sutter St,\r\nSan Francisco",
+            "store-hours": "<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "vendor-name-show": false,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart_payment_button": true,
+            "product-unavailable-form-show": false,
+            "low-in-stock-amount": 0,
+            "share": true,
+            "product-modal-enabled": true,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "show-tag-filters": true,
+            "grid": false
+          }
+        },
+        "1522436541628": {
+          "type": "framework--featured-collections",
+          "blocks": {
+            "1522436541628-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1522436541628-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1522436541628-2": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "1522436541628-0",
+            "1522436541628-1",
+            "1522436541628-2"
+          ],
+          "settings": {
+            "background-color": "none",
+            "width": 3,
+            "mobile-width": "2",
+            "heading": "Collection list"
+          }
+        },
+        "1522436550244": {
+          "type": "index--featured-collection",
+          "settings": {
+            "collection": "",
+            "featured-collection--image--show": false,
+            "featured-collection--description--show": false
+          }
+        },
+        "1522436569709": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "background-color": "none",
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": false,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1522436578326": {
+          "type": "slideshow",
+          "blocks": {
+            "1522436578326-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1522436578326-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1522436578326-0",
+            "1522436578326-1"
+          ],
+          "settings": {
+            "autoplay": false,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1522436583583": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "light",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1522436609159": {
+          "type": "framework--featured-text",
+          "settings": {
+            "background-color": "none",
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1522436617631": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "background-color": "none",
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "Video",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1522436965040": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "background-color": "light",
+            "text-position": "right",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1533946059866": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "none",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "1584749784429": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "1584749788445": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "1584749790841": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "1584749784429",
+            "1584749788445",
+            "1584749790841"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "16055930477808e731": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "16055930477808e731-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "16055930477808e731-0",
+            "16055930477808e731-1",
+            "16055930477808e731-2",
+            "16055930477808e731-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "background-color": "light",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "160559321448a042b0": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "160559321448a042b0-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "160559321448a042b0-0",
+            "160559321448a042b0-1",
+            "160559321448a042b0-2",
+            "160559321448a042b0-3"
+          ],
+          "settings": {
+            "background-color": "light",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1522436578326",
+        "1522436550244",
+        "16055930477808e731",
+        "1522436569709",
+        "160559321448a042b0",
+        "1522436541628",
+        "1522436609159",
+        "1522436617631",
+        "1522436965040",
+        "1533946059866",
+        "1522436583583"
+      ]
+    },
+    "Light": {
+      "color--accent": "#9187ff",
+      "bdr-color--page": "rgba(0,0,0,0)",
+      "bg-color--body": "#ffffff",
+      "color--body": "#212121",
+      "color--alternative": "#ffffff",
+      "color--link-underline": "#212121",
+      "bg-color--panel": "#fafafa",
+      "color--button": "#ffffff",
+      "bg-color--button": "#212121",
+      "banner--alternative-text": true,
+      "bg-color--announcement": "#212121",
+      "announcement--alternative-text": true,
+      "color--header--buttons": "#212121",
+      "bg-color--footer": "#ffffff",
+      "color--footer": "#212121",
+      "bg-color--contact-modal": "#ffffff",
+      "contact-modal--alternative-text": false,
+      "typography--heading": "trade_gothic_next_n3",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "medium",
+      "typography--accent": "trade_gothic_next_n4",
+      "typography--paragraph": "itc_franklin_gothic_n4",
+      "typography--paragraph--size": "medium",
+      "layout--show-page-border": false,
+      "sections": {
+        "index--banner": {
+          "type": "index--banner",
+          "settings": {
+            "enabled": true,
+            "foreground-type": "text",
+            "foreground-text": "<p>Add your text here<\/p>",
+            "alternative-color": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "text": "Add your announcement message"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "menu": "main-menu",
+            "logo-height-range": 40,
+            "account-icon": "text",
+            "cart-icon": "bag",
+            "contact-enabled": true,
+            "contact-text": "Contact",
+            "contact-type": "modal",
+            "store-address": "391 Sutter St,\r\nSan Francisco",
+            "store-hours": "<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "vendor-name-show": false,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart_payment_button": true,
+            "product-unavailable-form-show": false,
+            "low-in-stock-amount": 0,
+            "share": true,
+            "product-modal-enabled": true,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "show-tag-filters": true,
+            "grid": false
+          }
+        },
+        "1522436541628": {
+          "type": "framework--featured-collections",
+          "blocks": {
+            "1522436541628-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1522436541628-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1522436541628-2": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "1522436541628-0",
+            "1522436541628-1",
+            "1522436541628-2"
+          ],
+          "settings": {
+            "background-color": "none",
+            "width": 3,
+            "mobile-width": "2",
+            "heading": "Collection list"
+          }
+        },
+        "1522436550244": {
+          "type": "index--featured-collection",
+          "settings": {
+            "collection": "",
+            "featured-collection--image--show": false,
+            "featured-collection--description--show": false
+          }
+        },
+        "1522436569709": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "background-color": "none",
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": false,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1522436578326": {
+          "type": "slideshow",
+          "blocks": {
+            "1522436578326-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1522436578326-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1522436578326-0",
+            "1522436578326-1"
+          ],
+          "settings": {
+            "autoplay": false,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1522436583583": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "light",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1522436609159": {
+          "type": "framework--featured-text",
+          "settings": {
+            "background-color": "none",
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1522436617631": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "background-color": "none",
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "Video",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1522436965040": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "background-color": "light",
+            "text-position": "right",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1533946059866": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "none",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "1584749784429": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "1584749788445": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "1584749790841": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "1584749784429",
+            "1584749788445",
+            "1584749790841"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "16055930477808e731": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "16055930477808e731-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "16055930477808e731-0",
+            "16055930477808e731-1",
+            "16055930477808e731-2",
+            "16055930477808e731-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "background-color": "light",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "160559321448a042b0": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "160559321448a042b0-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "160559321448a042b0-0",
+            "160559321448a042b0-1",
+            "160559321448a042b0-2",
+            "160559321448a042b0-3"
+          ],
+          "settings": {
+            "background-color": "light",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1522436578326",
+        "1522436550244",
+        "16055930477808e731",
+        "1522436569709",
+        "160559321448a042b0",
+        "1522436541628",
+        "1522436609159",
+        "1522436617631",
+        "1522436965040",
+        "1533946059866",
+        "1522436583583"
+      ]
+    },
+    "Dark": {
+      "color--accent": "#212121",
+      "bdr-color--page": "#212121",
+      "bg-color--body": "#ffffff",
+      "color--body": "#212121",
+      "color--alternative": "#ffffff",
+      "color--link-underline": "#212121",
+      "bg-color--panel": "#f6f6f6",
+      "color--button": "#ffffff",
+      "bg-color--button": "#212121",
+      "banner--alternative-text": true,
+      "bg-color--announcement": "#212121",
+      "announcement--alternative-text": true,
+      "color--header--buttons": "#212121",
+      "bg-color--footer": "#ffffff",
+      "color--footer": "#212121",
+      "bg-color--contact-modal": "#212121",
+      "contact-modal--alternative-text": true,
+      "typography--heading": "itc_caslon_no_224_n4",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "large",
+      "typography--accent": "avenir_next_n5",
+      "typography--paragraph": "avenir_next_n4",
+      "typography--paragraph--size": "medium",
+      "layout--show-page-border": false,
+      "product--show-vendor": false,
+      "product--show-quick-add-buttons": true,
+      "variant-style": "dropdowns",
+      "swatches-enabled": false,
+      "search--show-in-header": true,
+      "search--show-articles": true,
+      "search--show-pages": true,
+      "social--instagram--url": "",
+      "social--facebook--url": "",
+      "social--youtube--url": "",
+      "social--vimeo--url": "",
+      "social--pinterest--url": "",
+      "social--twitter--url": "",
+      "popup--enabled": false,
+      "popup--mode": "auto",
+      "popup--days-range": 7,
+      "popup--background-color": "light",
+      "popup--alternative-color": false,
+      "popup--show-image": true,
+      "popup--image": "",
+      "popup--newsletter-title--rt": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!<\/p>",
+      "popup--social-title": "Follow us",
+      "popup--social-enabled": true,
+      "favicon": "",
+      "hide-tags": "featured, pinned",
+      "cart--type": "drawer",
+      "cart--show-note": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "index--banner": {
+          "type": "index--banner",
+          "settings": {
+            "enabled": true,
+            "foreground-type": "text",
+            "foreground-text": "<p>Add your text here<\/p>",
+            "alternative-color": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "text": "Add your announcement message"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "menu": "main-menu",
+            "logo-height-range": 40,
+            "account-icon": "text",
+            "cart-icon": "bag",
+            "contact-enabled": true,
+            "contact-text": "Contact",
+            "contact-type": "modal",
+            "store-address": "391 Sutter St,\r\nSan Francisco",
+            "store-hours": "<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "vendor-name-show": false,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart_payment_button": true,
+            "product-unavailable-form-show": false,
+            "low-in-stock-amount": 0,
+            "share": true,
+            "product-modal-enabled": true,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "show-tag-filters": true,
+            "grid": false
+          }
+        },
+        "1522436541628": {
+          "type": "framework--featured-collections",
+          "blocks": {
+            "1522436541628-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1522436541628-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1522436541628-2": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "1522436541628-0",
+            "1522436541628-1",
+            "1522436541628-2"
+          ],
+          "settings": {
+            "background-color": "none",
+            "width": 3,
+            "mobile-width": "2",
+            "heading": "Collection list"
+          }
+        },
+        "1522436550244": {
+          "type": "index--featured-collection",
+          "settings": {
+            "collection": "",
+            "featured-collection--image--show": false,
+            "featured-collection--description--show": false
+          }
+        },
+        "1522436569709": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "background-color": "none",
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": false,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1522436578326": {
+          "type": "slideshow",
+          "blocks": {
+            "1522436578326-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1522436578326-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1522436578326-0",
+            "1522436578326-1"
+          ],
+          "settings": {
+            "autoplay": false,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1522436583583": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "light",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1522436609159": {
+          "type": "framework--featured-text",
+          "settings": {
+            "background-color": "none",
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1522436617631": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "background-color": "none",
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "Video",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1522436965040": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "background-color": "light",
+            "text-position": "right",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1533946059866": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "none",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "1584749784429": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "1584749788445": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "1584749790841": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "1584749784429",
+            "1584749788445",
+            "1584749790841"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "16055930477808e731": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "16055930477808e731-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "16055930477808e731-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "16055930477808e731-0",
+            "16055930477808e731-1",
+            "16055930477808e731-2",
+            "16055930477808e731-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "background-color": "light",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "160559321448a042b0": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "160559321448a042b0-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "160559321448a042b0-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "160559321448a042b0-0",
+            "160559321448a042b0-1",
+            "160559321448a042b0-2",
+            "160559321448a042b0-3"
+          ],
+          "settings": {
+            "background-color": "light",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1522436578326",
+        "1522436550244",
+        "16055930477808e731",
+        "1522436569709",
+        "160559321448a042b0",
+        "1522436541628",
+        "1522436609159",
+        "1522436617631",
+        "1522436965040",
+        "1533946059866",
+        "1522436583583"
+      ]
+    }
+  }
+}

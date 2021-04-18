@@ -4,8 +4,8 @@
     "theme_name": "Emerge",
     "theme_author": "Troop Themes",
     "theme_version": "3.8.0",
-    "theme_documentation_url": "http://support.troopthemes.com",
-    "theme_support_url": "http://support.troopthemes.com/"
+    "theme_documentation_url": "http:\/\/support.troopthemes.com",
+    "theme_support_url": "http:\/\/support.troopthemes.com\/"
   },
   {
     "name": "Colors",
@@ -55,7 +55,7 @@
       {
         "type": "color",
         "id": "color--button",
-        "label": "Button text/border"
+        "label": "Button text\/border"
       },
       {
         "type": "color",
@@ -245,8 +245,14 @@
         "id": "variant-style",
         "label": "Product variant style",
         "options": [
-          { "label": "Dropdowns", "value": "dropdowns" },
-          { "label": "Buttons", "value": "buttons" }
+          {
+            "label": "Dropdowns",
+            "value": "dropdowns"
+          },
+          {
+            "label": "Buttons",
+            "value": "buttons"
+          }
         ],
         "default": "dropdowns"
       },
@@ -255,17 +261,29 @@
         "id": "swatches-enabled",
         "label": "Enable color swatches",
         "default": false,
-        "info": "Automatically turn color options into swatches. [Learn more](https://support.troopthemes.com/guide/color-swatch-guide)"
+        "info": "Automatically turn color options into swatches. [Learn more](https:\/\/support.troopthemes.com\/guide\/color-swatch-guide)"
       },
       {
         "id": "product--label-color",
         "label": "Label color",
         "type": "select",
         "options": [
-          { "label": "Light", "value": "light" },
-          { "label": "Dark", "value": "dark" },
-          { "label": "Accent with dark text", "value": "accent-dark-text" },
-          { "label": "Accent with light text", "value": "accent-light-text" }
+          {
+            "label": "Light",
+            "value": "light"
+          },
+          {
+            "label": "Dark",
+            "value": "dark"
+          },
+          {
+            "label": "Accent with dark text",
+            "value": "accent-dark-text"
+          },
+          {
+            "label": "Accent with light text",
+            "value": "accent-light-text"
+          }
         ],
         "default": "light",
         "info": "Out of stock, Sale"
@@ -316,37 +334,37 @@
         "type": "text",
         "id": "social--instagram--url",
         "label": "Instagram",
-        "info": "https://instagram.com/shopify"
+        "info": "https:\/\/instagram.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--facebook--url",
         "label": "Facebook",
-        "info": "https://www.facebook.com/shopify"
+        "info": "https:\/\/www.facebook.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--youtube--url",
         "label": "Youtube",
-        "info": "https://www.youtube.com/user/shopify"
+        "info": "https:\/\/www.youtube.com\/user\/shopify"
       },
       {
         "type": "text",
         "id": "social--vimeo--url",
         "label": "Vimeo",
-        "info": "https://vimeo.com/shopify"
+        "info": "https:\/\/vimeo.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--pinterest--url",
         "label": "Pinterest",
-        "info": "https://www.pinterest.com/shopify"
+        "info": "https:\/\/www.pinterest.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--twitter--url",
         "label": "Twitter",
-        "info": "https://twitter.com/shopify"
+        "info": "https:\/\/twitter.com\/shopify"
       }
     ]
   },
@@ -440,7 +458,7 @@
         "type": "richtext",
         "id": "popup--newsletter-title--rt",
         "label": "Newsletter title",
-        "default": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!</p>"
+        "default": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!<\/p>"
       },
       {
         "type": "text",
