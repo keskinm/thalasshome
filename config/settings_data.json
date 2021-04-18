@@ -176,7 +176,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
-              "slide-title": "Pourquoi choisir Thalass Home ?",
+              "slide-title": "Pourquoi choisir ThalassHome ?",
               "slide-tagline": "C'est vous qui choisissez l'heure d'installation et de désinstallation vous permettant une flexibilité que vous ne trouverez nulle part ailleurs. Obtenez des prix attractifs avec la livraison offerte.",
               "slide-link-url": "shopify:\/\/collections",
               "slide-link-title": "Découvrir",
@@ -277,7 +277,7 @@
             "type": "about",
             "settings": {
               "about-title": "",
-              "text": "<p>© Thalass Home<\/p><p>© 2021<\/p><p><\/p>",
+              "text": "<p>© ThalassHome<\/p><p>© 2021<\/p><p><\/p>",
               "subscribe--show-social-icons": false
             }
           }
@@ -497,7 +497,7 @@
         "type": "framework--custom-content",
         "disabled": true,
         "settings": {
-          "custom_html": "<div class=\"wrap_to_uncenter\">\n\n<center>\n<p>\n<\/p>\n<h3>Pourquoi choisir Thalass Home ?<\/h3>\n<p><\/p>\n<\/center>\n<br>\n\n<ul>\n<li>Des prix attractifs.<\/li>\n\n  <li>C'est vous qui choisissez l'heure d'installation et de désinstallation.<\/li>\n\n  <li>Profitez d'une  flexibilité sur les horaires que vous ne retrouverez nul part ailleurs (jusqu'à plus de 36 heures d'utilisation pour un SPA 1 nuit).<\/li>\n<li>Aucun acompte n'est exigé.<\/li>\n\n<li>Les livraisons sont offertes.<\/li>\n<\/ul>\n<\/div>"
+          "custom_html": "<div class=\"wrap_to_uncenter\">\n\n<center>\n<p>\n<\/p>\n<h3>Pourquoi choisir ThalassHome ?<\/h3>\n<p><\/p>\n<\/center>\n<br>\n\n<ul>\n<li>Des prix attractifs.<\/li>\n\n  <li>C'est vous qui choisissez l'heure d'installation et de désinstallation.<\/li>\n\n  <li>Profitez d'une  flexibilité sur les horaires que vous ne retrouverez nul part ailleurs (jusqu'à plus de 36 heures d'utilisation pour un SPA 1 nuit).<\/li>\n<li>Aucun acompte n'est exigé.<\/li>\n\n<li>Les livraisons sont offertes.<\/li>\n<\/ul>\n<\/div>"
         }
       },
       "1614429899bea2daf1": {
