@@ -44,6 +44,9 @@
   "home": {
     "map": {
       "open_in_maps": "Ouvrir dans maps"
+    },
+    "featured_blog": {
+      "continue_reading": " "
     }
   },
   "collections": {
@@ -51,5 +54,27 @@
       "one": " ",
       "other": " "
     }
+  },
+  "blog": {
+    "article": {
+      "written_by": " ",
+      "time_since_posted": {
+        "minutes": {
+          "one": "Posté il y a 1 minute",
+          "other": "Posté il y a {{ count }} minutes"
+        },
+        "days": {
+          "one": "Posté il y a 1 minute",
+          "other": "Posté il y a {{ count }} minutes"
+        },
+        "hours": {
+          "one": "Posté il y a 1 minute",
+          "other": "Posté il y a {{ count }} minutes"
+        }
+      },
+      "continue_reading": " Continuer la lecture"
+    },
+    "placeholder_title": "Article vedette",
+    "rss": "RSS"
   }
 }
