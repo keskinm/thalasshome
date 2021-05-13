@@ -240,7 +240,6 @@
           "transparent-overlap": false,
           "alternative-color": false,
           "mobile-overlay": true,
-          "image": "shopify:\/\/shop_images\/bath-20480_1920.jpg",
           "image-height": "medium",
           "parallax-enabled": false,
           "apply-overlay": true,
@@ -348,7 +347,7 @@
         ],
         "settings": {
           "text-style": "light-with-overlay",
-          "background-color": "none",
+          "background-color": "light",
           "spacing": true,
           "container-width": 4,
           "width": 4,
@@ -365,7 +364,6 @@
           "160559321448a042b0-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/153095276_1661854800668113_4123618234379777404_n.jpg",
               "title": "",
               "description": "",
               "link-text": ""
@@ -374,7 +372,6 @@
           "160559321448a042b0-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/149984578_183207800264275_6578385095914076229_n.jpg",
               "title": "",
               "description": "",
               "link-text": ""
@@ -383,7 +380,6 @@
           "160559321448a042b0-2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/149918118_509022883419773_5645783270868691249_n.jpg",
               "title": "",
               "description": "",
               "link-text": ""
@@ -392,7 +388,6 @@
           "160559321448a042b0-3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/mix.jpg",
               "title": "",
               "description": "",
               "link-text": ""
@@ -503,7 +498,7 @@
       "1614429899bea2daf1": {
         "type": "framework--custom-content",
         "settings": {
-          "custom_html": "<center>\n\n<p><b>Disponible dans toute l'Île-de-France,  Rhône-Alpes et Genève. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde se règle après l'installation.\n<\/b><\/p>\n\n<\/center>"
+          "custom_html": "<center>\n\n<p><b>Disponibilités : Île-de-France, Rhône-Alpes, Centre-Val de Loire, Toulouse, Genève. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde se règle après l'installation.\n<\/b><\/p>\n\n<\/center>"
         }
       },
       "1614454164b7af0ba0": {
@@ -567,9 +562,9 @@
           "delay": 10,
           "title": "Nos clients partagent leur expérience",
           "header_font_size": 30,
-          "heading_color": "#000",
-          "author_color": "#000",
-          "quote_color": "#000",
+          "heading_color": "#000000",
+          "author_color": "#000000",
+          "quote_color": "#000000",
           "heading_font": "pacifico_n4"
         }
       }
