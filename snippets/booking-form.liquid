@@ -29,7 +29,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 	<div>
 	  {% capture attribute %}booking-start{% endcapture %}
 	  <label for="{{ attribute }}-{{ product.handle }}">Du:</label>
-	  <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[From]" size="12"
+	  <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[Du]" size="12"
 	         class="datepicker bta required bta-load-enable bta-dp-start" disabled="disabled"
 	         data-handle="{{ product.handle }}" data-variant="{{ product.selected_or_first_available_variant.id }}"
 	         data-bta-product-config="{{ product.metafields.bookthatapp.config }}"
@@ -54,7 +54,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 	<div>
 	  {% capture attribute %}booking-finish{% endcapture %}
 	  <label for="{{ attribute }}-{{ product.handle }}">Au:</label>
-	  <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[To]" size="12"
+	  <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[Au]" size="12"
 	         class="datepicker bta required bta-load-enable bta-dp-finish" disabled="disabled"
 	         data-handle="{{ product.handle }}"
 	         data-bta-range-partner-id="#booking-start-{{ product.handle }}"
