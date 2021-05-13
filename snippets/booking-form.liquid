@@ -26,6 +26,17 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
     <div class="bta-resource-picker"></div>
     {% endcomment %}
 
+
+	{% comment %}
+	@todo
+	This lines causes a problem:
+	<input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[Du]" size="12"
+
+	Indeed, I changed "properties[From]" to "properties[Du]" which triggers the reservation widget of BTA. So
+	I had to desactivatet the widget. Same observation for:
+	<input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[Au]" size="12"
+    {% endcomment %}
+
 	<div>
 	  {% capture attribute %}booking-start{% endcapture %}
 	  <label for="{{ attribute }}-{{ product.handle }}">Du:</label>
