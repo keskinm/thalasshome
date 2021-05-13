@@ -14,7 +14,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 
 <div class="booking-form" data-product-id={{ product.id }}>
 {% if product_in_cart %}
-    <p id="booking-guard-{{ product.handle }}"><a href="/cart">View Booking</a>.</p>
+    <p id="booking-guard-{{ product.handle }}"><a href="/cart">Voir votre réservation</a>.</p>
 
     <script>
       document.addEventListener("DOMContentLoaded", function(event) {
@@ -40,7 +40,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 	</div>
 
 	<div>
-	  {% capture attribute %}start-time{% endcapture %}
+	  {% capture attribute %}Heure d'arrivée{% endcapture %}
 	  <label for="{{ attribute }}-{{ product.handle }}">Heure d'arrivée:</label>
 	  <select id="{{ attribute }}-{{ product.handle }}" name="properties[{{ attribute }}]"
 	          class="bta-opening-hours bta-load-enable bta-time" disabled="disabled"
@@ -62,7 +62,7 @@ BookThatApp 'Form 6 - Start Date and Time/From Date and Time'
 	</div>
 
 	<div>
-	  {% capture attribute %}finish-time{% endcapture %}
+	  {% capture attribute %}Heure de fin{% endcapture %}
 	  <label for="{{ attribute }}-{{ product.handle }}">Heure de fin:</label>
 	  <select id="{{ attribute }}-{{ product.handle }}" name="properties[{{ attribute }}]"
 	         class="bta-opening-hours bta-load-enable bta-time" disabled="disabled"
