@@ -42,7 +42,8 @@
     "add_modal": {
       "ok": "OK",
       "cancel": "Annuler"
-    }
+    },
+    "product_media": ""
   },
   "general": {
     "social": {
@@ -81,7 +82,8 @@
     "pagination": {
       "previous": "Précédent",
       "next": "Suivant",
-      "page": "Page"
+      "page": "Page",
+      "of": ""
     },
     "search": {
       "articles": "Articles",
@@ -108,7 +110,12 @@
     "password": {
       "login_link": "",
       "login_button": "Entrer",
-      "login_cancel": ""
+      "login_cancel": "",
+      "title": "",
+      "sub_title": "",
+      "login_title": "",
+      "shopify_info": "",
+      "powered_by_shopify_html": ""
     }
   },
   "cart": {
@@ -119,7 +126,7 @@
     "remove": "Supprimer",
     "shipping_taxes_notification": "Les frais de livraisons sont gratuits.",
     "continue": "Continuez vos achats",
-    "checkout": "Accéder au paiement.",
+    "checkout": "Vérifier.",
     "order_notes": "Laissez une note avec votre commande",
     "empty_html": "<span data-item='rte-content'>Votre panier est actuellement vide.<br\/> <a href='{{ collections_url }}'>Cliquez ici pour continuer vos achats<\/a>.<\/span>",
     "subtotal": "Total commande",
@@ -251,7 +258,10 @@
       "open_in_maps": "Ouvrir dans maps"
     },
     "featured_blog": {
-      "continue_reading": ""
+      "continue_reading": "",
+      "item_title": "",
+      "date": "",
+      "excerpt": ""
     },
     "onboarding": {
       "collection_title": "Titre de la collection",
@@ -416,7 +426,8 @@
       "add_new": "Entrer une nouvelle adresse",
       "first_name": "Prénom",
       "default": "(Adresse par défaul)",
-      "page_title": "Vos adresses"
+      "page_title": "Vos adresses",
+      "company": ""
     },
     "activate_account": {
       "cancel": "Refuser l'invitation",
