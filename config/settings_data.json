@@ -540,18 +540,6 @@
           "parallax-enabled": false,
           "apply-overlay": true
         }
-      },
-      "162186709517f2c06e": {
-        "type": "sts_review_slider",
-        "settings": {
-          "title": "Nos clients témoignent",
-          "titlehtmltype": "h2",
-          "titlehtmlloc": "center",
-          "ststtemplateid": "9786",
-          "margintop": 0,
-          "marginlr": 40,
-          "marginbottom": 0
-        }
       }
     },
     "content_for_index": [
@@ -568,7 +556,6 @@
       "161441903806815d45",
       "1614424401c8ec986d",
       "1522436609159",
-      "162186709517f2c06e",
       "1522436617631",
       "1522436965040",
       "1533946059866",
