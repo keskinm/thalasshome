@@ -12,7 +12,7 @@
     "banner--alternative-text": false,
     "bg-color--announcement": "#ff9ea8",
     "announcement--alternative-text": true,
-    "color--header--buttons": "#212121",
+    "color--header--buttons": "#ff9ea8",
     "bg-color--footer": "#ffffff",
     "color--footer": "#212121",
     "bg-color--contact-modal": "#ff9ea8",
@@ -101,23 +101,23 @@
               "collection": "nos-espaces-de-relaxation"
             }
           },
-          "692e3098-cb08-4ff5-bb8d-da32a48bd523": {
-            "type": "collection",
-            "settings": {
-              "collection": "nos-saunas-portables-a-domicile"
-            }
-          },
           "65b5145a-810f-4480-93d9-f81b0c453cca": {
             "type": "collection",
             "settings": {
               "collection": "nos-packs"
             }
+          },
+          "692e3098-cb08-4ff5-bb8d-da32a48bd523": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-tables-de-massage"
+            }
           }
         },
         "block_order": [
           "1522436541628-0",
-          "692e3098-cb08-4ff5-bb8d-da32a48bd523",
-          "65b5145a-810f-4480-93d9-f81b0c453cca"
+          "65b5145a-810f-4480-93d9-f81b0c453cca",
+          "692e3098-cb08-4ff5-bb8d-da32a48bd523"
         ],
         "settings": {
           "background-color": "none",
@@ -164,7 +164,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/tout3_e058f05d-3c04-4a4b-ae6a-08cf5f6aab21.jpg",
               "slide-title": "Envie d’un jacuzzi ? Faites vous livrer à domicile !",
-              "slide-tagline": "On s'occupe de tout pour que vous passiez un bon moment de détente. Nous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. Commandez votre jacuzzi et\/ou votre sauna et personnalisez votre évenement avec nos différents packs.",
+              "slide-tagline": "On s'occupe de tout pour que vous passiez un bon moment de détente. Nous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. Commandez votre jacuzzi et\/ou kit massage et personnalisez votre évenement avec nos différents packs.",
               "slide-link-url": "shopify:\/\/collections",
               "slide-link-title": "découvrir",
               "slide-y-pos": "middle",
@@ -498,7 +498,7 @@
       "1614429899bea2daf1": {
         "type": "framework--custom-content",
         "settings": {
-          "custom_html": "<center>\n\n<p><b>Disponibilités : Île-de-France, Rhône-Alpes, Centre-Val de Loire, Genève. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde se règle après l'installation.\n<\/b><\/p>\n\n<\/center>"
+          "custom_html": "<center>\n\n<p><b>Disponibilités : Île-de-France, Rhône-Alpes, Centre-Val de Loire, Genève et alentours, Var. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde se règle après l'installation.\n<\/b><\/p>\n\n<\/center>"
         }
       },
       "1614454164b7af0ba0": {
@@ -540,6 +540,18 @@
           "parallax-enabled": false,
           "apply-overlay": true
         }
+      },
+      "162186709517f2c06e": {
+        "type": "sts_review_slider",
+        "settings": {
+          "title": "Nos clients témoignent",
+          "titlehtmltype": "h2",
+          "titlehtmlloc": "center",
+          "ststtemplateid": "9786",
+          "margintop": 0,
+          "marginlr": 40,
+          "marginbottom": 0
+        }
       }
     },
     "content_for_index": [
@@ -556,6 +568,7 @@
       "161441903806815d45",
       "1614424401c8ec986d",
       "1522436609159",
+      "162186709517f2c06e",
       "1522436617631",
       "1522436965040",
       "1533946059866",
