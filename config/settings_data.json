@@ -540,6 +540,43 @@
           "parallax-enabled": false,
           "apply-overlay": true
         }
+      },
+      "1622107256f9c2d8ee": {
+        "type": "testimonials",
+        "blocks": {
+          "1622107256297cbb03-0": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/50456914_1998409953599621_8418730435302916096_n.jpg",
+              "quote": "<p>Nous avons passé un superbe moment grâce à cette location de jacuzzi à domicile ! L&#x27;équipe est très sympa et réactive. Nous avons réservé le jacuzzi à 15h et l&#x27;avons eu à 17h ! Super concept, je recommande.<\/p>",
+              "author": "Florine Cousseau",
+              "author_link": "https:\/\/www.facebook.com\/florine.cousseau.5"
+            }
+          },
+          "1622107256297cbb03-1": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/183289468_10223955782014710_8326435624717282136_n.jpg",
+              "quote": "<p>personnes sérieuses et sympathiques.<\/p><p>je recommande.<\/p>",
+              "author": "Sophie Fatisson",
+              "author_link": "https:\/\/www.facebook.com\/sso.fatisson"
+            }
+          }
+        },
+        "block_order": [
+          "1622107256297cbb03-0",
+          "1622107256297cbb03-1"
+        ],
+        "settings": {
+          "slider": 1,
+          "delay": 10,
+          "title": "Nos clients témoignent",
+          "header_font_size": 30,
+          "heading_color": "#000",
+          "author_color": "#000",
+          "quote_color": "#000",
+          "heading_font": "pacifico_n4"
+        }
       }
     },
     "content_for_index": [
@@ -555,6 +592,7 @@
       "160559321448a042b0",
       "161441903806815d45",
       "1614424401c8ec986d",
+      "1622107256f9c2d8ee",
       "1522436609159",
       "1522436617631",
       "1522436965040",
