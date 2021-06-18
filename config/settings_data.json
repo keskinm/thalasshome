@@ -92,40 +92,6 @@
           "grid": true
         }
       },
-      "1522436541628": {
-        "type": "framework--featured-collections",
-        "blocks": {
-          "1522436541628-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "nos-espaces-de-relaxation"
-            }
-          },
-          "65b5145a-810f-4480-93d9-f81b0c453cca": {
-            "type": "collection",
-            "settings": {
-              "collection": "nos-packs"
-            }
-          },
-          "692e3098-cb08-4ff5-bb8d-da32a48bd523": {
-            "type": "collection",
-            "settings": {
-              "collection": "nos-tables-de-massage"
-            }
-          }
-        },
-        "block_order": [
-          "1522436541628-0",
-          "65b5145a-810f-4480-93d9-f81b0c453cca",
-          "692e3098-cb08-4ff5-bb8d-da32a48bd523"
-        ],
-        "settings": {
-          "background-color": "none",
-          "width": 3,
-          "mobile-width": "1",
-          "heading": ""
-        }
-      },
       "1522436550244": {
         "type": "index--featured-collection",
         "disabled": true,
@@ -498,7 +464,7 @@
       "1614429899bea2daf1": {
         "type": "framework--custom-content",
         "settings": {
-          "custom_html": "<center>\n\n<p><b>Disponibilités : Île-de-France, Rhône-Alpes, Centre-Val de Loire, Genève et alentours, Var. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde se règle après l'installation.\n<\/b><\/p>\n\n<\/center>"
+          "custom_html": "<center>\n\n<p><b>Disponible dans toute la France. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde et frais de livraisons se règlent le jour de l'installation.\n<\/b><\/p>\n\n<\/center>"
         }
       },
       "1614454164b7af0ba0": {
@@ -561,29 +527,73 @@
               "author": "Sophie Fatisson",
               "author_link": "https:\/\/www.facebook.com\/sso.fatisson"
             }
+          },
+          "e6712e76-3849-4b82-b847-71df140e9eca": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/28827740_165253774276076_564272466584207898_o.jpg",
+              "quote": "<p>service rapide et impeccable. Je vous recommande. Surprise de taille à votre femme. Expérience inoubliable<\/p>",
+              "author": "Jhon Ruskoff",
+              "author_link": "https:\/\/www.facebook.com\/jhon.ruskoff"
+            }
           }
         },
         "block_order": [
           "1622107256297cbb03-0",
-          "1622107256297cbb03-1"
+          "1622107256297cbb03-1",
+          "e6712e76-3849-4b82-b847-71df140e9eca"
         ],
         "settings": {
           "slider": 1,
           "delay": 10,
           "title": "Nos clients témoignent",
           "header_font_size": 30,
-          "heading_color": "#000",
-          "author_color": "#000",
-          "quote_color": "#000",
+          "heading_color": "#000000",
+          "author_color": "#000000",
+          "quote_color": "#000000",
           "heading_font": "pacifico_n4"
+        }
+      },
+      "16240177134b8b8a19": {
+        "type": "framework--featured-collections",
+        "blocks": {
+          "16240177134b8b8a19-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-espaces-de-relaxation"
+            }
+          },
+          "16240177134b8b8a19-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-packs"
+            }
+          },
+          "16240177134b8b8a19-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "nos-tables-de-massage"
+            }
+          }
+        },
+        "block_order": [
+          "16240177134b8b8a19-0",
+          "16240177134b8b8a19-1",
+          "16240177134b8b8a19-2"
+        ],
+        "settings": {
+          "background-color": "none",
+          "width": 3,
+          "mobile-width": "2",
+          "heading": ""
         }
       }
     },
     "content_for_index": [
       "1522436578326",
       "1614429899bea2daf1",
+      "16240177134b8b8a19",
       "16144191042b40f8dd",
-      "1522436541628",
       "1522436550244",
       "1614454189441d2af7",
       "1614454164b7af0ba0",
