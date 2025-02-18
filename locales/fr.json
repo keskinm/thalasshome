@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "products": {
     "details_panel": {
@@ -11,9 +20,9 @@
     "pickup": {
       "view_store_info": "Afficher les informations du magasin",
       "return": "Retour vers le produit",
-      "pick_up_unavailable_at_html": "Prise en charge actuellement indisponible à <strong> {{location_name}} <\/strong>",
+      "pick_up_unavailable_at_html": "Prise en charge actuellement indisponible à <strong> {{location_name}} </strong>",
       "pick_up_unavailable": "Ramassage actuellement indisponible",
-      "pick_up_available_at_html": "Prise en charge disponible à <strong> {{location_name}} <\/strong>",
+      "pick_up_available_at_html": "Prise en charge disponible à <strong> {{location_name}} </strong>",
       "pick_up_available": "Ramassage disponible",
       "map": "carte",
       "other_pickup_locations": "Afficher les lieux de ramassage"
@@ -128,7 +137,7 @@
     "continue": "Continuez vos achats",
     "checkout": "Vérifier.",
     "order_notes": "Laissez une note avec votre commande",
-    "empty_html": "<span data-item='rte-content'>Votre panier est actuellement vide.<br\/> <a href='{{ collections_url }}'>Cliquez ici pour continuer vos achats<\/a>.<\/span>",
+    "empty_html": "<span data-item='rte-content'>Votre panier est actuellement vide.<br/> <a href='{{ collections_url }}'>Cliquez ici pour continuer vos achats</a>.</span>",
     "subtotal": "Total commande",
     "minus": "Moins",
     "plus": "Plus",
@@ -207,8 +216,8 @@
         "address2_label": "Appartement, suite, etc.",
         "optional_address2_label": "Appartement, suite, ... (facultatif)",
         "city_label": "Commune",
-        "country_label": "Pays\/Région",
-        "country_code": "Code de pays\/région",
+        "country_label": "Pays/Région",
+        "country_code": "Code de pays/région",
         "province_label": "Province",
         "province_placeholder": "Province",
         "county_label": "Comté",
@@ -291,7 +300,7 @@
     "view_more": "Voir plus",
     "filter": "Filtrer",
     "all": "Tout",
-    "no_products_feedback_html": "Vous n'avez aucun produit dans votre collection Frontpage. <br \/> <br \/> Cet espace réservé apparaîtra jusqu'à ce que vous <a href=\"\/admin\/collections?tutorial=Frontpage\"> ajoutez un produit à cette collection <\/a>.",
+    "no_products_feedback_html": "Vous n'avez aucun produit dans votre collection Frontpage. <br /> <br /> Cet espace réservé apparaîtra jusqu'à ce que vous <a href=\"/admin/collections?tutorial=Frontpage\"> ajoutez un produit à cette collection </a>.",
     "from": "De",
     "page_title": "Collections"
   },
@@ -416,7 +425,7 @@
       "add": "Ajoutez l'adresse",
       "set_default": "Définir comme adresse par défaut",
       "phone": "Numéro de téléphone",
-      "zip": "Code postal \/ Zip",
+      "zip": "Code postal / Zip",
       "province": "Province",
       "country": "Pays",
       "city": "Commune",

@@ -28,7 +28,7 @@
   >
     {% for block in section.blocks %}
       {% comment %} Variables {% endcomment %}
-      {% if block.settings.collection.size > 0 %}
+      {% if collections[block.settings.collection] != blank %}
         {% assign collection = collections[block.settings.collection] %}
         {% assign link = collection.url %}
 
@@ -54,7 +54,7 @@
       {% endif %}
 
       {% comment %} Onboarding {% endcomment %}
-      {% unless block.settings.collection.size > 0 %}
+      {% unless collections[block.settings.collection] != blank %}
         {% assign link = '#' %}
         {% capture image %}
           {%

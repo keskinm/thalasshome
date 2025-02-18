@@ -79,7 +79,9 @@
     {% endif %}
 
     {{ content_for_header }}
-  </head>
+  
+  {% render 'bookthatapp-widgets' %}
+</head>
 
   <body
     class="template--{{ template | split: '.' | first | remove: '_' | replace: '/', '--' }} page--{{ page_title | handle }}"
@@ -152,6 +154,5 @@
     {% render 'framework--modal' %}
 
   
-  {% render 'bookthatapp-widgets' %}
-</body>
+  </body>
 </html>

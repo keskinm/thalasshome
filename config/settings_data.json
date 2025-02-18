@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color--accent": "#ff9ea8",
@@ -28,10 +37,10 @@
     "variant-style": "dropdowns",
     "product--show-sale-label": true,
     "search--show-in-header": false,
-    "social--instagram--url": "https:\/\/www.instagram.com\/thalasshome\/",
-    "social--facebook--url": "https:\/\/www.facebook.com\/thalasshome\/",
-    "popup--newsletter-title--rt": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!<\/p>",
-    "favicon": "shopify:\/\/shop_images\/PhotoFunia-1618493810.jpg",
+    "social--instagram--url": "https://www.instagram.com/thalasshome/",
+    "social--facebook--url": "https://www.facebook.com/thalasshome/",
+    "popup--newsletter-title--rt": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!</p>",
+    "favicon": "shopify://shop_images/PhotoFunia-1618493810.jpg",
     "cart--type": "page",
     "cart--show-note": true,
     "sections": {
@@ -49,7 +58,8 @@
         "settings": {
           "enabled": false,
           "home-page-only": true,
-          "text": "SPA à domicile"
+          "text": "SPA à domicile",
+          "link": ""
         }
       },
       "header": {
@@ -62,8 +72,9 @@
           "contact-enabled": true,
           "contact-text": "Contact",
           "contact-type": "modal",
+          "contact-url": "",
           "store-address": "102 rue d'estienne d'orves 91370 Verrières-le-Buisson\n\n🇲🇫 0651323494\n🇨🇭 0783035579",
-          "store-hours": "<p><strong>Lundi - Dimanche<\/strong><br\/>7h - 22h<\/p><p><\/p>"
+          "store-hours": "<p><strong>Lundi - Dimanche</strong><br/>7h - 22h</p><p></p>"
         }
       },
       "product": {
@@ -113,12 +124,13 @@
           "transparent-overlap": true,
           "alternative-color": true,
           "mobile-overlay": true,
-          "image": "shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
+          "image": "shopify://shop_images/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
           "image-height": "medium",
           "parallax-enabled": false,
           "apply-overlay": true,
           "title": "ThalassHome",
-          "description": "<p>L&#x27;expérience de spa ultime dans le confort de votre maison, créant un environnement relaxant et sans stress pour s&#x27;adonner à un moment de relaxation. Créée en France par des experts du spa, nous apportons les meilleurs produits de santé et de beauté pour transformer les maisons en un état de bonheur ultime.<\/p>",
+          "description": "<p>L&#x27;expérience de spa ultime dans le confort de votre maison, créant un environnement relaxant et sans stress pour s&#x27;adonner à un moment de relaxation. Créée en France par des experts du spa, nous apportons les meilleurs produits de santé et de beauté pour transformer les maisons en un état de bonheur ultime.</p>",
+          "link-url": "",
           "link-text": ""
         }
       },
@@ -128,10 +140,10 @@
           "1522436578326-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/tout3_e058f05d-3c04-4a4b-ae6a-08cf5f6aab21.jpg",
+              "image": "shopify://shop_images/tout3_e058f05d-3c04-4a4b-ae6a-08cf5f6aab21.jpg",
               "slide-title": "Envie d’un jacuzzi ? Faites vous livrer à domicile !",
-              "slide-tagline": "On s'occupe de tout pour que vous passiez un bon moment de détente. Nous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. Commandez votre jacuzzi et\/ou kit massage et personnalisez votre évenement avec nos différents packs.",
-              "slide-link-url": "shopify:\/\/collections",
+              "slide-tagline": "On s'occupe de tout pour que vous passiez un bon moment de détente. Nous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. Commandez votre jacuzzi et/ou kit massage et personnalisez votre évenement avec nos différents packs.",
+              "slide-link-url": "shopify://collections",
               "slide-link-title": "découvrir",
               "slide-y-pos": "middle",
               "slide-x-pos": "left",
@@ -141,10 +153,10 @@
           "1522436578326-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
+              "image": "shopify://shop_images/tout46_87e54f00-2037-43d2-9ead-9a3c1176580b.jpg",
               "slide-title": "Pourquoi choisir ThalassHome ?",
               "slide-tagline": "C'est vous qui choisissez l'heure d'installation et de désinstallation vous permettant une flexibilité totale. Obtenez des prix attractifs et un service client que vous ne trouverez nulle part ailleurs.",
-              "slide-link-url": "shopify:\/\/collections",
+              "slide-link-url": "shopify://collections",
               "slide-link-title": "Découvrir",
               "slide-y-pos": "middle",
               "slide-x-pos": "left",
@@ -168,7 +180,7 @@
         "settings": {
           "background-color": "light",
           "heading": "Subscribe to our newsletter",
-          "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
         }
       },
       "1522436609159": {
@@ -176,13 +188,13 @@
         "settings": {
           "background-color": "none",
           "heading": "Nos engagements",
-          "text": "<p>De la réservation jusqu’au suivi de votre satisfaction, nous comptons bien nous occuper de vous.<\/p><p><\/p><p>Pour vos interrogations, n&#x27;hésitez pas à visiter notre <a href=\"https:\/\/www.thalasshome.com\/a\/faq\" title=\"https:\/\/www.thalasshome.com\/a\/faq\">FAQ<\/a><\/p><p><\/p><p><\/p>"
+          "text": "<p>De la réservation jusqu’au suivi de votre satisfaction, nous comptons bien nous occuper de vous.</p><p></p><p>Pour vos interrogations, n&#x27;hésitez pas à visiter notre <a href=\"https://www.thalasshome.com/a/faq\" title=\"https://www.thalasshome.com/a/faq\">FAQ</a></p><p></p><p></p>"
         }
       },
       "1522436617631": {
         "type": "framework--featured-video",
         "settings": {
-          "video-url": "https:\/\/www.youtube.com\/watch?v=8TU3kVbdhmo",
+          "video-url": "https://www.youtube.com/watch?v=8TU3kVbdhmo",
           "full-width": true,
           "background-color": "none",
           "section-height": "regular",
@@ -191,7 +203,7 @@
           "heading": "ThalassHome",
           "sub-heading": "",
           "button-text": "découvrir",
-          "button-url": "shopify:\/\/collections"
+          "button-url": "shopify://collections"
         }
       },
       "1522436965040": {
@@ -210,7 +222,8 @@
           "parallax-enabled": false,
           "apply-overlay": true,
           "title": "Ta thalasso thérapie à petit prix",
-          "description": "<p>Viens découvrir notre blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla<\/p>",
+          "description": "<p>Viens découvrir notre blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla</p>",
+          "link-url": "",
           "link-text": ""
         }
       },
@@ -223,8 +236,8 @@
           "background-color": "none",
           "theme": "grayscale",
           "heading": "Map",
-          "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
-          "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          "address": "<p>391 Sutter St,<br/>San Francisco<br/>CA 94108, USA<br/><br/>(555) 555-5555</p>",
+          "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
         }
       },
       "framework--footer": {
@@ -234,7 +247,7 @@
             "type": "about",
             "settings": {
               "about-title": "Contact",
-              "text": "<p>🇲🇫 0651323494<br\/>🇨🇭 0783035579<\/p>",
+              "text": "<p>🇲🇫 0651323494<br/>🇨🇭 0783035579</p>",
               "subscribe--show-social-icons": true
             }
           },
@@ -242,7 +255,7 @@
             "type": "about",
             "settings": {
               "about-title": "",
-              "text": "<p>© ThalassHome<\/p><p>© 2021<\/p><p><\/p>",
+              "text": "<p>© ThalassHome</p><p>© 2021</p><p></p>",
               "subscribe--show-social-icons": false
             }
           }
@@ -263,44 +276,48 @@
           "16055930477808e731-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Screenshot_from_2021-02-27_20-35-36.png",
+              "image": "shopify://shop_images/Screenshot_from_2021-02-27_20-35-36.png",
               "wide": true,
               "tall": true,
               "retain-ratio": false,
               "title": "",
+              "link-url": "",
               "link-text": ""
             }
           },
           "16055930477808e731-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1619979637492.jpg",
+              "image": "shopify://shop_images/1619979637492.jpg",
               "wide": true,
               "tall": false,
               "retain-ratio": false,
               "title": "",
+              "link-url": "",
               "link-text": ""
             }
           },
           "16055930477808e731-2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/158027795_474241913591333_1974351085434237135_n.jpg",
+              "image": "shopify://shop_images/158027795_474241913591333_1974351085434237135_n.jpg",
               "wide": false,
               "tall": false,
               "retain-ratio": false,
               "title": "",
+              "link-url": "",
               "link-text": ""
             }
           },
           "16055930477808e731-3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1619976734195.jpg",
+              "image": "shopify://shop_images/1619976734195.jpg",
               "wide": false,
               "tall": false,
               "retain-ratio": false,
               "title": "",
+              "link-url": "",
               "link-text": ""
             }
           }
@@ -320,6 +337,7 @@
           "mobile-width": "2",
           "title": "Un aperçu de nos réalisations",
           "subtitle": "",
+          "link-url": "",
           "link-text": ""
         }
       },
@@ -332,6 +350,7 @@
             "settings": {
               "title": "",
               "description": "",
+              "link-url": "",
               "link-text": ""
             }
           },
@@ -340,6 +359,7 @@
             "settings": {
               "title": "",
               "description": "",
+              "link-url": "",
               "link-text": ""
             }
           },
@@ -348,6 +368,7 @@
             "settings": {
               "title": "",
               "description": "",
+              "link-url": "",
               "link-text": ""
             }
           },
@@ -356,6 +377,7 @@
             "settings": {
               "title": "",
               "description": "",
+              "link-url": "",
               "link-text": ""
             }
           }
@@ -375,6 +397,7 @@
           "mobile-width": "2",
           "title": "",
           "subtitle": "",
+          "link-url": "",
           "link-text": ""
         }
       },
@@ -400,7 +423,7 @@
             "settings": {
               "title": "Add service title here",
               "price": "$10",
-              "description": "<p>Add service description here<\/p>"
+              "description": "<p>Add service description here</p>"
             }
           },
           "1614419038b1fa5ac8-2": {
@@ -408,7 +431,7 @@
             "settings": {
               "title": "Add service title here",
               "price": "$10",
-              "description": "<p>Add service description here<\/p>"
+              "description": "<p>Add service description here</p>"
             }
           },
           "1614419038b1fa5ac8-3": {
@@ -422,7 +445,7 @@
             "settings": {
               "title": "Add service title here",
               "price": "$10",
-              "description": "<p>Add service description here<\/p>"
+              "description": "<p>Add service description here</p>"
             }
           },
           "1614419038b1fa5ac8-5": {
@@ -430,7 +453,7 @@
             "settings": {
               "title": "Add service title here",
               "price": "$10",
-              "description": "<p>Add service description here<\/p>"
+              "description": "<p>Add service description here</p>"
             }
           }
         },
@@ -451,20 +474,20 @@
         "type": "framework--custom-content",
         "disabled": true,
         "settings": {
-          "custom_html": "<center><h1>Envie d’un jacuzzi ? Faites vous livrer à domicile !<\/h1><\/center> <br>\n\n\n<div class=\"custom_html_1\">\n\n<div class=\"wrap_1_to_center\">\n\n<h3>\nOn s'occupe de tout le nécessaire pour que vous passiez un bon moment de détente. <\/h3>\n\n\n<p> \nNous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. <\/p>\n<p>Commandez votre SPA pour la durée de votre choix et personnalisez votre évenement avec nos différents packs. <\/p>\n\n<p>\nVous choisissez votre espace de relaxation, la date et la durée souhaitées. <\/p> <br>\n<\/div>\n\n\n\n<div class=\"wrap_2_to_center\">\n<p>Le temps d'installation est d'une heure environ et demi, et une durée équivalente est nécessaire pour la désinstallation.\n<\/p>\n\n<p> <i>\nPour vos interrogations, n'hésitez pas à visiter notre <a href=\"https:\/\/casa-spa.com\/a\/faq\">FAQ.<\/a>\n<\/i><\/p>\n\n<p><b>Disponible dans toute l'Île-de-France, la Loire ainsi que frontière Suisse et Genève. Prochainement disponible dans d'autres régions.<\/b><\/p> \n\n<\/div>\n<\/div>"
+          "custom_html": "<center><h1>Envie d’un jacuzzi ? Faites vous livrer à domicile !</h1></center> <br>\n\n\n<div class=\"custom_html_1\">\n\n<div class=\"wrap_1_to_center\">\n\n<h3>\nOn s'occupe de tout le nécessaire pour que vous passiez un bon moment de détente. </h3>\n\n\n<p> \nNous vous proposons un service complet afin de rendre exceptionnels votre journée, soirée ou week-end. </p>\n<p>Commandez votre SPA pour la durée de votre choix et personnalisez votre évenement avec nos différents packs. </p>\n\n<p>\nVous choisissez votre espace de relaxation, la date et la durée souhaitées. </p> <br>\n</div>\n\n\n\n<div class=\"wrap_2_to_center\">\n<p>Le temps d'installation est d'une heure environ et demi, et une durée équivalente est nécessaire pour la désinstallation.\n</p>\n\n<p> <i>\nPour vos interrogations, n'hésitez pas à visiter notre <a href=\"https://casa-spa.com/a/faq\">FAQ.</a>\n</i></p>\n\n<p><b>Disponible dans toute l'Île-de-France, la Loire ainsi que frontière Suisse et Genève. Prochainement disponible dans d'autres régions.</b></p> \n\n</div>\n</div>"
         }
       },
       "1614424401c8ec986d": {
         "type": "framework--custom-content",
         "disabled": true,
         "settings": {
-          "custom_html": "<div class=\"wrap_to_uncenter\">\n\n<center>\n<p>\n<\/p>\n<h3>Pourquoi choisir ThalassHome ?<\/h3>\n<p><\/p>\n<\/center>\n<br>\n\n<ul>\n<li>Des prix attractifs.<\/li>\n\n  <li>C'est vous qui choisissez l'heure d'installation et de désinstallation.<\/li>\n\n  <li>Profitez d'une  flexibilité sur les horaires que vous ne retrouverez nul part ailleurs (jusqu'à plus de 36 heures d'utilisation pour un SPA 1 nuit).<\/li>\n<li>Aucun acompte n'est exigé.<\/li>\n\n<li>Les livraisons sont offertes.<\/li>\n<\/ul>\n<\/div>"
+          "custom_html": "<div class=\"wrap_to_uncenter\">\n\n<center>\n<p>\n</p>\n<h3>Pourquoi choisir ThalassHome ?</h3>\n<p></p>\n</center>\n<br>\n\n<ul>\n<li>Des prix attractifs.</li>\n\n  <li>C'est vous qui choisissez l'heure d'installation et de désinstallation.</li>\n\n  <li>Profitez d'une  flexibilité sur les horaires que vous ne retrouverez nul part ailleurs (jusqu'à plus de 36 heures d'utilisation pour un SPA 1 nuit).</li>\n<li>Aucun acompte n'est exigé.</li>\n\n<li>Les livraisons sont offertes.</li>\n</ul>\n</div>"
         }
       },
       "1614429899bea2daf1": {
         "type": "framework--custom-content",
         "settings": {
-          "custom_html": "<center>\n\n<p><b>Disponible dans toute la France. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde et frais de livraisons se règlent le jour de l'installation.\n<\/b><\/p>\n\n<\/center>"
+          "custom_html": "<center>\n\n<p><b>Disponible dans toute la France. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde et les frais de livraisons se règlent le jour de l'installation.\n</b></p>\n\n</center>"
         }
       },
       "1614454164b7af0ba0": {
@@ -513,34 +536,44 @@
           "1622107256297cbb03-0": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/50456914_1998409953599621_8418730435302916096_n.jpg",
-              "quote": "<p>Nous avons passé un superbe moment grâce à cette location de jacuzzi à domicile ! L&#x27;équipe est très sympa et réactive. Nous avons réservé le jacuzzi à 15h et l&#x27;avons eu à 17h ! Super concept, je recommande.<\/p>",
+              "image": "shopify://shop_images/50456914_1998409953599621_8418730435302916096_n.jpg",
+              "quote": "<p>Nous avons passé un superbe moment grâce à cette location de jacuzzi à domicile ! L&#x27;équipe est très sympa et réactive. Nous avons réservé le jacuzzi à 15h et l&#x27;avons eu à 17h ! Super concept, je recommande.</p>",
               "author": "Florine Cousseau",
-              "author_link": "https:\/\/www.facebook.com\/florine.cousseau.5"
+              "author_link": "https://www.facebook.com/florine.cousseau.5"
             }
           },
           "1622107256297cbb03-1": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/183289468_10223955782014710_8326435624717282136_n.jpg",
-              "quote": "<p>personnes sérieuses et sympathiques.<\/p><p>je recommande.<\/p>",
+              "image": "shopify://shop_images/183289468_10223955782014710_8326435624717282136_n.jpg",
+              "quote": "<p>personnes sérieuses et sympathiques.</p><p>je recommande.</p>",
               "author": "Sophie Fatisson",
-              "author_link": "https:\/\/www.facebook.com\/sso.fatisson"
+              "author_link": "https://www.facebook.com/sso.fatisson"
+            }
+          },
+          "05d6a91e-4a12-4d52-b6a7-7fd1c7c17b93": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify://shop_images/217641254_10159297127956649_1494365059170263902_n.jpg",
+              "quote": "<p>rapidité, efficacité, gentillesse, au top !!!</p>",
+              "author": "Maëlys Voldoire J-Delski",
+              "author_link": "https://www.facebook.com/maelys.voldoire?hc_ref=ARSFvt-rqdRQ9aW37RYeJ4oCxer7kIrAlbkFc-sIBvsr-9fOIupQBq6lCK7ycdcQAsc&ref=nf_target"
             }
           },
           "e6712e76-3849-4b82-b847-71df140e9eca": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/28827740_165253774276076_564272466584207898_o.jpg",
-              "quote": "<p>service rapide et impeccable. Je vous recommande. Surprise de taille à votre femme. Expérience inoubliable<\/p>",
+              "image": "shopify://shop_images/28827740_165253774276076_564272466584207898_o.jpg",
+              "quote": "<p>service rapide et impeccable. Je vous recommande. Surprise de taille à votre femme. Expérience inoubliable</p>",
               "author": "Jhon Ruskoff",
-              "author_link": "https:\/\/www.facebook.com\/jhon.ruskoff"
+              "author_link": "https://www.facebook.com/jhon.ruskoff"
             }
           }
         },
         "block_order": [
           "1622107256297cbb03-0",
           "1622107256297cbb03-1",
+          "05d6a91e-4a12-4d52-b6a7-7fd1c7c17b93",
           "e6712e76-3849-4b82-b847-71df140e9eca"
         ],
         "settings": {
@@ -584,7 +617,7 @@
         "settings": {
           "background-color": "none",
           "width": 3,
-          "mobile-width": "2",
+          "mobile-width": "1",
           "heading": ""
         }
       }
@@ -642,7 +675,7 @@
           "settings": {
             "enabled": true,
             "foreground-type": "text",
-            "foreground-text": "<p>Add your text here<\/p>",
+            "foreground-text": "<p>Add your text here</p>",
             "alternative-color": true
           }
         },
@@ -665,7 +698,7 @@
             "contact-text": "Contact",
             "contact-type": "modal",
             "store-address": "391 Sutter St,\r\nSan Francisco",
-            "store-hours": "<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"
+            "store-hours": "<p><strong>Monday - Friday</strong><br/>12pm - 8pm<br/><br/><strong>Saturday - Sunday</strong><br/>12pm - 5pm</p>"
           }
         },
         "product": {
@@ -750,7 +783,7 @@
             "parallax-enabled": false,
             "apply-overlay": true,
             "title": "Image with text",
-            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store</p>",
             "link-text": ""
           }
         },
@@ -795,7 +828,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "1522436609159": {
@@ -803,7 +836,7 @@
           "settings": {
             "background-color": "none",
             "heading": "Talk about your brand",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "1522436617631": {
@@ -835,7 +868,7 @@
             "parallax-enabled": false,
             "apply-overlay": true,
             "title": "Image with text",
-            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store</p>",
             "link-text": ""
           }
         },
@@ -847,8 +880,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Map",
-            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
-            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+            "address": "<p>391 Sutter St,<br/>San Francisco<br/>CA 94108, USA<br/><br/>(555) 555-5555</p>",
+            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
           }
         },
         "framework--footer": {
@@ -858,7 +891,7 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>",
+                "text": "<p>A short summary about your brand.</p><p>© Your brand name here</p><p></p>",
                 "subscribe--show-social-icons": true
               }
             },
@@ -873,7 +906,7 @@
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "newsletter--info": "<p>Sign up to our mailing list</p>",
                 "subscribe--show-newsletter": true
               }
             }
@@ -958,7 +991,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -966,7 +999,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -974,7 +1007,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -982,7 +1015,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             }
@@ -1051,7 +1084,7 @@
           "settings": {
             "enabled": true,
             "foreground-type": "text",
-            "foreground-text": "<p>Add your text here<\/p>",
+            "foreground-text": "<p>Add your text here</p>",
             "alternative-color": true
           }
         },
@@ -1074,7 +1107,7 @@
             "contact-text": "Contact",
             "contact-type": "modal",
             "store-address": "391 Sutter St,\r\nSan Francisco",
-            "store-hours": "<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"
+            "store-hours": "<p><strong>Monday - Friday</strong><br/>12pm - 8pm<br/><br/><strong>Saturday - Sunday</strong><br/>12pm - 5pm</p>"
           }
         },
         "product": {
@@ -1159,7 +1192,7 @@
             "parallax-enabled": false,
             "apply-overlay": true,
             "title": "Image with text",
-            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store</p>",
             "link-text": ""
           }
         },
@@ -1204,7 +1237,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "1522436609159": {
@@ -1212,7 +1245,7 @@
           "settings": {
             "background-color": "none",
             "heading": "Talk about your brand",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "1522436617631": {
@@ -1244,7 +1277,7 @@
             "parallax-enabled": false,
             "apply-overlay": true,
             "title": "Image with text",
-            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store</p>",
             "link-text": ""
           }
         },
@@ -1256,8 +1289,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Map",
-            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
-            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+            "address": "<p>391 Sutter St,<br/>San Francisco<br/>CA 94108, USA<br/><br/>(555) 555-5555</p>",
+            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
           }
         },
         "framework--footer": {
@@ -1267,7 +1300,7 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>",
+                "text": "<p>A short summary about your brand.</p><p>© Your brand name here</p><p></p>",
                 "subscribe--show-social-icons": true
               }
             },
@@ -1282,7 +1315,7 @@
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "newsletter--info": "<p>Sign up to our mailing list</p>",
                 "subscribe--show-newsletter": true
               }
             }
@@ -1367,7 +1400,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -1375,7 +1408,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -1383,7 +1416,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -1391,7 +1424,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             }
@@ -1474,7 +1507,7 @@
       "popup--alternative-color": false,
       "popup--show-image": true,
       "popup--image": "",
-      "popup--newsletter-title--rt": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!<\/p>",
+      "popup--newsletter-title--rt": "<p>Sign up to our newsletter and we'll keep you posted with news and deals each week!</p>",
       "popup--social-title": "Follow us",
       "popup--social-enabled": true,
       "favicon": "",
@@ -1501,7 +1534,7 @@
           "settings": {
             "enabled": true,
             "foreground-type": "text",
-            "foreground-text": "<p>Add your text here<\/p>",
+            "foreground-text": "<p>Add your text here</p>",
             "alternative-color": true
           }
         },
@@ -1524,7 +1557,7 @@
             "contact-text": "Contact",
             "contact-type": "modal",
             "store-address": "391 Sutter St,\r\nSan Francisco",
-            "store-hours": "<p><strong>Monday - Friday<\/strong><br\/>12pm - 8pm<br\/><br\/><strong>Saturday - Sunday<\/strong><br\/>12pm - 5pm<\/p>"
+            "store-hours": "<p><strong>Monday - Friday</strong><br/>12pm - 8pm<br/><br/><strong>Saturday - Sunday</strong><br/>12pm - 5pm</p>"
           }
         },
         "product": {
@@ -1609,7 +1642,7 @@
             "parallax-enabled": false,
             "apply-overlay": true,
             "title": "Image with text",
-            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store</p>",
             "link-text": ""
           }
         },
@@ -1654,7 +1687,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "1522436609159": {
@@ -1662,7 +1695,7 @@
           "settings": {
             "background-color": "none",
             "heading": "Talk about your brand",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "1522436617631": {
@@ -1694,7 +1727,7 @@
             "parallax-enabled": false,
             "apply-overlay": true,
             "title": "Image with text",
-            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store</p>",
             "link-text": ""
           }
         },
@@ -1706,8 +1739,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Map",
-            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
-            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+            "address": "<p>391 Sutter St,<br/>San Francisco<br/>CA 94108, USA<br/><br/>(555) 555-5555</p>",
+            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
           }
         },
         "framework--footer": {
@@ -1717,7 +1750,7 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>A short summary about your brand.<\/p><p>© Your brand name here<\/p><p><\/p>",
+                "text": "<p>A short summary about your brand.</p><p>© Your brand name here</p><p></p>",
                 "subscribe--show-social-icons": true
               }
             },
@@ -1732,7 +1765,7 @@
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "newsletter--info": "<p>Sign up to our mailing list</p>",
                 "subscribe--show-newsletter": true
               }
             }
@@ -1817,7 +1850,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -1825,7 +1858,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -1833,7 +1866,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             },
@@ -1841,7 +1874,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Add your description text here<\/p>",
+                "description": "<p>Add your description text here</p>",
                 "link-text": "View more"
               }
             }
