@@ -21,7 +21,11 @@ shopify theme pull --store=spa-detente.myshopify.com
 
 
 
-<!-- BOOK THAT APP: STATUS DELETED. FOLLOWING INSTRUCTIONS ARE WHAT HAD BEEN DONE PREVIOUSLY FOR ITS INSTALLATION -->
+<!-- BOOK THAT APP: STATUS UNINSTALLED. FOLLOWING INSTRUCTIONS ARE WHAT HAD BEEN DONE PREVIOUSLY FOR ITS INSTALLATION -->
+
+I ADDED "false and" everywhere in the condition : "{% condition product.metafields.bookthatapp.config %}"
+
+
 STEP 1 - (no code change)
 
 STEP 2 - Add the booking form to your product page
