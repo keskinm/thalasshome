@@ -1,3 +1,13 @@
+<!-- COMMANDS -->
+shopify theme dev --store=spa-detente.myshopify.com
+shopify theme push --store=spa-detente.myshopify.com
+shopify theme pull --store=spa-detente.myshopify.com
+
+ /!\ AT NEXT PULL, IT MIGHT DIVERGING FROM GIT VERSIONED FILES BECAUSE 
+ OF DEVLOPMENT WHILE REMOTE WAS CLOSED - IN THAT CASE MERGE / PUSH BACK TO GIT /!\
+
+<!-- COMMANDS END -->
+
 <!-- BOOK TODO -->
 - INTERNATIONALIZE LOCATION AUTH
 - CALENDRIFY
@@ -5,6 +15,8 @@
 - ADD A DASHBOARD FOR THE DELIVERY MENS
 - ADD A WEBHOOK TO NOTIFY DELIVERY MENS
 - ADD AN API SO THAT BUYER USER REQUEST AVAILABILITY OF THE PRODUCT PER LOCATION
+
+
 <!-- END -->
 
 
