@@ -198,7 +198,7 @@
       </div>
 
       {% if smart_payment_enabled and sold_out == false and product.selling_plan_groups == empty %}
-    {% unless false product.metafields.bookthatapp.config %}
+    {% unless false and product.metafields.bookthatapp.config %}
         <div
           class="product-form--smart-payment-buttons"
           {%- unless current_variant.available -%}
