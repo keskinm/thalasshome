@@ -66,6 +66,7 @@
 
     <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
     <script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'owner_custom.js' | asset_url }}" defer="defer"></script>
 
      {{ '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css' | stylesheet_tag }}
   <!--[if (gt IE 9)|!(IE)]><!--><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" defer="defer"></script><!--<![endif]-->
@@ -90,6 +91,11 @@
     data-theme-version="3.8.0"
     data-border="{{ settings.layout--show-page-border }}"
   >
+
+    <!-- custom-add by owner -->
+    <div id="location-message" style="display: none; padding: 10px; background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; margin: 10px 0;">
+    </div>
+    
     {% unless template contains 'password' %}
       <a data-item="a11y-button" href='#main-content'>
         {{ 'general.skip_link' | t }}
@@ -152,7 +158,6 @@
 
     {% render 'framework--search', view: 'modal' %}
     {% render 'framework--modal' %}
-
-  
+    
   </body>
 </html>
