@@ -1,6 +1,16 @@
-<!-- BOOK THAT APP -->
+<!-- BOOK TODO -->
+- INTERNATIONALIZE LOCATION AUTH
+- CALENDRIFY
+- ADD A BACKEND WITH DELIVERY MEN/ PRODUCT / LOCATION
+- ADD A DASHBOARD FOR THE DELIVERY MENS
+- ADD A WEBHOOK TO NOTIFY DELIVERY MENS
+- ADD AN API SO THAT BUYER USER REQUEST AVAILABILITY OF THE PRODUCT PER LOCATION
+<!-- END -->
 
 
+
+
+<!-- BOOK THAT APP: STATUS DELETED -->
 STEP 1 - (no code change)
 
 STEP 2 - Add the booking form to your product page
@@ -55,3 +65,5 @@ Replace it with this:
   <input type="text" size="4" name="updates[{{item.id}}]" id="updates_{{ item.id }}" value="{{ item.quantity }}"/>
 {% endif %}
 ```
+<!-- END BTA -->
+
