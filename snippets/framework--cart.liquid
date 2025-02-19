@@ -127,7 +127,8 @@
 
               <div class="cart--item--quantity">
                 <div class="cart--quantity--container input--number">
-                  {% if item.product.metafields.bookthatapp.config %}
+                  {% comment %} I'm adding "false and" to unactivate BTA {% endcomment %}
+                  {% if false and item.product.metafields.bookthatapp.config %} 
                     {{ item.quantity }}
                   <label for="desktop-updates-{{ item.id }}" data-item="hidden-text">
                     {{ quantity_t }}
