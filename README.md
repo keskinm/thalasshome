@@ -22,7 +22,7 @@ shopify theme pull --store=spa-detente.myshopify.com
 
 
 
-<!-- BOOK THAT APP: STATUS DELETED -->
+<!-- BOOK THAT APP: STATUS DELETED. FOLLOWING INSTRUCTIONS ARE WHAT HAD BEEN DONE PREVIOUSLY FOR ITS INSTALLATION -->
 STEP 1 - (no code change)
 
 STEP 2 - Add the booking form to your product page
