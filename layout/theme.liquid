@@ -66,6 +66,10 @@
     <script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'owner_custom.js' | asset_url }}" defer="defer"></script>
 
+    {% if template contains 'product' %}
+      <script src="{{ 'check_availability.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
+
      {{ '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css' | stylesheet_tag }}
   <!--[if (gt IE 9)|!(IE)]><!--><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" defer="defer"></script><!--<![endif]-->
   <!--[if lte IE 9]><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><![endif]-->

@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
       var userLon = position.coords.longitude;
       console.log("lat", userLat, "lon", userLon);
 
+      localStorage.setItem('userLat', userLat);
+      localStorage.setItem('userLon', userLon);
+
       var authorizedLocations = [
         [46.18, 6.24],
         [43.57, 1.47] //Toulouse
