@@ -45,6 +45,23 @@
   <div class="modal--root" data-js-class="FrameworkModal">
 
     {% form 'product', product, class: 'product-form--container' %}
+      
+      {% comment %}
+        custom-add by owner code
+      {% endcomment %}
+
+      <div class="rental-dates">
+        <label for="rental-start-date">Start Date:</label>
+        <input type="text" id="rental-start-date" name="properties[From]" class="datepicker" placeholder="Select start date" />
+
+        <label for="rental-end-date">End Date:</label>
+        <input type="text" id="rental-end-date" name="properties[To]" class="datepicker" placeholder="Select end date" />
+      </div>
+
+      {% comment %}
+        end custom-add by owner code
+      {% endcomment %}
+      
       <div class="product-form--price-container">
 
         <div

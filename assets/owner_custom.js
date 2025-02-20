@@ -1,4 +1,7 @@
 //     <!-- custom-add by owner -->
+
+
+// --------------------- LOCATION AUTH ---------------------
 document.addEventListener('DOMContentLoaded', function() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -55,3 +58,15 @@ function showMessage(message, isSuccess) {
   messageDiv.style.borderColor = isSuccess ? '#c3e6cb' : '#f5c6cb';
   messageDiv.innerHTML = message;
 }
+// --------------------- END LOCATION AUTH ---------------------
+
+
+
+// --------------------- DATEPICKER --------------------- 
+$(document).ready(function() {
+  $('.datepicker').datepicker({
+    dateFormat: 'yy-mm-dd',
+    minDate: 0
+  });
+});
+// --------------------- END DATEPICKER ---------------------
