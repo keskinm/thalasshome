@@ -21,22 +21,29 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('userLon', userLon);
       },
       function(error) {
-        var userLat = prompt("🌍 Impossible de détecter votre position. Entrez votre latitude :");
-        var userLon = prompt("🌍 Entrez votre longitude :");
-
-        if (userLat && userLon) {
-          localStorage.setItem('userLat', userLat);
-          localStorage.setItem('userLon', userLon);
-          console.log("📍 Position manuelle enregistrée :", userLat, userLon);
-        } else {
-          console.warn("⚠️ Position manuelle annulée.");
-        }
+        manualGeoLocalization();
       }
     );
+  }
+  else {
+    manualGeoLocalization();
   }
 });
 
 
+
+function manualGeoLocalization() {
+  var userLat = prompt("🌍 Impossible de détecter votre position. Entrez votre latitude :");
+  var userLon = prompt("🌍 Entrez votre longitude :");
+
+  if (userLat && userLon) {
+    localStorage.setItem('userLat', userLat);
+    localStorage.setItem('userLon', userLon);
+    console.log("📍 Position manuelle enregistrée :", userLat, userLon);
+  } else {
+    console.warn("⚠️ Position manuelle annulée.");
+  }
+}
 
 function showMessage(message, isSuccess) {
   var messageDiv = document.getElementById('location-message');
