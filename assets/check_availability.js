@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
 
       if (!data.product_available) {
+        showMessage('Malheureusement, il n\'y a pas de livreur disponible dans votre région.', false);
         const addToCartButton = document.querySelector('.product-form--add-to-cart');
         addToCartButton.disabled = true;
         addToCartButton.style.backgroundColor = '#d3d3d3';
@@ -44,6 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (calendarContainer) {
           calendarContainer.style.display = 'none';
         }
+      }
+      else {
+        showMessage('Bienvenu ! Les livraison sont bien disponibles dans votre région.', true);
       }
 
       if (Array.isArray(data.unavailable_dates) && data.unavailable_dates.length > 0) {
@@ -55,7 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
           const dateString = `${year}-${month}-${day}`;
 
           if (unavailableDates.includes(dateString)) {
-            // Return [false, ...] to disable the date in the picker
             return [false, 'unavailable-date', 'This date is unavailable'];
           } else {
             return [true, '', ''];
