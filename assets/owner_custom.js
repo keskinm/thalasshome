@@ -3,6 +3,14 @@
 
 // --------------------- LOCATION AUTH ---------------------
 document.addEventListener('DOMContentLoaded', function() {
+  var storedLat = localStorage.getItem('userLat');
+  var storedLon = localStorage.getItem('userLon');
+
+  if (storedLat && storedLon) {
+    console.log("📍 Position déjà enregistrée :", storedLat, storedLon);
+    return;
+  }
+
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
       function(position) {
