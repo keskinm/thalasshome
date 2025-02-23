@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const rootDiv = document.querySelector('.product-form--root');
     const productName = rootDiv?.getAttribute('data-title');
 
+    //@TODO WHAT WE SEND IS NOT THE ORDER LOCATION BUT USER LOCATION... FIX THIS
     var selectedLocation = {
       lat: localStorage.getItem('userLat'),
       lon: localStorage.getItem('userLon')
@@ -39,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addToCartButton.style.backgroundColor = '#d3d3d3';
         addToCartButton.style.cursor = 'not-allowed';
 
-        const calendarContainer = document.querySelector('.rental-dates'); // Change la classe si nécessaire
+        const calendarContainer = document.querySelector('.rental-dates');
         if (calendarContainer) {
           calendarContainer.style.display = 'none';
         }
