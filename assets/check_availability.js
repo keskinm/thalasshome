@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       else {
-        showMessage('Bonne nouvelle : les livraison sont bien disponibles dans ta région !', true);
+        showMessage('Bonne nouvelle : les livraison sont bien disponibles dans votre région !', true);
       }
 
       if (Array.isArray(data.unavailable_dates) && data.unavailable_dates.length > 0) {
