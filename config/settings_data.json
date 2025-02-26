@@ -255,7 +255,7 @@
             "type": "about",
             "settings": {
               "about-title": "",
-              "text": "<p>© ThalassHome</p><p>© 2021</p><p></p>",
+              "text": "<p>© ThalassHome</p><p>© 2025</p><p></p>",
               "subscribe--show-social-icons": false
             }
           }
@@ -343,7 +343,6 @@
       },
       "160559321448a042b0": {
         "type": "framework--image-with-text-below",
-        "disabled": true,
         "blocks": {
           "160559321448a042b0-0": {
             "type": "image",
@@ -388,6 +387,7 @@
           "160559321448a042b0-2",
           "160559321448a042b0-3"
         ],
+        "disabled": true,
         "settings": {
           "background-color": "light",
           "spacing": true,
@@ -410,7 +410,6 @@
       },
       "161441903806815d45": {
         "type": "framework--service-list",
-        "disabled": true,
         "blocks": {
           "1614419038b1fa5ac8-0": {
             "type": "header",
@@ -465,6 +464,7 @@
           "1614419038b1fa5ac8-4",
           "1614419038b1fa5ac8-5"
         ],
+        "disabled": true,
         "settings": {
           "section--title": "Add title here",
           "show-description": true
