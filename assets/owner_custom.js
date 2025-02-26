@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Déterminer le seuil : si query < 6, seuil = 3 ; sinon, seuil = 2
-    let threshold = query.length < 6 ? 3 : 2;
+    let threshold = query.length < 6 ? 3 : 0;
     if (Math.abs(query.length - lastQueryLength) < threshold) return;
     lastQueryLength = query.length;
 
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
       q: query,
       format: 'json',
       addressdetails: '1',
-      limit: '5',
+      limit: '10',
       countrycodes: 'fr,ch'
     });
 
