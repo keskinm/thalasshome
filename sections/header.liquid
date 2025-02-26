@@ -87,6 +87,17 @@
         </a>
       {% endif %}
 
+      {% comment %} custom-add by owner LOL i'm reusing the contact CSS {% endcomment %}
+      <div id="resetAddressButton" style="display: none;">
+        <a href="#" data-item="secondary-button" onclick="resetAddress(); return false;">
+          <div class="contact-modal--button">
+            Modifier mon adresse
+          </div>
+        </a>
+      </div>
+      
+      {% comment %} end custom-add by owner {% endcomment %}
+
       {% if contact_enabled and contact_text != blank %}
         <div class="header--contact-modal">
           {%

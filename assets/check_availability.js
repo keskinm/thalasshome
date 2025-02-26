@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const rootDiv = document.querySelector('.product-form--root');
     const productName = rootDiv?.getAttribute('data-title');
 
-    //@TODO WHAT WE SEND IS NOT THE ORDER LOCATION BUT USER LOCATION... FIX THIS
     var selectedLocation = {
       lat: localStorage.getItem('userLat'),
       lon: localStorage.getItem('userLon')
@@ -35,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
 
       if (!data.product_available) {
-        showMessage('Malheureusement, il n\'y a pas de livreur disponible dans votre région.', false);
+        showTopMessage('Malheureusement, il n\'y a pas de livreur disponible dans votre région.', false);
         const addToCartButton = document.querySelector('.product-form--add-to-cart');
         addToCartButton.disabled = true;
         addToCartButton.style.backgroundColor = '#d3d3d3';
@@ -47,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       else {
-        showMessage('Bonne nouvelle : les livraison sont bien disponibles dans votre région !', true);
+        showTopMessage('Bonne nouvelle : les livraison sont bien disponibles dans votre région !', true);
       }
 
       if (Array.isArray(data.unavailable_dates) && data.unavailable_dates.length > 0) {

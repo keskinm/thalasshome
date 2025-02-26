@@ -98,6 +98,88 @@
     <!-- custom-add by owner -->
     <div id="location-message" style="display: none; padding: 10px; background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; margin: 10px 0;">
     </div>
+
+
+    <div id="addressModal" style="
+      display: none;
+      opacity: 1;
+      transition: opacity 4s ease-out;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 9999;
+      max-width: 400px;
+      width: 90%;
+    ">
+
+      <div id="modalMessages"></div>
+
+      <h3 style="margin-top: 0;">
+        🌍 Nous avons besoin de connaître la commune dans laquelle vous voulez effectuer votre livraison
+      </h3>
+
+      <input
+        type="text"
+        id="addressInput"
+        placeholder="Ex. : 10 rue de Rivoli, Paris"
+        style="
+          width: 100%;
+          padding: 12px;
+          margin-top: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 14px;
+        "
+      />
+
+      <ul
+        id="suggestions"
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          max-height: 150px;
+          overflow-y: auto;
+          background: #fff;
+          border: 1px solid #ccc;
+          display: none;
+          position: relative;
+        "
+      ></ul>
+
+      <!-- Boutons -->
+      <div style="margin-top: 15px; text-align: center;">
+        <button
+          data-item="button"
+          onclick="closeModal()"
+          style="
+            display: block;
+            margin: 0 auto 10px;
+          "
+        >
+          OK
+        </button>
+
+        <button
+          data-item="button"
+          onclick="useGeolocation()"
+          style="
+            display: block;
+            margin: 0 auto;
+          "
+        >
+          <!-- Exemple d’icône “gps” (Unicode 🧭 U+1F9ED) -->
+          🧭 Utiliser ma géolocalisation
+        </button>
+      </div>
+    </div>
+
+
     <!-- end custom-add by owner -->
 
     {% unless template contains 'password' %}
@@ -162,6 +244,6 @@
 
     {% render 'framework--search', view: 'modal' %}
     {% render 'framework--modal' %}
-    
+
   </body>
 </html>
