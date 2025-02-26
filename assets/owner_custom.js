@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Déterminer le seuil : si query < 6, seuil = 3 ; sinon, seuil = 2
     let threshold = query.length < 6 ? 3 : 2;
-    if (query.length - lastQueryLength < threshold) return;
+    if (Math.abs(query.length - lastQueryLength) < threshold) return;
     lastQueryLength = query.length;
 
     // On ajoute le paramètre countrycodes pour la France et la Suisse
