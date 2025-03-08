@@ -413,21 +413,23 @@
           </div>
 
           <div class="cart--checkout-button" data-item="button">
-            {% comment %} ORIGINAL BUTTON IS (NO PARTIAL PAYMENT IS):
-             <button type="submit" name="checkout">
+            {% comment %} ORIGINAL BUTTON IS (NO PARTIAL PAYMENT IS): {% endcomment %}
+             
+            {% comment %} 
+            <button type="submit" name="checkout">
               <span class="cart-button--text">
                 {{ checkout_t }}
               </span>
               <span class="cart-button--spinner">
                 {% render 'framework--loading-spinner' %}
               </span>
-            </button> 
+            </button>  
             {% endcomment %}
           
             {% comment %} 
              custom-add
              HERE IS THE ACCOUNT SOLUTION.
-             {% endcomment %}
+            {% endcomment %}
             <a href="/checkout?discount=ACOMPTE20" class="pay-deposit-button">
               Payer un acompte de 20%
             </a>
@@ -439,7 +441,8 @@
            Here is the solution 2: Draft orders 
           {% endcomment %}
 
-          {% comment %} {% if cart.total_price > 0 %} 
+          {% comment %} 
+          {% if cart.total_price > 0 %} 
             <!-- Bouton "Payer 20%" -->
             <button id="pay-20pct-btn" style="background-color: #007bff; color: white; padding:10px;">
               Payer seulement 20% maintenant
@@ -482,7 +485,8 @@
                 .catch(err => console.error('Fetch error', err));
               });
             </script>
-          {% endif %} {% endcomment %}
+          {% endif %} 
+          {% endcomment %}
           
           {% comment %} end custom-add {% endcomment %}
 
