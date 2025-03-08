@@ -60,7 +60,33 @@
       onload="this.media='all';onLoadStylesheet()"
     >
 
-    <style>{% render 'custom-styles' %}</style>
+    <style>
+      {% render 'custom-styles' %}
+
+      {% comment %} custom-add by owner {% endcomment %}
+
+      .custom-button {
+        background-color: #212121 !important; 
+        color: #ffffff !important;
+        border-radius: 2px !important;
+        font-family: Karla, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 16px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+      }
+
+      {% comment %} end custom-add {% endcomment %}
+
+    </style>
 
     <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
     <script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
@@ -85,6 +111,9 @@
     {{ content_for_header }}
   
   {% render 'bookthatapp-widgets' %}
+
+
+  
 </head>
 
   <body
@@ -120,7 +149,7 @@
       <div id="modalMessages"></div>
 
       <h3 style="margin-top: 0;">
-        🌍 Nous avons besoin de connaître la commune dans laquelle vous voulez effectuer votre livraison
+        🌍 Nous avons besoin de connaître la commune dans laquelle vous voulez effectuer votre livraison 🌍
       </h3>
 
       <input
@@ -157,10 +186,7 @@
         <button
           data-item="button"
           onclick="closeModal()"
-          style="
-            display: block;
-            margin: 0 auto 10px;
-          "
+          class="custom-button"
         >
           OK
         </button>
@@ -168,13 +194,10 @@
         <button
           data-item="button"
           onclick="useGeolocation()"
-          style="
-            display: block;
-            margin: 0 auto;
-          "
+          class="custom-button"
         >
           <!-- Exemple d’icône “gps” (Unicode 🧭 U+1F9ED) -->
-          🧭 Utiliser ma géolocalisation
+          Utiliser ma géolocalisation 🧭
         </button>
       </div>
     </div>
