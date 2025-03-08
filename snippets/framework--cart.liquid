@@ -435,20 +435,27 @@
             </a>
             {% comment %} end custom-add by user {% endcomment %}
 
-          </div>
-          {% comment %}
-           custom-add
-           Here is the solution 2: Draft orders 
-          {% endcomment %}
+            {% comment %} 
+              custom-add
+              It is the solution with draft orders. Please check also the listener
+              on "pay-20pct-btn" just below within the JS script.
+            {% endcomment %}
 
-          {% comment %} 
-          {% if cart.total_price > 0 %} 
-            <!-- Bouton "Payer 20%" -->
-            <button id="pay-20pct-btn" style="background-color: #007bff; color: white; padding:10px;">
-              Payer seulement 20% maintenant
-            </button>
-          
-            <script>
+            {% comment %} {% if cart.total_price > 0 %} 
+              <!-- Bouton "Payer 20%" -->
+              <button id="pay-20pct-btn" class="pay-deposit-button">
+                Payer seulement 20% maintenant
+              </button>
+            {% endif %} {% endcomment %}
+
+          </div>
+
+
+          <script>
+            var payButton = document.getElementById('pay-20pct-btn');
+
+            if (payButton) {
+            
               document.getElementById('pay-20pct-btn').addEventListener('click', function() {
                 // cart.total_price est en centimes
                 var totalCents = {{ cart.total_price }};
@@ -484,11 +491,10 @@
                 })
                 .catch(err => console.error('Fetch error', err));
               });
-            </script>
-          {% endif %} 
-          {% endcomment %}
-          
-          {% comment %} end custom-add {% endcomment %}
+            
+            }
+
+          </script>
 
         </div>
 
