@@ -199,9 +199,17 @@
     font-family: var(--font--accent--family); /* ✅ Utilise la même police */
     text-transform: uppercase; /* ✅ Assure le même style de texte */
     letter-spacing: 1px; /* ✅ Ajuste l'espacement des lettres */
-}
+  }
 
-
+  .header--contact-modal .contact-modal--button,
+  #resetAddressButton .contact-modal--button {
+      display: flex; /* ✅ Active le mode flexbox */
+      align-items: center; /* ✅ Centre verticalement */
+      justify-content: center; /* ✅ Centre horizontalement */
+      height: 40px; /* ✅ Garde la bonne hauteur */
+      padding: 0 16px; /* ✅ Ajuste les marges intérieures */
+  }
+  
   {% comment %} end custom-add by owner {% endcomment %}
 
 </style>
