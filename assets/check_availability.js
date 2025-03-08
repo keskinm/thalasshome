@@ -1,4 +1,4 @@
-//     <!-- custom-add by owner -->
+//     <!-- custom-add -->
 
 document.addEventListener('DOMContentLoaded', function() {
   var formContainer = document.querySelector('.product-form--container');

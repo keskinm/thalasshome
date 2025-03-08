@@ -9,7 +9,7 @@ shopify theme pull --store=spa-detente.myshopify.com
 
 
 <!-- BOOK TODO -->
-- PARTIALLY DONE ELEMENTS IS POSSIBLE. PLEASE CHECK / USE "<!-- custom-add by owner -->" TAGS TO IDENTIFY THEM.
+- PARTIALLY DONE ELEMENTS IS POSSIBLE. PLEASE CHECK / USE "<!-- custom-add -->" TAGS TO IDENTIFY THEM.
 
 - INTERNATIONALIZE LOCATION AUTH
 - CALENDRIFY
