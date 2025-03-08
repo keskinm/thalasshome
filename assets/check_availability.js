@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
       lon: localStorage.getItem('userLon')
     };
 
-    fetch('https://thalasshome-api.ew.r.appspot.com/check_availability', {
+    fetch('https://thalasshome-api.ew.r.appspot.com/services/check_availability', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

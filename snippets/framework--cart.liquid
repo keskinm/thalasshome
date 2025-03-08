@@ -471,7 +471,7 @@
                   productTitle += "{{ item.product.title }} (x{{ item.quantity }}), ";
                 {% endfor %}
           
-                fetch('https://thalasshome-api.ew.r.appspot.com/create-20pct-draft', {
+                fetch('https://thalasshome-api.ew.r.appspot.com/services/create-20pct-draft', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({
