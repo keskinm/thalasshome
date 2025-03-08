@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
 
       if (!data.product_available) {
-        showTopMessage('Malheureusement, il n\'y a pas de livreur disponible dans votre région.', false);
+        showTopMessage('Malheureusement, ce produit n\'est actuellement pas disponible dans votre région.', false);
         const addToCartButton = document.querySelector('.product-form--add-to-cart');
         addToCartButton.disabled = true;
         addToCartButton.style.backgroundColor = '#d3d3d3';
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       else {
-        showTopMessage('Bonne nouvelle : les livraison sont bien disponibles dans votre région !', true);
+        showTopMessage('Bonne nouvelle : ce produit est bien délivrable et disponible dans votre région !', true);
       }
 
       if (Array.isArray(data.unavailable_dates) && data.unavailable_dates.length > 0) {
