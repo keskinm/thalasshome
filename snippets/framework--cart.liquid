@@ -413,15 +413,79 @@
           </div>
 
           <div class="cart--checkout-button" data-item="button">
-            <button type="submit" name="checkout">
+            {% comment %} ORIGINAL BUTTON IS (NO PARTIAL PAYMENT IS):
+             <button type="submit" name="checkout">
               <span class="cart-button--text">
                 {{ checkout_t }}
               </span>
               <span class="cart-button--spinner">
                 {% render 'framework--loading-spinner' %}
               </span>
-            </button>
+            </button> 
+            {% endcomment %}
+          
+            {% comment %} 
+             custom-add
+             HERE IS THE ACCOUNT SOLUTION.
+             {% endcomment %}
+            <a href="/checkout?discount=ACOMPTE20" class="pay-deposit-button">
+              Payer un acompte de 20%
+            </a>
+            {% comment %} end custom-add by user {% endcomment %}
+
           </div>
+          {% comment %}
+           custom-add
+           Here is the solution 2: Draft orders 
+          {% endcomment %}
+
+          {% comment %} {% if cart.total_price > 0 %} 
+            <!-- Bouton "Payer 20%" -->
+            <button id="pay-20pct-btn" style="background-color: #007bff; color: white; padding:10px;">
+              Payer seulement 20% maintenant
+            </button>
+          
+            <script>
+              document.getElementById('pay-20pct-btn').addEventListener('click', function() {
+                // cart.total_price est en centimes
+                var totalCents = {{ cart.total_price }};
+                // Convertit en euros (ou dev. standard).
+                var totalEuros = (totalCents / 100.0).toFixed(2);
+          
+                // Récupère l'email si le client est loggé, sinon un placeholder.
+                var email = "{{ customer.email | default: 'no-customer@example.com' }}";
+          
+                // Pour simplifier, on concatène le titre des articles du panier :
+                var productTitle = "";
+                {% for item in cart.items %}
+                  productTitle += "{{ item.product.title }} (x{{ item.quantity }}), ";
+                {% endfor %}
+          
+                fetch('https://thalasshome-api.ew.r.appspot.com/create-20pct-draft', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    customerEmail: email,
+                    productTitle: productTitle,
+                    totalFullPrice: totalEuros
+                  })
+                })
+                .then(response => response.json())
+                .then(data => {
+                  if (data.success) {
+                    // Redirection vers l'URL de paiement
+                    window.location.href = data.invoiceUrl;
+                  } else {
+                    alert('Erreur lors de la création de la draft order: ' + data.error);
+                  }
+                })
+                .catch(err => console.error('Fetch error', err));
+              });
+            </script>
+          {% endif %} {% endcomment %}
+          
+          {% comment %} end custom-add {% endcomment %}
+
         </div>
 
       {% if additional_checkout_buttons %}
