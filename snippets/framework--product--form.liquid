@@ -73,9 +73,22 @@
           itemscope
           itemtype="https://schema.org/Offer"
         >
-          <div class="product-form--price" data-item='accent-text'>
+          {% comment %} custom-add. Original code is:
+           <<
+            <div class="product-form--price" data-item='accent-text'>
             {{ current_variant.price | money }}
           </div>
+           >>
+          {% endcomment %}
+          <div class="product-form--price" data-item="accent-text">
+            Accompte en ligne (20%): {{ current_variant.price | times: 0.2 | money }}
+          </div>  
+
+          <div>
+            Restant à la livraison (80%): {{ current_variant.price | times: 0.8 | money }}
+          </div>  
+
+          {% comment %} end custom-add {% endcomment %}
 
           <div class="product-form--compare-price" data-item='light-accent-text'>
             {% if current_variant.compare_at_price > current_variant.price %}
