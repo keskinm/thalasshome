@@ -75,13 +75,20 @@
         text-transform: uppercase;
         font-size: 14px;
         letter-spacing: 1px;
-        height: 25px;
-        line-height: 25px;
+        height: 45px;
+        line-height: 45px;
         padding: 0 16px;
         border: none;
         cursor: pointer;
         display: inline-block;
         text-align: center;
+      }
+
+      @media (max-width: 767px) {
+        .custom-button {
+          height: 25px !important;
+          line-height: 25px !important;
+        }
       }
 
       {% comment %} end custom-add {% endcomment %}
@@ -189,14 +196,14 @@
       ></ul>
 
       <!-- Boutons -->
-      <div style="margin-top: 15px; text-align: center;">
+      <div style="margin-top: 0px; text-align: center;">
         <button
           data-item="button"
           onclick="useGeolocation()"
           class="custom-button"
         >
           <!-- Exemple d’icône “gps” (Unicode 🧭 U+1F9ED) -->
-          Utiliser ma géolocalisation 🧭
+          Me géolocaliser 🧭
         </button>
       </div>
     </div>
