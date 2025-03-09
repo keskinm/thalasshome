@@ -102,7 +102,7 @@ function closeModal(check = true) {
       }
         addressInput.value = item.display_name;
         suggestionsList.style.display = 'none';
-
+        toggleAddToCartButton(true);
         closeModal();
       });
 
@@ -147,12 +147,29 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   if (!localStorage.getItem('userLat') || !localStorage.getItem('userLon')) {
+    toggleAddToCartButton(false);
     resetBtn.style.display = 'none';
     showAddressModal();
   } else {
     resetBtn.style.display = 'block';
   }
 });
+
+
+function toggleAddToCartButton(enable) {
+  const addToCartButton = document.querySelector('.product-form--add-to-cart');
+  if (addToCartButton) {
+    addToCartButton.disabled = !enable;
+    if (enable) {
+      addToCartButton.style.backgroundColor = '';
+      addToCartButton.style.cursor = 'pointer';
+    } else {
+      addToCartButton.style.backgroundColor = '#d3d3d3';
+      addToCartButton.style.cursor = 'not-allowed';
+    }
+  }
+}
+
 
 // --------------------- GÉOLOCALISATION ---------------------
 function resetAddress() {
@@ -182,6 +199,7 @@ function useGeolocation() {
         console.log("📍 Géolocalisation réussie:", userLat, userLon);
         localStorage.setItem('userLat', userLat);
         localStorage.setItem('userLon', userLon);
+        toggleAddToCartButton(true);
         showModalMessage("Géolocalisation réussie", true);
         closeModal(false);
       },
