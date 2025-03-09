@@ -195,16 +195,6 @@ function useGeolocation() {
   }
 }
 
-// --------------------- MESSAGES ---------------------
-function showTopMessage(message, isSuccess) {
-  var messageDiv = document.getElementById('location-message');
-  messageDiv.style.display = 'block';
-  messageDiv.style.backgroundColor = isSuccess ? '#d4edda' : '#f8d7da';
-  messageDiv.style.color = isSuccess ? '#155724' : '#721c24';
-  messageDiv.style.borderColor = isSuccess ? '#c3e6cb' : '#f5c6cb';
-  messageDiv.innerHTML = message;
-}
-
 function showModalMessage(message, isSuccess) {
   const modalMessages = document.getElementById('modalMessages');
   if (!modalMessages) return;
