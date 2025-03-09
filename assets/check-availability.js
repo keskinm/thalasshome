@@ -65,6 +65,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
 
+      if (data.rent_duration_day) {
+        const rentDurationDay = data.rent_duration_day;
+        $("#rental-start-date").datepicker("option", "onSelect", function(selectedDate) {
+          let startDate = new Date(selectedDate);
+          let maxEndDate = new Date(startDate);
+          maxEndDate.setDate(startDate.getDate() + rentDurationDay);
+          $("#rental-end-date").datepicker("option", "minDate", startDate);
+          $("#rental-end-date").datepicker("option", "maxDate", maxEndDate);
+        });
+      }
     })
     .catch(error => console.error('Error:', error));
   } else {

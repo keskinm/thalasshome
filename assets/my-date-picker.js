@@ -23,15 +23,7 @@ $(document).ready(function() {
     $.datepicker.setDefaults($.datepicker.regional['fr']);
   
     $("#rental-start-date").datepicker({
-        minDate: 0,
-        onSelect: function(selectedDate) {
-            let startDate = new Date(selectedDate);
-            let maxEndDate = new Date(startDate);
-            maxEndDate.setDate(startDate.getDate() + 2);
-  
-            $("#rental-end-date").datepicker("option", "minDate", startDate);
-            $("#rental-end-date").datepicker("option", "maxDate", maxEndDate);
-        }
+        minDate: 0
     });
   
     $("#rental-end-date").datepicker({
