@@ -50,13 +50,16 @@
         custom-add
       {% endcomment %}
 
-      <div class="rental-dates">
-        <label for="rental-start-date">Début:</label>
-        <input type="text" id="rental-start-date" name="properties[From]" placeholder="Date de début" class="datepicker"/>
-
-        <label for="rental-end-date">Fin:</label>
-        <input type="text" id="rental-end-date" name="properties[To]" placeholder="Date de fin" class="datepicker"/>
-      </div>
+      {% assign lower_title = product.title | downcase %}
+      {% if lower_title contains 'jac' %}
+        <div class="rental-dates">
+          <label for="rental-start-date">Début:</label>
+          <input type="text" id="rental-start-date" name="properties[From]" placeholder="Date de début" class="datepicker"/>
+      
+          <label for="rental-end-date">Fin:</label>
+          <input type="text" id="rental-end-date" name="properties[To]" placeholder="Date de fin" class="datepicker"/>
+        </div>
+      {% endif %}
 
       {% comment %}
         end custom-add
