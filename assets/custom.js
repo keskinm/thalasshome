@@ -95,7 +95,6 @@ function closeModal(check = true) {
         localStorage.setItem('userLat', selectedLat);
         localStorage.setItem('userLon', selectedLon);
         localStorage.setItem('userItemName', item.display_name);
-        console.log("coucou", item.display_name);
         console.log("✅ Coordonnées enregistrées:", selectedLat, selectedLon);
 
       if (!addressInput) {
@@ -124,9 +123,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (!addressInput || !suggestionsList) return;
 
-  let prevSelectedUserItem = localStorage.get('userItemName');
+  let prevSelectedUserItem = localStorage.getItem('userItemName');
   if (prevSelectedUserItem) {
-    addressInput.text = prevSelectedUserItem;
+    addressInput.value = prevSelectedUserItem;
   }
 
   addressInput.addEventListener('input', function () {
