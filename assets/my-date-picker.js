@@ -1,4 +1,4 @@
-// --------------------- DATEPICKER --------------------- 
+// --------------------- DATEPICKER custom-add--------------------- 
 $(document).ready(function() {
     $.datepicker.regional['fr'] = {
       closeText: 'Fermer',
