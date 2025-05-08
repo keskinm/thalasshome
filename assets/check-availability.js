@@ -1,10 +1,7 @@
-//     <!-- custom-add -->
-
-document.addEventListener('DOMContentLoaded', function() {
+function checkAvailability() {
   var formContainer = document.querySelector('.product-form--container');
   
   if (formContainer) {
-
     const rootDiv = document.querySelector('.product-form--root');
     const productName = rootDiv?.getAttribute('data-title');
 
@@ -79,8 +76,13 @@ document.addEventListener('DOMContentLoaded', function() {
   } else {
     console.error('Form container not found');
   }
-});
+}
 
+// Initial check
+document.addEventListener('DOMContentLoaded', checkAvailability);
+
+// Listen for address changes
+document.addEventListener('checkAvailability', checkAvailability);
 
 /**
  * Injects fake availability data for testing purposes.

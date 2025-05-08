@@ -1,6 +1,5 @@
 //     <!-- custom-add -->
 
-
 // --------------------- LOCATION AUTH ---------------------
 
 // Variables globales pour stocker la sélection
@@ -10,6 +9,10 @@ let resetBtn = null;
 let addressInput = null;
 let suggestionsList = null;
 let cache = new Map(); // Pour éviter de refaire les mêmes requêtes
+
+function checkAvailabilityAfterAddress() {
+  document.dispatchEvent(new Event('checkAvailability'));
+}
 
 // --------------------- MODALES & UI ---------------------
 function showAddressModal() {
@@ -28,6 +31,7 @@ function closeModal(check = true) {
       localStorage.setItem('userLon', selectedLon);
       console.log("✅ Coordonnées enregistrées:", selectedLat, selectedLon);
       showModalMessage("Adresse enregistrée", true);
+      checkAvailabilityAfterAddress(); // Vérifie la disponibilité après avoir défini l'adresse
     } else {
       console.warn("⚠️ Aucune coordonnée sélectionnée.");
       showModalMessage("Veuillez sélectionner une adresse avant de valider", false);
@@ -181,6 +185,7 @@ function resetAddress() {
   selectedLon = null;
   showAddressModal();
   updateClearButtonVisibility();
+  checkAvailabilityAfterAddress(); // Vérifie la disponibilité après réinitialisation
 }
 
 function useGeolocation() {
