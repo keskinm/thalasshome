@@ -30,8 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return res.json();
     })
     .then(data => {
-      bootstrapFakeData(data) // inject fake data for testing purposes
-      
+      // bootstrapFakeData(data) // inject fake data for testing purposes
 
       if (!data.product_available) {
         showTopMessage('Malheureusement, ce produit n\'est actuellement pas disponible dans votre région.', false);
