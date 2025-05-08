@@ -18,6 +18,7 @@ function showAddressModal() {
     modalMessages.innerHTML = '';
   }
   document.getElementById('addressModal').style.display = 'block';
+  updateClearButtonVisibility();
 }
 
 function closeModal(check = true) {
@@ -45,81 +46,81 @@ function closeModal(check = true) {
 }
 
 // --------------------- API & AUTOCOMPLÉTION ---------------------
-  function fetchSuggestions(query) {
-    const url = 'https://nominatim.openstreetmap.org/search?' + new URLSearchParams({
-      q: query,
-      format: 'json',
-      addressdetails: '1',
-      limit: '10',
-      countrycodes: 'fr,ch'
-    });
+function fetchSuggestions(query) {
+  const url = 'https://nominatim.openstreetmap.org/search?' + new URLSearchParams({
+    q: query,
+    format: 'json',
+    addressdetails: '1',
+    limit: '10',
+    countrycodes: 'fr,ch'
+  });
 
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
       cache.set(query, data);
-        displaySuggestions(data);
-      })
-      .catch(err => {
-        console.error("Erreur Nominatim:", err);
-      });
-  }
+      displaySuggestions(data);
+    })
+    .catch(err => {
+      console.error("Erreur Nominatim:", err);
+    });
+}
 
-  function displaySuggestions(data) {
+function displaySuggestions(data) {
   if (!suggestionsList) {
     suggestionsList = document.getElementById('suggestions');
   }
-    if (!data || data.length === 0) {
-      suggestionsList.style.display = 'none';
-      return;
-    }
-    suggestionsList.innerHTML = '';
-    suggestionsList.style.display = 'block';
+  if (!data || data.length === 0) {
+    suggestionsList.style.display = 'none';
+    return;
+  }
+  suggestionsList.innerHTML = '';
+  suggestionsList.style.display = 'block';
 
-    data.forEach(item => {
-      const address = item.address;
-      if (!address) return;
-      const cc = address.country_code ? address.country_code.toLowerCase() : '';
-      if (cc !== 'fr' && cc !== 'ch') return;
+  data.forEach(item => {
+    const address = item.address;
+    if (!address) return;
+    const cc = address.country_code ? address.country_code.toLowerCase() : '';
+    if (cc !== 'fr' && cc !== 'ch') return;
 
-      const li = document.createElement('li');
-      li.style.padding = '5px';
-      li.style.cursor = 'pointer';
-      li.textContent = item.display_name;
+    const li = document.createElement('li');
+    li.style.padding = '5px';
+    li.style.cursor = 'pointer';
+    li.textContent = item.display_name;
 
-      li.addEventListener('click', function () {
-        selectedLat = item.lat;
-        selectedLon = item.lon;
-        selectedItemName = item.display_name;
-        
-        localStorage.setItem('userLat', selectedLat);
-        localStorage.setItem('userLon', selectedLon);
-        localStorage.setItem('userItemName', item.display_name);
-        console.log("✅ Coordonnées enregistrées:", selectedLat, selectedLon);
+    li.addEventListener('click', function () {
+      selectedLat = item.lat;
+      selectedLon = item.lon;
+      selectedItemName = item.display_name;
+
+      localStorage.setItem('userLat', selectedLat);
+      localStorage.setItem('userLon', selectedLon);
+      localStorage.setItem('userItemName', item.display_name);
+      console.log("✅ Coordonnées enregistrées:", selectedLat, selectedLon);
 
       if (!addressInput) {
         addressInput = document.getElementById('addressInput');
       }
-        addressInput.value = item.display_name;
-        suggestionsList.style.display = 'none';
-        toggleAddToCartButton(true);
-        closeModal();
-      });
-
-      suggestionsList.appendChild(li);
+      addressInput.value = item.display_name;
+      suggestionsList.style.display = 'none';
+      toggleAddToCartButton(true);
+      closeModal();
     });
 
-    if (suggestionsList.children.length === 0) {
-      suggestionsList.style.display = 'none';
-    }
+    suggestionsList.appendChild(li);
+  });
+
+  if (suggestionsList.children.length === 0) {
+    suggestionsList.style.display = 'none';
   }
+}
 
 // --------------------- INITIALISATION ---------------------
 document.addEventListener('DOMContentLoaded', function () {
   addressInput = document.getElementById('addressInput');
   suggestionsList = document.getElementById('suggestions');
   resetBtn = document.getElementById('resetAddressButton');
-  let debounceTimer = null;
+    let debounceTimer = null;
 
   if (!addressInput || !suggestionsList) return;
 
@@ -144,6 +145,8 @@ document.addEventListener('DOMContentLoaded', function () {
         fetchSuggestions(query);
       }
     }, 500);
+
+    updateClearButtonVisibility();
   });
 
   if (!localStorage.getItem('userLat') || !localStorage.getItem('userLon')) {
@@ -154,7 +157,6 @@ document.addEventListener('DOMContentLoaded', function () {
     resetBtn.style.display = 'block';
   }
 });
-
 
 function toggleAddToCartButton(enable) {
   const addToCartButton = document.querySelector('.product-form--add-to-cart');
@@ -170,14 +172,15 @@ function toggleAddToCartButton(enable) {
   }
 }
 
-
 // --------------------- GÉOLOCALISATION ---------------------
 function resetAddress() {
   localStorage.removeItem('userLat');
   localStorage.removeItem('userLon');
+  localStorage.removeItem('userItemName');
   selectedLat = null;
   selectedLon = null;
   showAddressModal();
+  updateClearButtonVisibility();
 }
 
 function useGeolocation() {
@@ -226,7 +229,7 @@ function showModalMessage(message, isSuccess) {
   messageEl.style.fontSize = '14px';
   messageEl.style.opacity = '1';
   messageEl.style.transition = 'opacity 0.5s ease-out';
-  
+
   if (isSuccess) {
     messageEl.style.backgroundColor = '#d4edda';
     messageEl.style.color = '#155724';
@@ -236,18 +239,37 @@ function showModalMessage(message, isSuccess) {
     messageEl.style.color = '#721c24';
     messageEl.innerHTML = '✖ ' + message;
   }
-  
+
   modalMessages.appendChild(messageEl);
-  
+
   setTimeout(() => {
     messageEl.style.opacity = '0';
   }, 2000);
-  
+
   setTimeout(() => {
     if (messageEl.parentNode) {
       messageEl.parentNode.removeChild(messageEl);
     }
   }, 2500);
+}
+
+function clearAddressInput() {
+  if (!addressInput) {
+    addressInput = document.getElementById('addressInput');
+  }
+  addressInput.value = '';
+  if (suggestionsList) {
+    suggestionsList.style.display = 'none';
+  }
+  updateClearButtonVisibility();
+}
+
+
+function updateClearButtonVisibility() {
+  const clearBtn = document.getElementById('clearAddressButton');
+  if (clearBtn && addressInput) {
+    clearBtn.style.display = addressInput.value ? 'block' : 'none';
+  }
 }
 
 // --------------------- END LOCATION AUTH ---------------------

@@ -168,19 +168,41 @@
         🌍 Nous avons besoin de connaître la commune dans laquelle vous voulez effectuer votre livraison 🌍
       </div>
 
-      <input
-        type="text"
-        id="addressInput"
-        placeholder="Ex. : Paris"
-        style="
-          width: 100%;
-          padding: 12px;
-          margin-top: 10px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          font-size: 14px;
-        "
-      />
+      <div style="position: relative;">
+        <input
+          type="text"
+          id="addressInput"
+          placeholder="Ex. : Paris"
+          style="
+            width: 100%;
+            padding: 12px;
+            padding-right: 30px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+          "
+        />
+        <button
+          id="clearAddressButton"
+          onclick="clearAddressInput()"
+          style="
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #666;
+            font-size: 18px;
+            padding: 5px;
+            display: none;
+          "
+          type="button"
+          aria-label="Effacer l'adresse"
+        >×</button>
+      </div>
 
       <ul
         id="suggestions"
