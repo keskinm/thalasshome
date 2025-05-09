@@ -6,13 +6,12 @@ shopify theme push --store=spa-detente.myshopify.com
 shopify theme pull --store=spa-detente.myshopify.com
 ```
 
- /!\ AT NEXT PULL, IT MIGHT DIVERGING FROM GIT VERSIONED FILES BECAUSE 
- OF DEVLOPMENT WHILE REMOTE WAS CLOSED - IN THAT CASE MERGE / PUSH BACK TO GIT /!\
-
+ /!\ AT NEXT PULL, IT MIGHT DIVERGE FROM GIT VERSIONED FILES BECAUSE 
+ OF SHOPIFY DEVLOPMENT - IN THAT CASE MERGE && PUSH BACK TO GIT /!\
 
 
 ### Custom code
-PARTIALLY DONE ELEMENTS IS POSSIBLE. PLEASE CHECK / USE `<!-- custom-add -->` TAGS TO IDENTIFY THEM.
+PLEASE CHECK / USE `<!-- custom-add -->` TAGS TO IDENTIFY THEM.
 
 
 ### Possible uninstalled app leftovers
