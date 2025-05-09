@@ -1,7 +1,10 @@
 ### Commands
+
+```
 shopify theme dev --store=spa-detente.myshopify.com
 shopify theme push --store=spa-detente.myshopify.com
 shopify theme pull --store=spa-detente.myshopify.com
+```
 
  /!\ AT NEXT PULL, IT MIGHT DIVERGING FROM GIT VERSIONED FILES BECAUSE 
  OF DEVLOPMENT WHILE REMOTE WAS CLOSED - IN THAT CASE MERGE / PUSH BACK TO GIT /!\
@@ -9,7 +12,7 @@ shopify theme pull --store=spa-detente.myshopify.com
 
 
 ### Custom code
-- PARTIALLY DONE ELEMENTS IS POSSIBLE. PLEASE CHECK / USE "<!-- custom-add -->" TAGS TO IDENTIFY THEM.
+PARTIALLY DONE ELEMENTS IS POSSIBLE. PLEASE CHECK / USE `<!-- custom-add -->` TAGS TO IDENTIFY THEM.
 
 
 ### Possible uninstalled app leftovers
@@ -26,10 +29,13 @@ templates/page.served-locations.liquid
 
 
 ### BTA install uninstall
-<!-- BOOK THAT APP: STATUS UNINSTALLED. FOLLOWING INSTRUCTIONS ARE WHAT HAD BEEN DONE PREVIOUSLY FOR ITS INSTALLATION -->
 
-I ADDED "false and" everywhere in the condition : "{% condition product.metafields.bookthatapp.config %}"
+### BOOK THAT APP CURRENT STATUS : UNINSTALLED. 
 
+To do that I removed several files with its name and,
+I also ADDED "false and" everywhere in the condition : "{% condition product.metafields.bookthatapp.config %}"
+
+### FOLLOWING INSTRUCTIONS ARE WHAT HAD BEEN DONE FOR ITS INSTALLATION FORMERLY, BEFORE UNINSTALLING 
 
 STEP 1 - (no code change)
 
