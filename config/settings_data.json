@@ -487,7 +487,7 @@
       "1614429899bea2daf1": {
         "type": "framework--custom-content",
         "settings": {
-          "custom_html": "<center>\n\n<p><b>Disponible dans toute la France. <br> \nSeul le paiement de l'acompte se fait en ligne, le solde et les frais de livraisons se règlent le jour de l'installation.\n</b></p>\n\n</center>"
+          "custom_html": "<center>\n\n<p><b>\nSeul le paiement de l'acompte se fait en ligne, le solde et les frais de livraisons se règlent le jour de l'installation.\n</b></p>\n\n</center>"
         }
       },
       "1614454164b7af0ba0": {
