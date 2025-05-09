@@ -1,19 +1,31 @@
-<!-- COMMANDS -->
+### Commands
 shopify theme dev --store=spa-detente.myshopify.com
 shopify theme push --store=spa-detente.myshopify.com
 shopify theme pull --store=spa-detente.myshopify.com
 
  /!\ AT NEXT PULL, IT MIGHT DIVERGING FROM GIT VERSIONED FILES BECAUSE 
  OF DEVLOPMENT WHILE REMOTE WAS CLOSED - IN THAT CASE MERGE / PUSH BACK TO GIT /!\
-<!-- COMMANDS END -->
 
 
-<!-- BOOK TODO -->
+
+### Custom code
 - PARTIALLY DONE ELEMENTS IS POSSIBLE. PLEASE CHECK / USE "<!-- custom-add -->" TAGS TO IDENTIFY THEM.
-<!-- END -->
 
 
+### Possible uninstalled app leftovers
 
+```
+layout/.zip 
+layout/password.liquid
+layout/password.liquid 
+sections/sts_review_slider.liquid 
+sections/testimonials.liquid 
+snippets/shop-sheriff-amp.liquid 
+templates/page.served-locations.liquid
+```
+
+
+### BTA install uninstall
 <!-- BOOK THAT APP: STATUS UNINSTALLED. FOLLOWING INSTRUCTIONS ARE WHAT HAD BEEN DONE PREVIOUSLY FOR ITS INSTALLATION -->
 
 I ADDED "false and" everywhere in the condition : "{% condition product.metafields.bookthatapp.config %}"
