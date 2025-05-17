@@ -247,7 +247,7 @@
             "type": "about",
             "settings": {
               "about-title": "Contact",
-              "text": "<p>🇲🇫 0651323494<br/>🇨🇭 0783035579</p>",
+              "text": "<p>🇲🇫 0651323494<br/>🇨🇭 0783035579</p><p>contact@thalasshome.com</p>",
               "subscribe--show-social-icons": true
             }
           },
