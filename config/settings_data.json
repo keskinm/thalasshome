@@ -73,7 +73,7 @@
           "contact-text": "Contact",
           "contact-type": "modal",
           "contact-url": "",
-          "store-address": "102 rue d'estienne d'orves 91370 Verrières-le-Buisson\n\n🇲🇫 0651323494\n🇨🇭 0783035579",
+          "store-address": "102 rue d'estienne d'orves 91370 Verrières-le-Buisson\n\n🇲🇫 0651323494\n🇨🇭 0783035579\ncontact@thalasshome.com",
           "store-hours": "<p><strong>Lundi - Dimanche</strong><br/>7h - 22h</p><p></p>"
         }
       },
@@ -247,7 +247,7 @@
             "type": "about",
             "settings": {
               "about-title": "Contact",
-              "text": "<ul><li>🇲🇫 0651323494</li><li>🇨🇭 0783035579</li><li>contact@thalasshome.com</li></ul>",
+              "text": "<p>🇲🇫 0651323494<br/>🇨🇭 0783035579</p>",
               "subscribe--show-social-icons": true
             }
           },
@@ -255,7 +255,7 @@
             "type": "about",
             "settings": {
               "about-title": "",
-              "text": "<p>© ThalassHome</p><p>© 2025</p><p></p>",
+              "text": "<p>© ThalassHome<br/>© 2025</p>",
               "subscribe--show-social-icons": false
             }
           }
