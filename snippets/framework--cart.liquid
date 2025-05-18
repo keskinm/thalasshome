@@ -438,25 +438,25 @@
             {% comment %} 
               custom-add
               It is the solution with draft orders. Please check also the listener
-              on "pay-20pct-btn" just below within the JS script.
+              on "pay-20-btn" just below within the JS script.
             {% endcomment %}
 
             {% comment %} {% if cart.total_price > 0 %} 
-              <!-- Bouton "Payer 20%" -->
-              <button id="pay-20pct-btn" class="pay-deposit-button">
-                Payer seulement 20% maintenant
+              <button id="pay-20-btn" class="pay-deposit-button">
+                Payer un acompte de 20%
               </button>
             {% endif %} {% endcomment %}
+            {% comment %} end custom-add {% endcomment %}
 
           </div>
 
 
           <script>
-            var payButton = document.getElementById('pay-20pct-btn');
+            var payButton = document.getElementById('pay-20-btn');
 
             if (payButton) {
             
-              document.getElementById('pay-20pct-btn').addEventListener('click', function() {
+              document.getElementById('pay-20-btn').addEventListener('click', function() {
                 // cart.total_price est en centimes
                 var totalCents = {{ cart.total_price }};
                 // Convertit en euros (ou dev. standard).
@@ -471,7 +471,7 @@
                   productTitle += "{{ item.product.title }} (x{{ item.quantity }}), ";
                 {% endfor %}
           
-                fetch('https://thalasshome-api.ew.r.appspot.com/services/create-20pct-draft', {
+                fetch('https://thalasshome-api.ew.r.appspot.com/services/create-20-draft', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({
