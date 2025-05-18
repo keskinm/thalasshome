@@ -94,7 +94,7 @@
       {% comment %} end custom-add {% endcomment %}
 
       {% comment %} custom-add - WhatsApp floating button {% endcomment %}
-      .whatsapp-floating-button {
+      .custom-whatsapp-floating-button {
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -102,11 +102,11 @@
         transition: transform 0.3s ease;
       }
 
-      .whatsapp-floating-button:hover {
+      .custom-whatsapp-floating-button:hover {
         transform: scale(1.1);
       }
 
-      .whatsapp-floating-button a {
+      .custom-whatsapp-floating-button a {
         display: flex;
         align-items: center;
         background-color:rgb(158, 235, 151);
@@ -119,27 +119,27 @@
         font-size: 14px;
       }
 
-      .whatsapp-icon {
+      .custom-whatsapp-icon {
         margin-right: 8px;
         font-size: 20px;
       }
 
       @media (max-width: 767px) {
-        .whatsapp-floating-button {
+        .custom-whatsapp-floating-button {
           bottom: 15px;
           right: 15px;
         }
 
-        .whatsapp-text {
+        .custom-whatsapp-text {
           display: none;
         }
 
-        .whatsapp-floating-button a {
+        .custom-whatsapp-floating-button a {
           padding: 12px;
           border-radius: 50%;
         }
 
-        .whatsapp-icon {
+        .custom-whatsapp-icon {
           margin: 0;
         }
       }
@@ -350,10 +350,10 @@
 
 
     {% comment %} custom-add - WhatsApp floating button {% endcomment %}
-    <div class="whatsapp-floating-button">
+    <div class="custom-whatsapp-floating-button">
       <a href="https://wa.me/33651323494" target="_blank" rel="noopener" aria-label="Discuter sur WhatsApp">
-        <span class="whatsapp-icon">💬</span>
-        <span class="whatsapp-text">WhatsApp</span>
+        <span class="custom-whatsapp-icon">💬</span>
+        <span class="custom-whatsapp-text">WhatsApp</span>
       </a>
     </div>
     {% comment %} end WhatsApp floating button {% endcomment %}
