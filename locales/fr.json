@@ -223,6 +223,12 @@
         "county_label": "Comté",
         "county_placeholder": "Comté",
         "state_label": "État"
+      },
+      "order_summary": {
+        "total_savings": "Restant à la livraison",
+        "discount_order_stacking": {
+          "one": "Paiement de l'acompte"
+        }
       }
     },
     "store_availability": {
